@@ -1,0 +1,34 @@
+/*
+ Theme Name:   Blox RetroMotion Child
+ Description:  Blox Theme for RetroMotion
+ Author:       Ti Kawamoto
+ Author URI:   http://retromotion.co
+ Template:     blox
+ Version:      1.2.2
+*/
+
+body {
+	
+}
+
+.header-outer {
+	background: #f57f25;	
+}
+
+#logo {
+	max-width: 200px;
+}
+
+/* Media Query */
+
+@media (min-width: 768px){
+	
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px){
+
+}
