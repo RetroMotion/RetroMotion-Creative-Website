@@ -46,7 +46,5 @@ Temporary Items
 # Wordpress Files
 wp-config.php
 wp-content/plugins/wp*
-wp-content/uploads/wp-migrate*
-wp-content/uploads/20*
-wp-content/cache/wp*
+
 .htdoc
