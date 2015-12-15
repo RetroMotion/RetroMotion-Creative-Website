@@ -45,6 +45,6 @@ Temporary Items
 
 # Wordpress Files
 wp-config.php
-wp-content/plugins/wp*
+
 
 .htdoc

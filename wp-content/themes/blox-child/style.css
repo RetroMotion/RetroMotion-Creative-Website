@@ -8,7 +8,7 @@
 */
 
 body {
-	
+	font-family: Roboto, Arial;
 }
 
 .header-outer {
@@ -17,6 +17,42 @@ body {
 
 #logo {
 	max-width: 200px;
+}
+
+#primary-nav .sf-menu a{
+	color:#fff;	
+	font-size:16px;
+}
+
+#primary-nav .sf-menu a:hover, #primary-nav .sf-menu li.sfHover a, #primary-nav .sf-menu li.current_page_item a, #primary-nav .sf-menu li.current-menu-item a {
+	color:#fff;
+	font-size:16px;
+}
+
+#primary-nav .sf-menu li.current-menu-item a {
+	font-weight:500;
+	font-size:16px;
+}
+
+/* Portfolio */
+
+.portfolio .entry-title {
+    margin-bottom: 0.125em;
+    font-size: 48px;
+    padding: 0;
+    line-height: 1.15em;
+    letter-spacing: -0.03em;
+	font-weight:400;
+}
+
+/* Footer */
+.copyright {
+	color:#fff;
+}
+
+.footer-outer {
+    background: #38586F;
+    clear: both;
 }
 
 /* Media Query */
