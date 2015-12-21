@@ -1,5 +1,26 @@
     <?php zilla_content_end(); ?>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+	  ga('create', 'UA-71641373-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	
+	<!-- Google Tag Manager -->
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PG8W3R"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-PG8W3R');</script>
+	<!-- End Google Tag Manager -->
+	
     <?php if( !is_page_template('template-portfolio.php') && !is_singular('portfolio') && !is_post_type_archive( 'portfolio' ) ) { ?>
 		<!-- END #content -->
 		</div>
@@ -20,8 +41,34 @@
 		        wp_nav_menu( array( 'theme_location' => 'footer-menu', 'container' => 'div', 'container_id' => 'footer-nav', 'depth' => 1 ) ); 
 		    } ?>
 			<?php zilla_nav_after(); ?>
-		    
-			<p class="copyright">&copy; <?php _e('Copyright ', 'zilla'); echo date( 'Y' ); ?> <a href="<?php echo home_url(); ?>">RetroMotion Creative, LLC</a></p>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4">
+						<a href="http://retromotion.co"><img class="footer-logo" src="wp-content/uploads/2015/12/rm-creative-white-sm-300w.png" width="100"></a>
+						<p class="copyright">188 Allen Brook Lane<br>
+						Suite 2<br>
+						Williston, VT 05495<br>
+						<a href="https://www.google.com/maps/place/RetroMotion+Creative/@44.4523491,-73.1046783,17z/data=!4m7!1m4!3m3!1s0x4cca7858fd7d0d41:0xce3b59cd7c915a84!2sRetroMotion+Creative!3b1!3m1!1s0x4cca7858fd7d0d41:0xce3b59cd7c915a84" target="_blank"><i class="fa fa-map-marker"></i> Directions</a><br></p>
+						<p class="copyright">
+						<a href="tel:8028467532" target="_blank"><i class="fa fa-phone-square"></i> 802.846.7532</a><br>
+						<a href="mailto:info@retromotion.co" target="_blank"><i class="fa fa-envelope-square"></i> info@retromotion.co</a><br>
+						</p>
+						<br>
+						<p class="copyright">© 2016 RetroMotion Creative, LLC</p>
+					</div>
+					
+					<div class="col-md-8">
+						<p class="social-right">
+						<a href="http://www.facebook.com/retromotioncreative" target="_blank"><i class="fa fa-facebook-square"></i></a>
+						<a href="http://twitter.com/retromotionc" target="_blank"><i class="fa fa-twitter-square"></i></a>
+						<a href="http://vimeo.com/retromotion" target="_blank"><i class="fa fa-vimeo-square"></i></a>
+						<a href="http://www.linkedin.com/company/retromotion-creative" target="_blank"><i class="fa fa-linkedin-square"></i></a><br>
+						</p>
+					</div>
+					
+				</div>
+		    </div>
+			
 			
 		
 		    <?php zilla_footer_end(); ?>

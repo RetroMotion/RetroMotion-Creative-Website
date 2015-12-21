@@ -93,11 +93,46 @@ body {
 	color:#fff;
 }
 
+.social-right {
+	color:#fff;
+	text-align:right;
+}
+
+.social-right a{
+	color: #fff !important;
+	font-size:36px;
+	padding:10px 2px;
+}
+
+.social-right a:hover{
+	color: #f57f25 !important;
+}
+
 .footer-outer {
     background: #38586F;
     clear: both;
 }
 
+.footer-logo{
+	width:130px;
+	padding-bottom:10px;
+	transition: all 0.5s ease;
+}
+
+.footer-logo:hover{
+	opacity:.6;
+}
+
+#footer a{
+	color:#f57f25;
+}
+#footer a:hover{
+	color:#fff;
+}
+
+#footer-nav li.current-menu-item a, #footer-nav li.current_page_item a {
+    color: #fff !important;
+}
 /* Media Query */
 
 @media (min-width: 768px){
