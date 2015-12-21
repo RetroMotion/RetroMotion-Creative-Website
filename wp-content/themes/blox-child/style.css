@@ -11,13 +11,6 @@ body {
 	font-family: Roboto, Arial;
 }
 
-.header-outer {
-	background: #f57f25;	
-}
-
-#logo {
-	max-width: 200px;
-}
 
 #primary-nav .sf-menu a{
 	color:#fff;	
@@ -33,8 +26,46 @@ body {
 	font-weight:500;
 	font-size:16px;
 }
+/* Header */
+.header-outer {
+	background: #f57f25;	
+	padding-bottom:0px !important;
+}
+
+#logo {
+	max-width: 200px;
+}
+
+
+.page-header{
+	border:none;
+}
+
+.zilla-caption {
+    color: #fff;
+    font-size: 26px;
+    letter-spacing: normal;
+    line-height: 1.4em;
+	font-weight:300;
+    margin-bottom: 0;
+}
+.header-room{
+	min-height:100px;
+}
+.header-tagline{
+	font-size:32px !important;
+	font-weight:300 !important;
+	letter-spacing:normal !important;
+	padding-top:0px !important;
+	line-height:normal !important;
+}
 
 /* Portfolio */
+
+.portfolio-subtitle{
+	font-weight:400 !important;
+	letter-spacing:normal !important;
+}
 
 .portfolio .entry-title {
     margin-bottom: 0.125em;
@@ -43,6 +74,18 @@ body {
     line-height: 1.15em;
     letter-spacing: -0.03em;
 	font-weight:400;
+}
+
+.frontpage-quote{
+	text-align:center;
+	font-family: Sanchez, serif;
+	font-size:26px;
+	line-height:normal;
+	height:200px;
+}
+
+.zilla-media-center .entry-content {
+    margin-top: 0px;
 }
 
 /* Footer */
