@@ -98,7 +98,7 @@ body {
 
 /* Footer */
 .contactsend {
-	width:200px;
+	width:200px !important;
 }
 
 .copyright {
