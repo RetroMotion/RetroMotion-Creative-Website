@@ -11,6 +11,14 @@ body {
 	font-family: Roboto, Arial;
 }
 
+.btn-primary {
+	transition: all 0.5s ease;
+}
+
+.btn-lg {
+	padding: 10px 40px;
+	font-size:20px;
+}
 
 #primary-nav .sf-menu a{
 	color:#fff;	
@@ -89,6 +97,10 @@ body {
 }
 
 /* Footer */
+.contactsend {
+	width:200px;
+}
+
 .copyright {
 	color:#fff;
 }
