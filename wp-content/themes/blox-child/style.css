@@ -149,10 +149,14 @@ body {
 /* Full Width */
 body.page-template-template-full-width #content {
     margin: 0 auto;
-    padding: 0px 0 110px;
+    padding: 0px 0 110px !important;
     width: 940px;
 }
 
+full-width-title {
+	color:#38586F;
+	font-size:48px;
+}
 
 /* Media Query */
 
