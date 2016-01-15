@@ -145,6 +145,15 @@ body {
 #footer-nav li.current-menu-item a, #footer-nav li.current_page_item a {
     color: #fff !important;
 }
+
+/* Full Width */
+body.page-template-template-full-width #content {
+    margin: 0 auto;
+    padding: 0px 0 110px;
+    width: 940px;
+}
+
+
 /* Media Query */
 
 @media (min-width: 768px){
