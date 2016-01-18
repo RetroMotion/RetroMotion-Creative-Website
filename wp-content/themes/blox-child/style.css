@@ -147,6 +147,10 @@ body {
 }
 
 /* Full Width */
+body.page-template-template-full-width {
+	background: url('/retroimg/fullpattern.jpg');
+}
+
 body.page-template-template-full-width #content {
     margin: 0 auto;
     padding: 0px 0 110px !important;
@@ -158,6 +162,9 @@ body.page-template-template-full-width #content {
 	font-size:48px;
 }
 
+body.page-template-template-full-width .entry-content {
+    margin-top:40px;
+}
 
 /* Media Query */
 

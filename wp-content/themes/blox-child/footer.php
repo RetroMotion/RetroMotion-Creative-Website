@@ -67,7 +67,7 @@
 						<a href="https://www.google.com/maps/place/RetroMotion+Creative/@44.4523491,-73.1046783,17z/data=!4m7!1m4!3m3!1s0x4cca7858fd7d0d41:0xce3b59cd7c915a84!2sRetroMotion+Creative!3b1!3m1!1s0x4cca7858fd7d0d41:0xce3b59cd7c915a84" target="_blank"><i class="fa fa-map-marker"></i> Directions</a><br></p>
 						<p class="copyright">
 						<a href="tel:8028467532" target="_blank"><i class="fa fa-phone-square"></i> 802.846.7532</a><br>
-						<a href="mailto:info@retromotion.co" target="_blank"><i class="fa fa-envelope-square"></i> info@retromotion.co</a><br>
+						<a href="mailto:hey@retromotion.co" target="_blank"><i class="fa fa-envelope-square"></i> hey@retromotion.co</a><br>
 						</p>
 						<br>
 						<p class="copyright">© 2016 RetroMotion Creative, LLC</p>
@@ -76,7 +76,7 @@
 					<div class="col-md-8">
 						<p class="social-right">
 						<a href="http://www.facebook.com/retromotioncreative" target="_blank"><i class="fa fa-facebook-square"></i></a>
-						<a href="http://twitter.com/retromotionc" target="_blank"><i class="fa fa-twitter-square"></i></a>
+						<a href="http://twitter.com/retromotionco" target="_blank"><i class="fa fa-twitter-square"></i></a>
 						<a href="http://vimeo.com/retromotion" target="_blank"><i class="fa fa-vimeo-square"></i></a>
 						<a href="http://www.linkedin.com/company/retromotion-creative" target="_blank"><i class="fa fa-linkedin-square"></i></a><br>
 						</p>
