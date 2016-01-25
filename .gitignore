@@ -46,7 +46,7 @@ Temporary Items
 # Wordpress Files
 wp-config.php
 
-wp-content/plugins/akismet*
+wp-admin/*
 
 wp-content/plugins/*
 wp-content/uploads/wp-migrate*
@@ -54,3 +54,4 @@ wp-content/uploads/20*
 wp-content/cache/wp*
 
 .htdoc
+wp-admin/about.php

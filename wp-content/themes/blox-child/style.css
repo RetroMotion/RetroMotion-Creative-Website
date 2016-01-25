@@ -166,6 +166,25 @@ body.page-template-template-full-width .entry-content {
     margin-top:40px;
 }
 
+
+/* Blog */
+
+body.blog .entry-title, body.single-post .entry-title{
+	margin-bottom:0px !important;
+	letter-spacing: -0.02em;
+	
+}
+body.blog .entry-title a, body.single-post .entry-title a{
+	margin-bottom:0px !important;
+	letter-spacing: -0.02em;
+	
+}
+
+body.blog .entry-header, body.single-post .entry-header{
+	margin:0px !important;
+	
+}
+
 /* Media Query */
 
 @media (min-width: 768px){
