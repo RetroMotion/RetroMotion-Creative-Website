@@ -185,6 +185,20 @@ body.blog .entry-header, body.single-post .entry-header{
 	
 }
 
+body.single-post input[type="text"], body.single-post input[type="email"], body.single-post textarea {
+	border: 1px solid #BBBBBB !important;
+}
+
+body.single-post .form-title{
+	color:#337ab7;
+	margin-bottom: 0.5em;
+    font-size: 48px;
+    padding: 0;
+    line-height: 1.15em;
+    letter-spacing: -0.03em;
+    font-weight: 400;
+}
+
 /* Media Query */
 
 @media (min-width: 768px){
