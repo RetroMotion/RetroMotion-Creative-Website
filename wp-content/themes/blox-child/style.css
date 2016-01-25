@@ -166,6 +166,20 @@ body.page-template-template-full-width .entry-content {
     margin-top:40px;
 }
 
+body.page-template-template-full-width input[type="text"], body.page-template-template-full-width input[type="email"], body.page-template-template-full-width textarea {
+	border: 1px solid #BBBBBB !important;
+}
+
+body.page-template-template-full-width .form-title{
+	color:#337ab7;
+	margin-bottom: 0.5em;
+	padding-top: 25px !important;
+    font-size: 48px;
+    padding: 0;
+    line-height: 1.15em;
+    letter-spacing: -0.03em;
+    font-weight: 400;
+}
 
 /* Blog */
 
@@ -185,11 +199,11 @@ body.blog .entry-header, body.single-post .entry-header{
 	
 }
 
-body.single-post input[type="text"], body.single-post input[type="email"], body.single-post textarea {
+body.blog input[type="text"], body.blog input[type="email"], body.blog textarea, body.single-post input[type="text"], body.single-post input[type="email"], body.single-post textarea {
 	border: 1px solid #BBBBBB !important;
 }
 
-body.single-post .form-title{
+body.blog .form-title, body.single-post .form-title{
 	color:#337ab7;
 	margin-bottom: 0.5em;
     font-size: 48px;
