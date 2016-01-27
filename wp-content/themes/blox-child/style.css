@@ -154,7 +154,7 @@ body.page-template-template-full-width {
 body.page-template-template-full-width #content {
     margin: 0 auto;
     padding: 0px 0 110px !important;
-    width: 940px;
+    max-width: 940px;
 }
 
 .full-width-title {
@@ -180,7 +180,23 @@ body.page-template-template-full-width .form-title{
     letter-spacing: -0.03em;
     font-weight: 400;
 }
+/* Full-Width Media Query */
 
+@media (min-width: 768px){
+	body.page-template-template-full-width #content {
+    margin: 0 auto;
+    padding: 0px 0 50px !important;
+    width: 100%;
+}
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px){
+
+}
 /* Blog */
 
 body.blog .entry-title, body.single-post .entry-title{
