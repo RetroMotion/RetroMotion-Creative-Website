@@ -51,11 +51,18 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-4">
-						<a href="http://retromotion.co"><img class="footer-logo" src="../wp-content/uploads/2015/12/rm-creative-white-sm-300w.png" width="100"></a>
-						<p class="copyright">188 Allen Brook Lane<br>
+						<a href="http://retromotion.co"><img class="footer-logo" src="../wp-content/uploads/2016/02/rm-creative-white-full-sm-300w.png" width="100"></a>
+						<p class="copyright"><strong>Vermont (Mothership)</strong><br>
+						188 Allen Brook Lane<br>
 						Suite 2<br>
 						Williston, VT 05495<br>
 						<a href="https://www.google.com/maps/place/RetroMotion+Creative/@44.4523491,-73.1046783,17z/data=!4m7!1m4!3m3!1s0x4cca7858fd7d0d41:0xce3b59cd7c915a84!2sRetroMotion+Creative!3b1!3m1!1s0x4cca7858fd7d0d41:0xce3b59cd7c915a84" target="_blank"><i class="fa fa-map-marker"></i> Directions</a><br></p>
+												
+						<p class="copyright"><strong>Washington DC (Satellite)</strong><br>
+						9841 Washingtonian Blvd<br>
+						Gaithersburg, MD 20878<br>
+						<a href="https://www.google.com/maps/place/9841+Washingtonian+Blvd,+Gaithersburg,+MD+20878/data=!4m2!3m1!1s0x89b62d519e2d838b:0x17ad1c28b44b6647?sa=X&ved=0ahUKEwiD-IW5hYTLAhVD2yYKHfalCxMQ8gEIGzAA" target="_blank"><i class="fa fa-map-marker"></i> Directions</a><br></p>
+						
 						<p class="copyright">
 						<a href="tel:8028467532" target="_blank"><i class="fa fa-phone-square"></i> 802.846.7532</a><br>
 						<a href="mailto:hey@retromotion.co" target="_blank"><i class="fa fa-envelope-square"></i> hey@retromotion.co</a><br>
