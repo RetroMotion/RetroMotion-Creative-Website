@@ -20,6 +20,10 @@ body {
 	font-size:20px;
 }
 
+#zilla-menu-dropdown{
+    background-color:#f57f25;
+}
+
 #primary-nav .sf-menu a{
 	color:#fff;	
 	font-size:16px;
@@ -35,6 +39,10 @@ body {
 	font-size:16px;
 }
 /* Header */
+#header {
+	width:1140px;
+}
+
 .header-outer {
 	background: #f57f25;	
 	padding-bottom:0px !important;
@@ -70,6 +78,10 @@ body {
 
 /* Portfolio */
 
+.hentry-inner{
+	width:1140px !important;
+}
+
 .portfolio-subtitle{
 	font-weight:400 !important;
 	letter-spacing:normal !important;
@@ -97,6 +109,10 @@ body {
 }
 
 /* Footer */
+#footer {
+	width:1140px;
+}
+
 .contactsend {
 	width:200px !important;
 }
@@ -147,6 +163,11 @@ body {
 }
 
 /* Full Width */
+#content{
+	width:1140px !important;	
+	max-width:1140px !important;
+}
+
 body.page-template-template-full-width {
 	background: url('/retroimg/fullpattern.jpg');
 }
@@ -160,6 +181,10 @@ body.page-template-template-full-width #content {
 .full-width-title {
 	color:#38586F;
 	font-size:48px;
+}
+
+.blue-subtitle {
+	color:#38586F;
 }
 
 body.page-template-template-full-width .entry-content {

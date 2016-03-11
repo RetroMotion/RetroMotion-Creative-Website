@@ -50,7 +50,7 @@
 			<?php zilla_nav_after(); ?>
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-3">
 						<a href="http://retromotion.co"><img class="footer-logo" src="../wp-content/uploads/2016/02/rm-creative-white-full-sm-300w.png" width="100"></a>
 						<p class="copyright"><strong>Vermont (Mothership)</strong><br>
 						188 Allen Brook Lane<br>
@@ -70,8 +70,15 @@
 						<br>
 						<p class="copyright">© 2016 RetroMotion Creative, LLC</p>
 					</div>
-					
-					<div class="col-md-8">
+					<div class="col-md-3">
+						<p class="copyright" style="padding-top:128px;">
+							<a href="/"><strong>Home</strong></a><br>
+							<a href="/blog"><strong>Blog</strong></a><br>
+							<a href="/team"><strong>Team</strong></a><br>
+							<a href="/join-us"><strong>Join Retro</strong></a><br>
+						</p>
+					</div>
+					<div class="col-md-6">
 						<p class="social-right">
 						<a href="http://www.facebook.com/retromotioncreative" target="_blank"><i class="fa fa-facebook-square"></i></a>
 						<a href="http://twitter.com/retromotionco" target="_blank"><i class="fa fa-twitter-square"></i></a>
