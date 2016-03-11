@@ -256,6 +256,55 @@ body.blog .form-title, body.single-post .form-title{
 
 /* Media Query */
 
+@media only screen and (max-width: 1139px){
+#header {	
+	width:940px;
+}
+#footer {	
+	width:940px;
+}
+#content {	
+	width:940px !important;
+	max-width:940px !important;
+}
+.hentry-inner{
+	width:940px !important;
+}
+}
+
+
+@media only screen and (max-width: 992px){
+#header {	
+	width:600px;
+}
+#footer {	
+	width:600px;
+}
+#content {	
+	width:600px !important;
+	max-width:600px !important;
+}
+.hentry-inner{
+	width:600px !important;
+}
+}
+
+@media only screen and (max-width: 640px){
+#header {	
+	width:290px;
+}
+#footer {	
+	width:290px;
+}
+#content {	
+	width:290px !important;
+	max-width:290px !important;
+}
+.hentry-inner{
+	width:290px !important;
+}
+}
+
 @media (min-width: 768px){
 	
 }
