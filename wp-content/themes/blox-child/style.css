@@ -38,6 +38,11 @@ body {
 	font-weight:500;
 	font-size:16px;
 }
+
+.text-blue{
+	color:#38586F;
+}
+
 /* Header */
 #header {
 	width:1140px;
@@ -168,6 +173,7 @@ body {
 	max-width:1140px !important;
 }
 
+
 body.page-template-template-full-width {
 	background: url('/retroimg/fullpattern.jpg');
 }
@@ -181,6 +187,7 @@ body.page-template-template-full-width #content {
 .full-width-title {
 	color:#38586F;
 	font-size:48px;
+	line-height: normal;
 }
 
 .blue-subtitle {
@@ -188,7 +195,7 @@ body.page-template-template-full-width #content {
 }
 
 body.page-template-template-full-width .entry-content {
-    margin-top:40px;
+	overflow: visible !important;
 }
 
 body.page-template-template-full-width input[type="text"], body.page-template-template-full-width input[type="email"], body.page-template-template-full-width textarea {
