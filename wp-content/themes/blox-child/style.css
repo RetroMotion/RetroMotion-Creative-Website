@@ -194,7 +194,7 @@ body.page-template-template-full-width #content {
 	color:#38586F;
 }
 
-body.page-template-template-full-width .entry-content {
+body.page-template-template-full-width .hentry {
 	overflow: visible !important;
 }
 
