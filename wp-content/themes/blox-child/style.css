@@ -43,7 +43,12 @@ body {
 .text-blue{
 	color:#337ab7;
 }
-
+.text-orange{
+	color:#f57f25;
+}
+.text-default{
+	color:#232527;
+}
 .text-center{
 	text-align:center;
 }
