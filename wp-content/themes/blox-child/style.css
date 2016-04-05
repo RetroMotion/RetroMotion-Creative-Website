@@ -39,9 +39,15 @@ body {
 	font-size:16px;
 }
 
+/* Text Stuff */
 .text-blue{
-	color:#38586F;
+	color:#337ab7;
 }
+
+.text-center{
+	text-align:center;
+}
+
 
 /* Header */
 #header {
