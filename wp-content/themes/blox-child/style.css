@@ -205,6 +205,10 @@ body.page-template-template-full-width #content {
 	color:#38586F;
 }
 
+body.page-template-template-full-width .page-title{
+	display:none;
+}
+
 body.page-template-template-full-width .hentry {
 	overflow: visible !important;
 }
