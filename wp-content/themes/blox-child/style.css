@@ -308,6 +308,7 @@ body.page-template-template-full-width .form-title{
 .product-price-bottom{
 	bottom: inherit;
     padding: 0px;
+	width:100%;
     position: relative;
 }
 col-package{
@@ -319,6 +320,7 @@ col-package{
 .product-price-bottom{
 	bottom: inherit;
     padding: 0px;
+	width:100%;
     position: relative;
 }
 col-package{
