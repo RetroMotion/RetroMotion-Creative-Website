@@ -311,7 +311,7 @@ body.page-template-template-full-width .form-title{
 	width:100%;
     position: relative;
 }
-col-package{
+.col-package{
 	min-height: inherit;
 }
 }
@@ -323,7 +323,7 @@ col-package{
 	width:100%;
     position: relative;
 }
-col-package{
+.col-package{
 	min-height: inherit;
 }
 }
