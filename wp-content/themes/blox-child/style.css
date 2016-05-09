@@ -53,6 +53,16 @@ body {
 	text-align:center;
 }
 
+/* Button Stuff */
+.btn-orange{
+	color: #fff;
+    background-color: #f57f25;
+}
+
+.btn-orange:hover{
+	color: #fff;
+    background-color: #B35B17;
+}
 
 /* Header */
 #header {
@@ -261,6 +271,7 @@ body.page-template-template-full-width .form-title{
 .product-list-small-sub{
 	color:#999;
 	font-size:14px;
+	line-height: normal;
 }
 
 .product-list-title{
