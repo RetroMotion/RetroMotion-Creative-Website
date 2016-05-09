@@ -244,6 +244,29 @@ body.page-template-template-full-width .form-title{
 @media (min-width: 1200px){
 
 }
+
+/* Product Package Page */
+
+.col-package{
+	padding: 30px 40px; 
+	background:#eee; 
+	border: 10px solid white;
+}
+
+.product-list-small-main{
+	font-size:18px;
+	margin:0px;
+}
+
+.product-list-small-sub{
+	font-color:#999;
+	font-size:14px;
+}
+
+.product-list-title{
+	font-size:28px
+}
+
 /* Blog */
 
 body.blog .entry-title, body.single-post .entry-title{
