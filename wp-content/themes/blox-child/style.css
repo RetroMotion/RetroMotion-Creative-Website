@@ -303,6 +303,11 @@ body.page-template-template-full-width .form-title{
     position: absolute;
     text-align: center;
 }
+@media only screen and (max-width: 1139px){
+	.col-package{
+	min-height: 1880px;
+}
+}
 
 @media only screen and (max-width: 992px){
 .product-price-bottom{
