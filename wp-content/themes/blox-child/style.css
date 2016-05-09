@@ -263,6 +263,7 @@ body.page-template-template-full-width .form-title{
 	padding: 30px 40px; 
 	background:#eee; 
 	border: 10px solid white;
+	min-height: 1630px;
 }
 
 .product-list-small-main{
@@ -292,6 +293,37 @@ body.page-template-template-full-width .form-title{
     font-weight: 300 !important;
     letter-spacing: normal !important;
     color: #777 !important;
+}
+
+.product-price-bottom{
+	bottom: 0;
+    margin: 0;
+    width: 80%;
+    padding-bottom: 50px;
+    position: absolute;
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px){
+.product-price-bottom{
+	bottom: inherit;
+    padding: 0px;
+    position: relative;
+}
+col-package{
+	min-height: inherit;
+}
+}
+
+@media only screen and (max-width: 640px){
+.product-price-bottom{
+	bottom: inherit;
+    padding: 0px;
+    position: relative;
+}
+col-package{
+	min-height: inherit;
+}
 }
 
 /* Blog */
