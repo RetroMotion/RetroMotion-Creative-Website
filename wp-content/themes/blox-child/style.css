@@ -410,6 +410,9 @@ body.blog .form-title, body.single-post .form-title{
 .hentry-inner{
 	width:940px !important;
 }
+#post-415{
+	background-position: -320px 0px !important;
+}
 }
 
 
@@ -427,6 +430,29 @@ body.blog .form-title, body.single-post .form-title{
 .hentry-inner{
 	width:600px !important;
 }
+.post-415 .entry-content, .post-415 .zilla-caption{
+	color:#404040;
+}
+#post-415{
+	background-position: -320px 0px !important;
+}
+#post-450{
+	background-position: -80px 0px !important;
+}
+button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gform_previous_button:hover, .gform_button:hover {
+	padding:10px 20px !important;
+	font-size:20px !important;
+}
+.post-415 .btn-primary, .post-457 .btn-primary, .post-874 .btn-primary, .post-874 .btn-default{
+	padding:10px 20px !important;
+    font-size: 20px;
+}
+.social-right{
+	text-align:left;
+}
+.portfolio:first-child{
+	padding:3em 0;
+}
 }
 
 @media only screen and (max-width: 640px){
@@ -435,6 +461,13 @@ body.blog .form-title, body.single-post .form-title{
 }
 #footer {	
 	width:290px;
+	text-align:center;
+}
+.footer-logo{
+	width:160px;
+}
+.social-right{
+	text-align:center;
 }
 #content {	
 	width:290px !important;
@@ -462,6 +495,9 @@ body.blog .form-title, body.single-post .form-title{
 	width: 100%;
     font-size: 18px;
 }
+.post-457 {
+	margin-top: -5px;
+}
 .post-457 .entry-content h2{
 	font-size:21px !important;
 }
@@ -481,6 +517,11 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 .copyright-2{
 	padding-top: 20px !important;
     padding-bottom: 20px !important;
+	font-size:16px;
+}
+.copyright{
+	margin-top: 20px !important;
+    font-size:16px;
 }
 }
 
