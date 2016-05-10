@@ -278,7 +278,15 @@ body.page-template-template-full-width .form-title{
 }
 
 .product-list-title{
-	font-size:28px
+	font-size:40px
+}
+
+.product-list-subtitle{
+	color:#999;
+	font-size:14px;
+	line-height: normal;
+	margin-bottom:0px;
+	margin-top: 8px;
 }
 
 .product-list-link{
@@ -319,6 +327,10 @@ body.page-template-template-full-width .form-title{
 .col-package{
 	min-height: inherit;
 }
+.btn-orange{
+	width:100%;
+	font-size:25px;
+}
 }
 
 @media only screen and (max-width: 640px){
@@ -330,6 +342,13 @@ body.page-template-template-full-width .form-title{
 }
 .col-package{
 	min-height: inherit;
+}
+.product-subheading{
+	font-size:18px !important;
+}
+.btn-orange{
+	width:100%;
+	font-size:25px;
 }
 }
 
