@@ -39,6 +39,11 @@ body {
 	font-size:16px;
 }
 
+.rocket-icon{
+	max-width:350px;
+	width: 80%;
+}
+
 /* Text Stuff */
 .text-blue{
 	color:#337ab7;
@@ -417,6 +422,10 @@ body.blog .form-title, body.single-post .form-title{
 
 
 @media only screen and (max-width: 992px){
+.rocket-icon{
+	max-width:350px;
+	width: 80%;
+}
 #header {	
 	width:600px;
 }
