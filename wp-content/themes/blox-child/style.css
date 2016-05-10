@@ -440,6 +440,24 @@ body.blog .form-title, body.single-post .form-title{
 .hentry-inner{
 	width:290px !important;
 }
+.post-415 .header-tagline{
+    font-size: 21px !important;
+    margin-top: -50px;
+    text-align: center;	
+}
+#post-415{
+	background-position: -440px 0px;
+}
+.post-415 .entry-content, .post-415 .zilla-caption{
+	color:#404040;
+}
+.post-415 .btn-primary{
+	width: 100%;
+    font-size: 20px;
+}
+#post-450{
+	background-position: -180px 0px;
+}
 }
 
 @media (min-width: 768px){
