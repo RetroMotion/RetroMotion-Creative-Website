@@ -350,6 +350,10 @@ body.page-template-template-full-width .form-title{
 	width:100%;
 	font-size:25px;
 }
+.page-id-890 #content {	
+	width:340px !important;
+	max-width:340px !important;
+}
 }
 
 /* Blog */
