@@ -147,6 +147,7 @@ body {
 
 .copyright {
 	color:#fff;
+	padding-top:128px;
 }
 
 .social-right {
@@ -451,11 +452,11 @@ body.blog .form-title, body.single-post .form-title{
 .post-415 .entry-content, .post-415 .zilla-caption{
 	color:#404040;
 }
-.post-415 .btn-primary, .post-457 .btn-primary, .post-874 .btn-primary{
+.post-415 .btn-primary, .post-457 .btn-primary, .post-874 .btn-primary, .post-874 .btn-default{
 	width: 100%;
     font-size: 20px;
 }
-.post-434 .btn-primary{
+.post-434 .btn-default{
 	width: 100%;
     font-size: 18px;
 }
@@ -474,6 +475,11 @@ body.blog .form-title, body.single-post .form-title{
 button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gform_previous_button:hover, .gform_button:hover {
 	width:100% !important;
 	font-size:20px !important;
+}
+.copyright{
+	padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
 }
 
 }
