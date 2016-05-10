@@ -39,10 +39,6 @@ body {
 	font-size:16px;
 }
 
-.rocket-icon{
-	max-width:350px;
-	width: 80%;
-}
 
 /* Text Stuff */
 .text-blue{
@@ -139,6 +135,16 @@ body {
 
 .zilla-media-center .entry-content {
     margin-top: 0px;
+}
+
+.post-415 .btn-primary{
+	padding: 10px 25px;
+    font-size: 20px;
+}
+
+.rocket-icon{
+	max-width:350px;
+	width: 80%;
 }
 
 /* Footer */
