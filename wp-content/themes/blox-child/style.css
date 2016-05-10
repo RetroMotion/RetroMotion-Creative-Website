@@ -351,8 +351,11 @@ body.page-template-template-full-width .form-title{
 	font-size:25px;
 }
 .page-id-890 #content {	
-	width:340px !important;
-	max-width:340px !important;
+	width:85% !important;
+	max-width:370px !important;
+}
+.full-width-title{
+	font-size:42px;
 }
 }
 
