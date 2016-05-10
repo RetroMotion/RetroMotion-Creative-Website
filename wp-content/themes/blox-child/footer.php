@@ -71,7 +71,7 @@
 						<p class="copyright">© 2016 RetroMotion Creative, LLC</p>
 					</div>
 					<div class="col-md-3">
-						<p class="copyright">
+						<p class="copyright-2">
 							<a href="/"><strong>Home</strong></a><br>
 							<a href="/blog"><strong>Blog</strong></a><br>
 							<a href="/team"><strong>Team</strong></a><br>
