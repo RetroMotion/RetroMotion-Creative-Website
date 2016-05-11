@@ -191,6 +191,10 @@ body {
 	padding:0px !important;
 }
 
+.gform_wrapper .top_label li.gfield.gf_left_half { 
+    margin-right:0 !important;
+}
+
 .site-form .gform_wrapper .top_label textarea.textarea {
     width: 98%;
 }
@@ -535,9 +539,9 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 	width: 100%;
 }
 .contact_inputfield{
-	margin-bottom:.5em;
+	margin-bottom:.5em !important;
 }
-.contact_inputfield .input{
+.contact_inputfield input{
 	width:96% !important;
 }
 .gform_wrapper .gform_body .top_label li.gfield.gf_right_half { 
