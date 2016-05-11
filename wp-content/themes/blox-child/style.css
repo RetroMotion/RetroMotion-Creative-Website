@@ -199,14 +199,14 @@ body {
 	width:200px !important;
 }
 
-.contact_textfield{
-	font-family: Roboto, Arial;
+.site-form .gfield_label{
+	font-family: Roboto, Arial !important;
 	font-weight:500;
     font-size: 16px;
     margin-bottom: 0px;
 }
 .site-form .gfield_required{
-	color: #F26C4F;
+	color: #F26C4F !important;
 }
 
 /* Footer */
@@ -534,11 +534,11 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 	padding:0px !important;
 	width: 100%;
 }
-.site-form .gform_wrapper .gfield{
+.contact_inputfield{
 	margin-bottom:.5em;
 }
-.site-form .gform_wrapper .top_label input.medium{
-	width:96%;
+.contact_inputfield .input{
+	width:96% !important;
 }
 .gform_wrapper .gform_body .top_label li.gfield.gf_right_half { 
     float: left; 
