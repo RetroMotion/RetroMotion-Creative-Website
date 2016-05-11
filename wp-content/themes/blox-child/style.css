@@ -144,6 +144,9 @@ body {
 .post-415 .entry-content{
 	width: 310px;
 }
+#post-453{
+	background-position: bottom center !important;
+}
 
 .rocket-icon{
 	max-width:350px;
