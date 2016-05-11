@@ -162,11 +162,16 @@ body {
 .post-415 .entry-content{
 	width: 310px;
 }
+#post-415{
+	margin-bottom: -1px;
+}	
 #post-453{
 	background-position: bottom center !important;
+	margin-bottom: -1px;
 }
 #post-434{
 	background-color: transparent;
+	background-position: 0px -1px !important;
 	margin-top:-20px !important;
 }
 
