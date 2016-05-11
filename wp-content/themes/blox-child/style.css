@@ -138,14 +138,32 @@ body {
 }
 
 .post-415 .btn-primary{
+	color: #fff;
+    background-color: #F26C4F;
+    border-color: #9C3F2B;
 	padding: 10px 25px;
     font-size: 20px;
+}
+.post-415 .btn-primary:hover{
+    background-color: #9C3F2B;
+}
+.post-874 .btn-red{
+	color: #fff !important;
+    background-color: #F26C4F !important;
+    border-color: #9C3F2B !important;
+}
+.post-874 .btn-red:hover{
+    background-color: #9C3F2B !important;
 }
 .post-415 .entry-content{
 	width: 310px;
 }
 #post-453{
 	background-position: bottom center !important;
+}
+#post-434{
+	background-color: transparent;
+	margin-top:-20px !important;
 }
 
 .rocket-icon{
