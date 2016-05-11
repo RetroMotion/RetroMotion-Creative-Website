@@ -143,17 +143,21 @@ body {
     border-color: #9C3F2B;
 	padding: 10px 25px;
     font-size: 20px;
+	transition: all 0.5s ease;
 }
 .post-415 .btn-primary:hover{
     background-color: #9C3F2B;
+	transition: all 0.5s ease;
 }
 .post-874 .btn-red{
 	color: #fff !important;
     background-color: #F26C4F !important;
     border-color: #9C3F2B !important;
+	transition: all 0.5s ease;
 }
 .post-874 .btn-red:hover{
     background-color: #9C3F2B !important;
+	transition: all 0.5s ease;
 }
 .post-415 .entry-content{
 	width: 310px;
@@ -393,7 +397,7 @@ body.page-template-template-full-width .form-title{
 	max-width:370px !important;
 }
 .full-width-title{
-	font-size:42px;
+	font-size:40px;
 }
 }
 
@@ -521,7 +525,9 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
     text-align: center;	
 }
 #post-415{
-	background-position: -440px 0px !important;
+	background-position: -570px 0px !important;
+    padding-top: 130px;
+    padding-bottom: 10px;
 }
 .post-415 .entry-content, .post-415 .zilla-caption{
 	color:#404040;
