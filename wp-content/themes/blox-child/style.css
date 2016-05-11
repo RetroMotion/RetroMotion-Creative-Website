@@ -190,14 +190,13 @@ body {
 	padding:0px !important;
 }
 
+.contactsend, .site-form .gform_button{
+	width:200px !important;
+}
 
 /* Footer */
 #footer {
 	width:1140px;
-}
-
-.contactsend {
-	width:200px !important;
 }
 
 .copyright {
@@ -515,6 +514,17 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 }
 
 @media only screen and (max-width: 640px){
+.gform_wrapper .gform_body .top_label li.gfield.gf_right_half { 
+    float: left; 
+    clear: left !important;
+    width: 99%;
+} 
+
+.gform_wrapper .gform_body .top_label li.gfield.gf_left_half { 
+    float: left; 
+    clear: left !important;
+    width: 99%;
+}
 #header {	
 	width:290px;
 }
