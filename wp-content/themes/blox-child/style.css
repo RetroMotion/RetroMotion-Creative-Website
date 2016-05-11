@@ -180,6 +180,17 @@ body {
 	width: 80%;
 }
 
+/* Contact Form */
+.site-form_wrapper{
+	border: none !important;
+	padding:0px !important;
+}
+.site-form .gform_body{
+	border: none !important;
+	padding:0px !important;
+}
+
+
 /* Footer */
 #footer {
 	width:1140px;
