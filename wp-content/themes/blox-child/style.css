@@ -122,6 +122,9 @@ p {
     background-color: #9C3F2B !important;
 	transition: all 0.5s ease;
 }
+ input[type="submit"] {
+	border-color: 1px solid #9C3F2B !important;
+}
 
 
 /* Header */
@@ -406,7 +409,7 @@ body.page-template-template-full-width .form-title{
 /* Product Package Page */
 
 .col-package{
-	padding: 30px 40px; 
+	padding: 30px 40px !important; 
 	background:#eee; 
 	border: 10px solid white;
 	min-height: 1530px !important;
@@ -485,7 +488,7 @@ body.page-template-template-full-width .form-title{
 .product-form_wrapper{
 	border: none !important;
 	padding:0px !important;
-	width: 65%;
+	width: 90%;
 }
 .product-form .gform_body{
 	border: none !important;
@@ -499,7 +502,9 @@ body.page-template-template-full-width .form-title{
 .product-form .gform_wrapper .top_label textarea.textarea {
     width: 98%;
 }
-
+.product-form .gform_wrapper .gform_footer {
+    text-align:center;
+}
 .contactsend, .product-form .gform_button{
 	width:200px !important;
 	font-size:20px !important;
