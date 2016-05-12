@@ -419,13 +419,14 @@ body.page-template-template-full-width .form-title{
 }
 .product-list-small-main{
 	font-size:18px;
-	margin:0px;
+	margin:0px !important;
 }
 
 .product-list-small-sub{
 	color:#999;
 	font-size:14px;
 	line-height: normal;
+	margin-top: 0px !important;
 }
 
 .product-list-title{
@@ -468,7 +469,7 @@ body.page-template-template-full-width .form-title{
 }
 .product-price-bottom .text-blue{
 	font-size:45px;
-	font-weight:500;
+	font-weight:700;
 	margin: 0px !important;
 }
 .product-price-bottom .per-month {
@@ -499,10 +500,10 @@ body.page-template-template-full-width .form-title{
     margin-right:0 !important;
 }
 
-.product-form .gform_wrapper .top_label textarea.textarea {
+.gform_wrapper .product-form .top_label textarea.textarea {
     width: 98%;
 }
-.product-form .gform_wrapper .gform_footer {
+.gform_wrapper .product-form  .gform_footer {
     text-align:center;
 }
 .contactsend, .product-form .gform_button{
