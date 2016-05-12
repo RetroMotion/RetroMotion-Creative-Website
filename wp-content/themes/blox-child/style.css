@@ -371,7 +371,7 @@ body.page-template-template-full-width .hentry {
 	overflow: visible !important;
 }
 
-body.page-template-template-full-width input[type="text"], body.page-template-template-full-width input[type="email"], body.page-template-template-full-width textarea {
+body.page-template-template-full-width input[type="text"], body.page-template-template-full-width input[type="email"],body.page-template-template-full-width input[type="tel"], body.page-template-template-full-width textarea {
 	border: 1px solid #BBBBBB !important;
 }
 
@@ -468,7 +468,7 @@ body.page-template-template-full-width .form-title{
 }
 .product-price-bottom .text-blue{
 	font-size:45px;
-	font-weight:700;
+	font-weight:500;
 	margin: 0px !important;
 }
 .product-price-bottom .per-month {
