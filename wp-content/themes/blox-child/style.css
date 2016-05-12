@@ -471,7 +471,13 @@ body.page-template-template-full-width .form-title{
 .product-price-bottom .per-month {
 	font-size:14px;
 	margin-top: -5px !important;
-	margin-bottom: 30px !important;
+	margin-bottom: 0px !important;
+}
+
+/* Entry Modal */
+.modal-dialog, .contact-modal {
+    width: 600px;
+    margin: 50px auto;
 }
 
 @media only screen and (max-width: 1139px){
@@ -729,11 +735,15 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 	text-align:center;
 }
 
-	body.page-template-template-full-width .page-header{
+body.page-template-template-full-width .page-header{
 	border:none !important;
 }
-	body.page-template-template-full-width #header{
+body.page-template-template-full-width #header{
 	width:200px;
+}
+body.page-template-template-full-width .btn-red{
+	width:100% !important;
+	font-size:20px;
 }
 }
 
