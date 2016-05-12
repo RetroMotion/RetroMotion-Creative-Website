@@ -20,4 +20,4 @@ function theme_name_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );
 
-add_filter("gform_confirmation_anchor", create_function("","return false;"));
+add_filter("gform_confirmation_anchor", create_function("","return true;"));
