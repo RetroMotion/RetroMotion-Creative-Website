@@ -479,7 +479,42 @@ body.page-template-template-full-width .form-title{
     width: 600px;
     margin: 50px auto;
 }
+.contact-modal .gform_wrapper{
+	margin:auto !important;
+}
+.product-form_wrapper{
+	border: none !important;
+	padding:0px !important;
+	width: 65%;
+}
+.product-form .gform_body{
+	border: none !important;
+	padding:0px !important;
+}
 
+.gform_wrapper .top_label li.gfield.gf_left_half { 
+    margin-right:0 !important;
+}
+
+.product-form .gform_wrapper .top_label textarea.textarea {
+    width: 98%;
+}
+
+.contactsend, .product-form .gform_button{
+	width:200px !important;
+	font-size:20px !important;
+	font-weight:300 !important;
+}
+
+.product-form .gfield_label{
+	font-family: Roboto, Arial !important;
+	font-weight:300 !important;
+    font-size: 16px;
+    margin-bottom: 0px !important;
+}
+.product-form .gfield_required{
+	color: #F26C4F !important;
+}
 @media only screen and (max-width: 1139px){
 	.col-package{
 	min-height: 1880px;
@@ -630,7 +665,7 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 }
 
 @media only screen and (max-width: 640px){
-.site-form_wrapper{
+.site-form_wrapper, .product-form_wrapper{
 	border: none !important;
 	padding:0px !important;
 	width: 100%;
@@ -655,7 +690,7 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 .gform_wrapper .top_label textarea.textarea {
     width: 100% !important;
 }
-.contactsend, .site-form .gform_button{
+.contactsend, .site-form .gform_button, .product-form_wrapper .gform_button{
 	width:100% !important;
 }
 #header {	
