@@ -439,7 +439,8 @@ body.page-template-template-full-width .form-title{
 
 .product-subheading{
 	padding-top: 0 !important;
-	margin-bottom: 0 !important;
+	margin-top:5px !important;
+	margin-bottom: 10 !important;
     font-weight: 300 !important;
     letter-spacing: normal !important;
     color: #777 !important;
