@@ -513,6 +513,9 @@ body.blog .entry-header, body.single-post .entry-header{
 body.blog input[type="text"], body.blog input[type="email"], body.blog textarea, body.single-post input[type="text"], body.single-post input[type="email"], body.single-post textarea {
 	border: 1px solid #BBBBBB !important;
 }
+.more-link{
+	margin-bottom:10px !important;
+}
 
 body.blog .form-title, body.single-post .form-title{
 	color:#337ab7;
@@ -689,6 +692,10 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 .copyright{
 	margin-top: 20px !important;
     font-size:16px;
+}
+.more-link{
+	width:100%;
+	text-align:center;
 }
 }
 
