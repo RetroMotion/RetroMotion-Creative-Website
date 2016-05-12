@@ -282,7 +282,9 @@ p {
 .site-form .gfield_required{
 	color: #F26C4F !important;
 }
-
+body.page-template-template-full-width input[type="tel"]{
+	max-width:55% !important;
+}
 /* Footer */
 #footer {
 	width:1140px;
@@ -785,6 +787,9 @@ body.page-template-template-full-width #header{
 body.page-template-template-full-width .btn-red{
 	width:100% !important;
 	font-size:20px;
+}
+body.page-template-template-full-width input[type="tel"]{
+	max-width:100% !important;
 }
 }
 
