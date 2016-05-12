@@ -162,6 +162,10 @@ p {
 	line-height:normal !important;
 }
 
+.page-header{
+	margin:0px !important;
+	border: none !important;
+}
 /* Portfolio */
 
 .hentry-inner{
