@@ -372,6 +372,9 @@ body.page-template-template-full-width .form-title{
     letter-spacing: -0.03em;
     font-weight: 400;
 }
+	body.page-template-template-full-width .page-header{
+	border:none !important;
+}
 /* Full-Width Media Query */
 
 @media (min-width: 768px){
