@@ -396,9 +396,11 @@ body.page-template-template-full-width .form-title{
 	padding: 30px 40px; 
 	background:#eee; 
 	border: 10px solid white;
-	min-height: 1630px !important;
+	min-height: 1530px !important;
 }
-
+.col-package .product-icons{
+	max-width:50% !important;
+}
 .product-list-small-main{
 	font-size:18px;
 	margin:0px;
@@ -444,6 +446,20 @@ body.page-template-template-full-width .form-title{
     position: absolute;
     text-align: center;
 }
+.product-price-bottom .product-list-small-sub{
+	margin-bottom:0px !important;
+}
+.product-price-bottom .text-blue{
+	font-size:45px;
+	font-weight:700;
+	margin: 0px !important;
+}
+.product-price-bottom .per-month {
+	font-size:14px;
+	margin-top: -5px !important;
+	margin-bottom: 30px !important;
+}
+
 @media only screen and (max-width: 1139px){
 	.col-package{
 	min-height: 1880px;
