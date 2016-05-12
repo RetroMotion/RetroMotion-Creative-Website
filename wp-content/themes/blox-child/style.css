@@ -414,7 +414,7 @@ body.page-template-template-full-width .form-title{
 	padding: 30px 40px !important; 
 	background:#eee; 
 	border: 10px solid white;
-	min-height: 1400px !important;
+	min-height: 1410px !important;
 }
 .col-package .product-icons{
 	max-width:50% !important;
@@ -433,14 +433,15 @@ body.page-template-template-full-width .form-title{
 
 .product-list-title{
 	font-size:40px
+	margin-bottom:0px !important;
 }
 
 .product-list-subtitle{
 	color:#999;
 	font-size:14px;
 	line-height: normal;
-	margin-bottom:0px;
-	margin-top: 8px;
+	margin-bottom:-10px !important;
+	margin-top: 5px !important;
 }
 
 .product-list-link{
@@ -475,7 +476,7 @@ body.page-template-template-full-width .form-title{
 .product-price-bottom .text-blue{
 	font-size:45px;
 	font-weight:700;
-	margin: 12px 0px !important;
+	margin: 0px 0px !important;
 }
 .product-price-bottom .per-month {
 	font-size:14px;
@@ -484,6 +485,11 @@ body.page-template-template-full-width .form-title{
 }
 
 /* Entry Modal */
+.modal-blue{
+	color: #337ab7 !important;
+    font-weight: 300 !important;
+    font-size: 30px !Important;
+}
 .modal-dialog, .contact-modal {
     width: 600px;
     margin: 50px auto;
