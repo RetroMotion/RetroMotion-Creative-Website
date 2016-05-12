@@ -71,6 +71,23 @@ p {
 	transition: all 0.5s ease;
 }
 
+.btn-primary{
+	color: #fff;
+    background-color: ##337ab7;
+	transition: all 0.5s ease;
+	border: 1px solid #2e6da4;
+	-webkit-box-shadow: none !important;
+    box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+.btn-primary:hover{
+	color: #286090;
+    background-color: #ccc;
+	transition: all 0.5s ease;
+	border: 1px solid #2e6da4;
+}
+
 .btn-white{
 	color: #232527;
     background-color: #fff;
@@ -167,7 +184,7 @@ p {
     margin-top: 0px;
 }
 
-.post-415 .btn-primary{
+.post-415 .btn-red{
 	color: #fff;
     background-color: #F26C4F;
     border-color: #9C3F2B;
@@ -175,7 +192,7 @@ p {
     font-size: 20px;
 	transition: all 0.5s ease;
 }
-.post-415 .btn-primary:hover{
+.post-415 .btn-red:hover{
     background-color: #9C3F2B;
 	transition: all 0.5s ease;
 }
@@ -184,6 +201,7 @@ p {
     background-color: #F26C4F !important;
     border-color: #9C3F2B !important;
 	transition: all 0.5s ease;
+	width:100% !important;
 }
 .post-874 .btn-red:hover{
     background-color: #9C3F2B !important;
