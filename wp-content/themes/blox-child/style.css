@@ -373,7 +373,7 @@ body.page-template-template-full-width .hentry {
 	overflow: visible !important;
 }
 
-body.page-template-template-full-width input[type="text"], body.page-template-template-full-width input[type="email"],body.page-template-template-full-width input[type="tel"], body.page-template-template-full-width textarea {
+body.page-template-template-full-width input[type="text"], body.page-template-template-full-width input[type="email"],body.page-template-template-full-width input[type="tel"],body.page-template-template-full-width input[type="url"], body.page-template-template-full-width textarea {
 	border: 1px solid #BBBBBB !important;
 }
 
@@ -485,6 +485,10 @@ body.page-template-template-full-width .form-title{
 }
 
 /* Entry Modal */
+.modal-icon{
+	width: 70px;
+	margin-right:10px;
+}
 .modal-blue{
 	color: #337ab7 !important;
     font-weight: 300 !important;
@@ -492,7 +496,7 @@ body.page-template-template-full-width .form-title{
 }
 .modal-dialog, .contact-modal {
     width: 600px;
-    margin: 50px auto;
+    margin: 50px auto !important;
 }
 .contact-modal .gform_wrapper{
 	margin:auto !important;
