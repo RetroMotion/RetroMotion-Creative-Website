@@ -407,6 +407,21 @@ body.page-template-template-full-width .form-title{
 @media (min-width: 1200px){
 
 }
+/* Product Nav */
+.product-nav-container{
+	width:100%;
+}
+.product-nav-stretch{
+	width:100%;
+	background-color:#eee;
+	position:absolute;
+	left:0;
+}
+.product-nav-menu-holder{
+	max-width:1140px;
+	margin:auto;
+	height:40px;
+}
 
 /* Product Package Page */
 
