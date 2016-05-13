@@ -487,9 +487,8 @@ body.page-template-template-full-width .form-title{
 }
 .feature-holder{
 	max-width:1140px;
-	margin:auto;
 	min-height:150px;
-	margin: 6.25em 0px;
+	margin: 4.25em auto;
 }
 
 /* Product Package Page */
