@@ -455,6 +455,30 @@ body.page-template-template-full-width .form-title{
 	width:100%;
 	min-height:150px;
 }
+.feature-container-blue{
+	width:100%;
+	background-color:#337AB7;
+	position:absolute;
+	left:0;
+}
+.feature-container-darkblue{
+	width:100%;
+	background-color:#537287;
+	position:absolute;
+	left:0;
+}
+.feature-container-green{
+	width:100%;
+	background-color:#90af31;
+	position:absolute;
+	left:0;
+}
+.feature-container-blue{
+	width:100%;
+	background-color:#F26C4F;
+	position:absolute;
+	left:0;
+}
 .feature-container{
 	width:100%;
 	background-color:#eee;
@@ -465,6 +489,7 @@ body.page-template-template-full-width .form-title{
 	max-width:1140px;
 	margin:auto;
 	min-height:150px;
+	margin: 6.25em 0px;
 }
 
 /* Product Package Page */
