@@ -451,17 +451,17 @@ body.page-template-template-full-width .form-title{
 	font-weight:500;
 }
 /* Feature Nav */
-.feature-nav-wrapper{
+.feature-wrapper{
 	width:100%;
 	min-height:150px;
 }
-.feature-nav-container{
+.feature-container{
 	width:100%;
 	background-color:#eee;
 	position:absolute;
 	left:0;
 }
-.feature-nav-holder{
+.feature-holder{
 	max-width:1140px;
 	margin:auto;
 	min-height:150px;
