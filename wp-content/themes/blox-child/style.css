@@ -442,13 +442,31 @@ body.page-template-template-full-width .form-title{
 .product-nav-menu-block a{
 	text-decoration:none !important;
 	font-family:roboto, Arial;
-	font-weight:300;
+	font-weight:500;
 }
+
 .product-nav-menu-block-active a{
 	text-decoration:none !important;
 	font-family:roboto, Arial;
 	font-weight:500;
 }
+/* Feature Nav */
+.feature-nav-wrapper{
+	width:100%;
+	min-height:150px;
+}
+.feature-nav-container{
+	width:100%;
+	background-color:#eee;
+	position:absolute;
+	left:0;
+}
+.feature-nav-holder{
+	max-width:1140px;
+	margin:auto;
+	min-height:150px;
+}
+
 /* Product Package Page */
 
 .col-package{
