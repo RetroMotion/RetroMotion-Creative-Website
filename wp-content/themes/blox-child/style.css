@@ -13,6 +13,8 @@ body {
 
 p {
     margin: 10px 0px !important;
+	font-family: Roboto, Arial;
+	font-size:16px;
 }
 
 .btn-primary {
@@ -57,7 +59,13 @@ p {
 .text-center{
 	text-align:center;
 }
-
+.text-heading-skinny{
+	font-weight:500;
+	font-size: 36px;
+}
+.text-default{
+	font-size:16px;
+}
 /* Button Stuff */
 .btn-orange{
 	color: #fff;
