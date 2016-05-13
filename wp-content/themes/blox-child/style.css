@@ -423,16 +423,25 @@ body.page-template-template-full-width .form-title{
 	margin:auto;
 	height:40px;
 }
-.product-nav-menu-block{
-	width:140px;
+.product-nav-menu-block-active{
+	width:120px;
 	height:40px;
 	text-align:center;
 	padding-top:10px;
 	border-bottom:6px solid #0778BB;
 	float:left;
 }
+.product-nav-menu-block{
+	width:120px;
+	height:40px;
+	text-align:center;
+	padding-top:10px;
+	border-bottom:none;
+	float:left;
+}
 .product-nav-menu-block a{
-	
+	text-decoration:none !important;
+	font-weight:300;
 }
 /* Product Package Page */
 
