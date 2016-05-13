@@ -441,7 +441,13 @@ body.page-template-template-full-width .form-title{
 }
 .product-nav-menu-block a{
 	text-decoration:none !important;
+	font-family:roboto, Arial;
 	font-weight:300;
+}
+.product-nav-menu-block-active a{
+	text-decoration:none !important;
+	font-family:roboto, Arial;
+	font-weight:500;
 }
 /* Product Package Page */
 
@@ -633,6 +639,12 @@ body.page-template-template-full-width .form-title{
 }
 .full-width-title{
 	font-size:40px;
+}
+.product-nav-menu-block-active{
+	width:50%;
+}
+.product-nav-menu-block{
+	width:50%;
 }
 
 }
