@@ -487,6 +487,11 @@ body.page-template-template-full-width .form-title{
 	margin-bottom:0px;
 }
 /* Entry Modal */
+.modal-header{
+	padding: 8px 10px;
+    background-color: #ccc;
+    border-radius: 5px 5px 0px 0px;
+}
 .modal-icon{
 	width: 70px;
 	margin-right:10px;
@@ -495,6 +500,7 @@ body.page-template-template-full-width .form-title{
 	color: #337ab7 !important;
     font-weight: 300 !important;
     font-size: 30px !Important;
+	margin-top:0px;
 }
 .modal-dialog, .contact-modal {
     width: 600px;
