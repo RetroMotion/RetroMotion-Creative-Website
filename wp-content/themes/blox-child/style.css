@@ -452,7 +452,7 @@ body.page-template-template-full-width .form-title{
 
 .product-subheading{
 	padding-top: 0 !important;
-	margin-top:5px !important;
+	margin-top:0px !important;
 	margin-bottom: 10 !important;
     font-weight: 300 !important;
     letter-spacing: normal !important;
@@ -501,6 +501,9 @@ body.page-template-template-full-width .form-title{
 .contact-modal .gform_wrapper{
 	margin:auto !important;
 }
+.contact-modal .modal-content{
+	background-color:#eee !important;
+}
 .product-form_wrapper{
 	border: none !important;
 	padding:0px !important;
@@ -511,8 +514,8 @@ body.page-template-template-full-width .form-title{
 	padding:0px !important;
 }
 
-.gform_wrapper .top_label li.gfield.gf_left_half { 
-    margin-right:0 !important;
+.product-form_wrapper .top_label li.gfield.gf_left_half { 
+    margin-right:1.6%;
 }
 
 .gform_wrapper .product-form .top_label textarea.textarea {
@@ -555,6 +558,9 @@ body.page-template-template-full-width .form-title{
 .btn-orange{
 	width:100%;
 	font-size:25px;
+}
+.product-form_wrapper .top_label li.gfield.gf_left_half { 
+    margin-right:0;
 }
 }
 
