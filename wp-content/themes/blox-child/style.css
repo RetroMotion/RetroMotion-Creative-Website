@@ -511,10 +511,16 @@ body.page-template-template-full-width .form-title{
 
 
 /* Product Package Page */
-.well {
-	padding: 7px 10px;
+.well-white {
+	padding: 5px 10px !important;
 	background-color:#fff;
 	background-image:none !important;
+}
+.product-list-well{
+	color:#999;
+	font-size:12px;
+	line-height: normal;
+	margin: 0px !important;
 }
 .col-package{
 	padding: 30px 40px !important; 
