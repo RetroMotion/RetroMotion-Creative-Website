@@ -48,7 +48,7 @@
 
 			<?php endif; ?>
 			<hr/>
-			<?php echo do_shortcode('[contact-form-7 id="624" title="Website Capture Blog"]'); ?>
+			<?php echo do_shortcode('[gravityform id="3" title="false" description="false"]'); ?>
 			<!--END #primary .hfeed-->
 			</div>
 
