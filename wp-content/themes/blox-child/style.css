@@ -511,7 +511,11 @@ body.page-template-template-full-width .form-title{
 
 
 /* Product Package Page */
-
+.well {
+	padding: 7px 10px;
+	background-color:#fff;
+	background-image:none !important;
+}
 .col-package{
 	padding: 30px 40px !important; 
 	background:#eee; 
@@ -564,10 +568,16 @@ body.page-template-template-full-width .form-title{
 .product-price-bottom{
 	bottom: 0;
     margin: 0;
-    width: 80%;
+    width: 100%;
     padding-bottom: 30px;
     position: absolute;
     text-align: center;
+}
+.product-price-bottom-container{
+	height: 240px;
+    text-align: center;
+    position: relative;
+    margin: auto;
 }
 .product-price-bottom .btn-red{
 	margin-top:0px !important;
