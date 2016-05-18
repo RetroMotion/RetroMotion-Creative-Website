@@ -575,6 +575,7 @@ body.page-template-template-full-width .form-title{
 }
 .relative-height-col{
     padding-bottom: 30px!important;
+	width:100% !Important;
 
 }
 .product-price-bottom-container{
