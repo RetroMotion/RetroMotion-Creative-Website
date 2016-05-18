@@ -568,6 +568,14 @@ body.page-template-template-full-width .form-title{
 .product-price-bottom{
 	bottom: 0;
     margin: 0;
+    width: 80%;
+    padding-bottom: 60px;
+    position: absolute;
+    text-align: center;
+}
+.product-price-bottom-relative{
+	bottom: 0;
+    margin: 0;
     width: 100%;
     padding-bottom: 30px;
     position: absolute;
