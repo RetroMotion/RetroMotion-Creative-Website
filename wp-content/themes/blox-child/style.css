@@ -366,7 +366,9 @@ body.page-template-template-full-width #content {
     padding: 0px 0 110px !important;
     max-width: 940px;
 }
-
+.page-id-926 #content{
+	padding-bottom:0px !important;
+}
 .full-width-title {
 	color:#337ab7;
 	font-size:48px;
@@ -409,6 +411,9 @@ body.page-template-template-full-width .form-title{
     margin: 0 auto;
     padding: 0px 0 50px !important;
     width: 100%;
+}
+.page-id-926 #content{
+	padding-bottom:0px !important;
 }
 }
 
