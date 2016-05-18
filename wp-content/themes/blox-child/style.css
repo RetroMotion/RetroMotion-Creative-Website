@@ -508,8 +508,15 @@ body.page-template-template-full-width .form-title{
 	font-size: 20px;
     font-weight: 300;
 }
-
-
+.page-id-926 #comments{
+	margin-top:0px !important;
+}
+.page-id-926 #content{
+	padding-bottom:0px !important;
+}
+.page-id-926 .hfeed{
+	margin-bottom:0px !important;
+}
 /* Product Package Page */
 .well-white {
 	padding: 7px 10px !important;
