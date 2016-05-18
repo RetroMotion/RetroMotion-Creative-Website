@@ -102,7 +102,11 @@
 	
 	<!--END .footer-outer -->	
 	</div>
-
+	<script>
+	$(document).ready(function(){
+		$('[data-toggle="tooltip"]').tooltip();   
+	});
+	</script>
 	<a href="#" id="back-to-top"></a>
 
 	<!-- Theme Hook -->
