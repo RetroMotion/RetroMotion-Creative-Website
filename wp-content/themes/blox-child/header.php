@@ -67,8 +67,8 @@
 <!-- BEGIN body -->
 <body <?php body_class('no-js'); ?>>
 	<script type="text/javascript">
-		$(function () {
-			$("[rel='tooltip']").tooltip();
+		$(document).ready(function() {
+		$("body").tooltip({ selector: '[data-toggle=tooltip]' });
 		});
 	</script>
 	<!-- Google Tag Manager -->
