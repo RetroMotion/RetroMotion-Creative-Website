@@ -573,8 +573,8 @@ body.page-template-template-full-width .form-title{
     position: absolute;
     text-align: center;
 }
-.product-price-bottom .relative-height-col{
-    padding-bottom: 30px;
+.relative-height-col{
+    padding-bottom: 30px!important;
 
 }
 .product-price-bottom-container{
