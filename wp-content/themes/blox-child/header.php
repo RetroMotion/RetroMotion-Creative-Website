@@ -66,10 +66,11 @@
 
 <!-- BEGIN body -->
 <body <?php body_class('no-js'); ?>>
+
 	<script type="text/javascript">
-		$(document).ready(function() {
-		$("body").tooltip({ selector: '[data-toggle=tooltip]' });
-		});
+	$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+	});
 	</script>
 	<!-- Google Tag Manager -->
 	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PG8W3R"
