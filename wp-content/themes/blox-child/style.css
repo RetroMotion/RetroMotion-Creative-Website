@@ -698,6 +698,9 @@ body.page-template-template-full-width .form-title{
 .product-form_wrapper .top_label li.gfield.gf_left_half { 
     margin-right:0;
 }
+.product-list-container{
+	padding-bottom:0px;
+}
 }
 
 @media only screen and (max-width: 640px){
@@ -729,6 +732,9 @@ body.page-template-template-full-width .form-title{
 }
 .product-nav-menu-block{
 	width:50%;
+}
+.product-list-container{
+	padding-bottom:0px;
 }
 
 }
@@ -834,6 +840,7 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 }
 
 @media only screen and (max-width: 640px){
+	
 .site-form_wrapper, .product-form_wrapper{
 	border: none !important;
 	padding:0px !important;
