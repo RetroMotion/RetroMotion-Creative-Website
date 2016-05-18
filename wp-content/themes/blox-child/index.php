@@ -48,6 +48,8 @@
 
 			<?php endif; ?>
 			<hr/>
+			<p><a style="display:block; position:relative; top:-50px;" id="contactblog"></a></p>
+			<h2 class="form-title">Drop Us a Note</h2>
 			<?php echo do_shortcode('[gravityform id="3" title="false" description="false"]'); ?>
 			<!--END #primary .hfeed-->
 			</div>
