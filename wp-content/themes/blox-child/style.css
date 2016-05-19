@@ -790,9 +790,13 @@ body.blog .form-title, body.single-post .form-title{
 
 .page-template-template-landing #content{
 	padding-bottom:0px;
+	padding-top:0px;
 }
 .landing-page .hentry {
 	overflow:visible;
+}
+.landing-page .entry-meta{
+	margin: 0px !important;
 }
 .footer-landing {
 	min-height:700px;
