@@ -786,6 +786,25 @@ body.blog .form-title, body.single-post .form-title{
     font-weight: 400;
 }
 
+/* Landing Page */
+
+.page-template-template-landing #content{
+	padding-bottom:0px;
+}
+.landing-page .hentry {
+	overflow:visible;
+}
+.footer-landing {
+	min-height:700px;
+}
+.footer-landing h2 {
+	color:#fff;
+	margin-top:0px;
+}
+.footer-landing p {
+	color:#fff;
+	margin-bottom:0px !important;
+}
 /* Media Query */
 
 @media only screen and (max-width: 1139px){
