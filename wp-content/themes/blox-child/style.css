@@ -143,7 +143,10 @@ p {
 #header {
 	width:1140px;
 }
-
+.header-outer{
+    background: #f57f25;
+    padding-bottom: 0px !important;
+}
 .page-id-409 .header-outer {
 	background: transparent !important;	
 	padding-bottom:0;
