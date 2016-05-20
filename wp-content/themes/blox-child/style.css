@@ -809,6 +809,41 @@ body.blog .form-title, body.single-post .form-title{
 	color:#fff;
 	margin-bottom:0px !important;
 }
+
+/* Landing Contact Form */
+.landing-form_wrapper{
+	border: none !important;
+	padding:0px !important;
+	width: 100%;
+}
+.landing-form .gform_body{
+	border: none !important;
+	padding:0px !important;
+}
+.landing-form .gform_wrapper .top_label li.gfield.gf_left_half input.medium{
+	width:95% !important;
+}
+
+.landing-form .gform_wrapper .top_label textarea.textarea {
+    width: 98%;
+}
+
+.landing-form .gform_button{
+	width:200px !important;
+	font-size:20px !important;
+	font-weight:300 !important;
+}
+
+.landing-form .gfield_label{
+	font-family: Roboto, Arial !important;
+	font-weight:300 !important;
+    font-size: 16px;
+    margin-bottom: 0px !important;
+}
+.landing-form .gfield_required{
+	color: #F26C4F !important;
+}
+
 /* Media Query */
 
 @media only screen and (max-width: 1139px){
