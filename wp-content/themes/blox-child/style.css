@@ -157,7 +157,7 @@ p {
 .page-id-409 .home-header-bg{
 	background-color:#232527;
 	background-image: url(http://retromotionco.staging.wpengine.com/wp-content/uploads/2016/05/retro_home_hero.jpg);
-	background-position: 50%;
+	background-position: 50% top;
 	background-repeat:no-repeat;
 	position:absolute;
 	width:100%;
@@ -878,7 +878,7 @@ body.blog .form-title, body.single-post .form-title{
 }
 .page-id-409 .home-header-bg{
 	background-image: url(http://retromotionco.staging.wpengine.com/wp-content/uploads/2016/05/retro_home_hero.jpg);
-	background-position: 50%;
+	background-position: 50% top;
 	position:absolute;
 	width:100%;
 	height:900px;
@@ -901,7 +901,8 @@ body.blog .form-title, body.single-post .form-title{
 }
 .page-id-409 .home-header-bg{
 	background-image: url(http://retromotionco.staging.wpengine.com/wp-content/uploads/2016/05/retro_home_hero.jpg);
-	background-position: 50%;
+	background-position: 50% top;
+	background-size: auto 115%;
 	position:absolute;
 	width:100%;
 	height:900px;
@@ -946,8 +947,8 @@ body.blog .form-title, body.single-post .form-title{
 }
 .page-id-409 .home-header-bg{
 	background-image: url(http://retromotionco.staging.wpengine.com/wp-content/uploads/2016/05/retro_home_hero.jpg);
-	background-position: 35% 40px;
-	background-size:auto 55%;
+	background-position: 24% 40px;
+	background-size:auto 80%;
 	position:absolute;
 	width:100%;
 	height:900px;
@@ -1016,8 +1017,8 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 }
 .page-id-409 .home-header-bg{
 	background-image: url(http://retromotionco.staging.wpengine.com/wp-content/uploads/2016/05/retro_home_hero.jpg);
-	background-position: 58% 40px;
-	background-size:auto 52%;
+	background-position: 57% 40px;
+	background-size:auto 70%;
 	position:absolute;
 	width:100%;
 	height:900px;
