@@ -809,6 +809,9 @@ body.blog .form-title, body.single-post .form-title{
 	color:#fff;
 	margin-bottom:0px !important;
 }
+.landing-page{
+	width:1140px !important;
+}
 
 /* Landing Contact Form */
 .landing-form_wrapper{
