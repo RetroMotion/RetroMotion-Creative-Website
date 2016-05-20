@@ -862,6 +862,28 @@ body.blog .form-title, body.single-post .form-title{
 }
 
 /* Media Query */
+@media only screen and (max-width: 1440px){
+
+.header-outer {
+	background: transparent !important;	
+	padding-bottom:0;
+	min-height:300px;
+	height:80%;
+}
+.home-header-bg{
+	background-image: url(http://retromotionco.staging.wpengine.com/wp-content/uploads/2016/05/retro_home_hero.jpg);
+	background-position: 50%;
+	position:absolute;
+	width:100%;
+	height:900px;
+	top:0;
+	z-index:-99;
+}
+#post-457 {
+	background: transparent !important;
+	padding-bottom:120px;
+}
+}
 
 @media only screen and (max-width: 1139px){
 
