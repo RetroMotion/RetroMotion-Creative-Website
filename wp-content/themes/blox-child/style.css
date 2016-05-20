@@ -146,18 +146,22 @@ p {
 
 .header-outer {
 	background: transparent !important;	
-	padding-bottom:100px !important;
+	padding-bottom:0;
+	min-height:400px;
+	height:80%;
 }
 .home-header-bg{
-	background-image: url(/wp-content/uploads/2016/05/retro_home_hero.jpg);
+	background-image: url(http://retromotionco.staging.wpengine.com/wp-content/uploads/2016/05/retro_home_hero.jpg);
+	background-position: 50%;
 	position:absolute;
 	width:100%;
-	height:800px;
+	height:900px;
 	top:0;
 	z-index:-99;
 }
 #post-457 {
 	background: transparent !important;
+	padding-bottom:120px;
 }
 #logo {
 	max-width: 200px;
@@ -860,6 +864,26 @@ body.blog .form-title, body.single-post .form-title{
 /* Media Query */
 
 @media only screen and (max-width: 1139px){
+
+.header-outer {
+	background: transparent !important;	
+	padding-bottom:0;
+	min-height:300px;
+	height:80%;
+}
+.home-header-bg{
+	background-image: url(http://retromotionco.staging.wpengine.com/wp-content/uploads/2016/05/retro_home_hero.jpg);
+	background-position: 50%;
+	position:absolute;
+	width:100%;
+	height:900px;
+	top:0;
+	z-index:-99;
+}
+#post-457 {
+	background: transparent !important;
+	padding-bottom:120px;
+}
 #header {	
 	width:940px;
 }
@@ -880,6 +904,30 @@ body.blog .form-title, body.single-post .form-title{
 
 
 @media only screen and (max-width: 992px){
+.header-outer {
+	background: transparent !important;	
+	padding-bottom:0;
+	min-height:300px;
+	height:80%;
+}
+.home-header-bg{
+	background-image: url(http://retromotionco.staging.wpengine.com/wp-content/uploads/2016/05/retro_home_hero.jpg);
+	background-position: 35% 40px;
+	background-size:auto 55%;
+	position:absolute;
+	width:100%;
+	height:900px;
+	top:0;
+	z-index:-99;
+}
+#post-457 {
+	background: transparent !important;
+	padding-bottom:40px;
+	padding-top:0px;
+}
+#logo{
+	width:170px;
+}
 .rocket-icon{
 	max-width:350px;
 	width: 80%;
@@ -924,6 +972,30 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 
 @media only screen and (max-width: 640px){
 	
+.header-outer {
+	background: transparent !important;	
+	padding-bottom:0;
+	min-height:300px;
+	height:80%;
+}
+.home-header-bg{
+	background-image: url(http://retromotionco.staging.wpengine.com/wp-content/uploads/2016/05/retro_home_hero.jpg);
+	background-position: 58% 40px;
+	background-size:auto 52%;
+	position:absolute;
+	width:100%;
+	height:900px;
+	top:0;
+	z-index:-99;
+}
+#post-457 {
+	background: transparent !important;
+	padding-bottom:40px;
+	padding-top:0px;
+}
+#logo{
+	width:200px;
+}	
 .site-form_wrapper, .product-form_wrapper{
 	border: none !important;
 	padding:0px !important;
