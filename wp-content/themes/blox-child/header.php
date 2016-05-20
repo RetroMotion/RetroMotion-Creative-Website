@@ -81,9 +81,9 @@
 	<!-- End Google Tag Manager -->
 
     <?php zilla_body_start(); ?>
-
+	
     <div class="header-outer">
-		
+			
 	    <?php zilla_header_before(); ?>
 		<!-- BEGIN #header -->
 		<div id="header" class="clearfix">
@@ -115,7 +115,7 @@
 		<!--END #header-->
 		</div>
 		<?php zilla_header_after(); ?>
-
+		<div class="home-header-bg">
 		<!--BEGIN .page-header -->
 		<div class="page-header">
 			<?php 
@@ -132,6 +132,7 @@
 		</div>
 
 	<!--END .header-outer -->
+	</div>
 	</div>
 	
 	<?php if( !is_page_template('template-portfolio.php') && !is_singular('portfolio') && !is_post_type_archive( 'portfolio' ) ) { ?>
