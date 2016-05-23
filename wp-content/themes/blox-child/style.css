@@ -1007,6 +1007,11 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 .landing-page{
 	width:600px !important;
 }
+.landing-form .gform_button{
+	width:100% !important;
+	font-size:20px !important;
+	font-weight:300 !important;
+}
 }
 
 @media only screen and (max-width: 640px){
@@ -1156,6 +1161,11 @@ body.page-template-template-full-width input[type="tel"]{
 }
 .landing-page{
 	width:290px !important;
+}
+.landing-form .gform_button{
+	width:100% !important;
+	font-size:20px !important;
+	font-weight:300 !important;
 }
 }
 
