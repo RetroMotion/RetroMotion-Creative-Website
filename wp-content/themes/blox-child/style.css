@@ -928,6 +928,9 @@ body.blog .form-title, body.single-post .form-title{
 #post-415{
 	background-position: -320px 0px !important;
 }
+.landing-page{
+	width:940px !important;
+}
 }
 
 
@@ -1000,6 +1003,9 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 }
 .portfolio:first-child{
 	padding:3em 0;
+}
+.landing-page{
+	width:600px !important;
 }
 }
 
@@ -1147,6 +1153,9 @@ body.page-template-template-full-width .btn-red{
 }
 body.page-template-template-full-width input[type="tel"]{
 	max-width:100% !important;
+}
+.landing-page{
+	width:290px !important;
 }
 }
 
