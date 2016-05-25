@@ -559,7 +559,7 @@ body.page-template-template-full-width .form-title{
 	padding: 30px 40px !important; 
 	background:#eee; 
 	border: 10px solid white;
-	min-height: 1640px !important;
+	min-height: 1500px !important;
 }
 .col-package .product-icons{
 	max-width:50% !important;
@@ -568,9 +568,9 @@ body.page-template-template-full-width .form-title{
 	font-size:18px;
 	margin:0px !important;
 }
-.product-list-container{
-	padding-bottom:230px;
-}
+ .product-list-container{
+	padding-bottom:70px;
+} 
 .product-list-small-sub{
 	color:#999;
 	font-size:14px;
