@@ -773,6 +773,9 @@ body.page-template-template-full-width .form-title{
 }
 
 /* Blog */
+body.blog #primary{
+	width:800px;
+}
 
 body.blog .entry-title, body.single-post .entry-title{
 	margin-bottom:0px !important;
@@ -1166,6 +1169,13 @@ body.page-template-template-full-width input[type="tel"]{
 	width:100% !important;
 	font-size:20px !important;
 	font-weight:300 !important;
+}
+body.blog #content{
+	width: 340px !important;
+	max-width:340px !important;
+}
+body.blog #primary{
+	width:340px !important;
 }
 }
 
