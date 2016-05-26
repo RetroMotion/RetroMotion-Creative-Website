@@ -816,6 +816,10 @@ body.blog .post-thumb, body.single-post .post-thumb{
 	text-align:center;
 }
 
+#recent-posts-2 ul li{
+	margin-bottom:10px;
+}
+
 /* Landing Page */
 
 .page-template-template-landing #content{
