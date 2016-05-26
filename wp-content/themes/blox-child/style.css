@@ -773,7 +773,7 @@ body.page-template-template-full-width .form-title{
 }
 
 /* Blog */
-body.blog #primary{
+body.blog #primary, body.single-post #primary{
 	width:800px;
 }
 
@@ -808,6 +808,12 @@ body.blog .form-title, body.single-post .form-title{
     line-height: 1.15em;
     letter-spacing: -0.03em;
     font-weight: 400;
+}
+body.blog .more-link{
+	margin-top:20px;
+}
+body.blog .post-thumb, body.single-post .post-thumb{
+	text-align:center;
 }
 
 /* Landing Page */
@@ -1170,11 +1176,11 @@ body.page-template-template-full-width input[type="tel"]{
 	font-size:20px !important;
 	font-weight:300 !important;
 }
-body.blog #content{
+body.blog #content, body.single-post #primary{
 	width: 340px !important;
 	max-width:340px !important;
 }
-body.blog #primary{
+body.blog #primary, body.single-post #primary{
 	width:340px !important;
 }
 }
