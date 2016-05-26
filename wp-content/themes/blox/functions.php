@@ -49,7 +49,7 @@ if ( !function_exists( 'zilla_theme_setup' ) ) {
     	/* Configure WP 2.9+ Thumbnails ---------------------------------------------*/
     	add_theme_support( 'post-thumbnails' );
     	set_post_thumbnail_size( 50, 50, true ); // Normal post thumbnails
-        add_image_size( 'blog-index', 600, '', true); // blog index/single pages
+        add_image_size( 'blog-index', 800, '', true); // blog index/single pages
         add_image_size( 'portfolio-full', 940, '', true); // portfolio full width
         add_image_size( 'portfolio-index', 600, '', true); // portfolio index/single pages
         add_image_size( 'portfolio-thumb', 188, 144, true); // portfolio thumbnails
