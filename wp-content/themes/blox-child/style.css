@@ -1176,7 +1176,7 @@ body.page-template-template-full-width input[type="tel"]{
 	font-size:20px !important;
 	font-weight:300 !important;
 }
-body.blog #content, body.single-post #primary{
+body.blog #content, body.single-post #content{
 	width: 340px !important;
 	max-width:340px !important;
 }
