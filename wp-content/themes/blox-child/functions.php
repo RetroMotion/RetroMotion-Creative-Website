@@ -64,3 +64,4 @@ function zilla_theme_setup () {
 	add_theme_support( 'automatic-feed-links' );       
 	
 }
+add_action( 'after_setup_theme', 'zilla_theme_setup' );
