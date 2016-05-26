@@ -3,7 +3,7 @@ if ( (function_exists('has_post_thumbnail')) && (has_post_thumbnail()) ) { ?>
 <div class="post-thumb">
 
 	<?php if( !is_single() ) { ?><a title="<?php printf(__('Permanent Link to %s', 'zilla'), get_the_title()); ?>" href="<?php the_permalink(); ?>"><?php } ?>
-		<?php the_post_thumbnail('blog-index'); /* post thumbnail settings configured in functions.php */ ?>
+		<?php the_post_thumbnail(array(800,'')); /* post thumbnail settings configured in functions.php */ ?>
 	<?php if( !is_single() ) { ?></a><?php } ?>
 	
 </div>
