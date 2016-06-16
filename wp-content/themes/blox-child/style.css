@@ -7,6 +7,9 @@
  Version:      1.2.2
 */
 
+
+/* Default Body Styling */
+
 body {
 	font-family: Roboto, Arial;
 	font-size:16px;
@@ -46,8 +49,8 @@ p {
 	font-size:16px;
 }
 
-
 /* Text Stuff */
+
 .text-blue{
 	color:#337ab7;
 }
@@ -70,6 +73,7 @@ p {
 .text-default{
 	font-size:16px;
 }
+
 /* Button Stuff */
 .btn-orange{
 	color: #fff;
@@ -138,6 +142,24 @@ p {
 	border-color: 1px solid #9C3F2B !important;
 }
 
+/* Login Styling */
+
+.login h1 a {
+	width: 100px !important;
+}
+
+.login .jetpack-sso-wrap {
+	display:none !important;;
+}
+.login .wp-core-ui .button-primary {
+    background: #F26C4F;
+    border-color: #9C3F2B;
+    color: #fff;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+    text-decoration: none;
+    text-shadow: none;
+}
 
 /* Header */
 
@@ -174,7 +196,6 @@ p {
 	max-width: 200px;
 }
 
-
 .page-header{
 	border:none;
 }
@@ -206,7 +227,8 @@ p {
 	margin:0px !important;
 	border: none !important;
 }
-/* Portfolio */
+
+/* Homepage Portfolio Sections */
 
 .hentry-inner{
 	width:1140px !important;
@@ -286,6 +308,7 @@ p {
 }
 
 /* Contact Form */
+
 .site-form_wrapper{
 	border: none !important;
 	padding:0px !important;
@@ -322,7 +345,9 @@ p {
 body.page-template-template-full-width input[type="tel"]{
 	max-width:55% !important;
 }
+
 /* Footer */
+
 #footer {
 	width:1140px;
 }
@@ -375,12 +400,12 @@ body.page-template-template-full-width input[type="tel"]{
     color: #fff !important;
 }
 
-/* Full Width */
+/* Full Width Template */
+
 #content{
 	width:1140px !important;	
 	max-width:1140px !important;
 }
-
 
 body.page-template-template-full-width {
 	background: url('/retroimg/fullpattern.jpg');
@@ -429,6 +454,7 @@ body.page-template-template-full-width .form-title{
 	body.page-template-template-full-width .page-header{
 	border:none !important;
 }
+
 /* Full-Width Media Query */
 
 @media (min-width: 768px){
@@ -449,7 +475,9 @@ body.page-template-template-full-width .form-title{
 @media (min-width: 1200px){
 
 }
+
 /* Product Nav */
+
 .product-nav-container{
 	width:100%;
 	height:40px;
