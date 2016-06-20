@@ -147,10 +147,14 @@ p {
 
 #primary-nav .sf-menu .sub-menu {
     background: #fff;
-	color: #0778bb;
+	color: #333;
     border-radius: 0px;
     padding: 0px;
 	margin-top: 5px;
+}
+
+#primary-nav .sf-menu .sub-menu a {
+	color: #333;	
 }
 
 #primary-nav .sf-menu li {
