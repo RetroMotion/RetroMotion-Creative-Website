@@ -1006,6 +1006,9 @@ body.blog .post-thumb, body.single-post .post-thumb{
 #zilla-mobile-menu-wrap{
 	padding-top:10px;	
 }
+#zilla-mobile-menu li a {
+	color: #fff !important;
+}
 .page-id-409 .header-outer {
 	background: transparent !important;	
 	padding-bottom:0;
