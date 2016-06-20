@@ -153,8 +153,11 @@ p {
 	margin-top: 5px;
 }
 
-#primary-nav .sf-menu .sub-menu li a {
+#primary-nav .sf-menu .sub-menu li a, #primary-nav .sf-menu .sub-menu li.current-menu-item > a {
 	color: #333;	
+}
+#primary-nav .sf-menu .sub-menu li a:hover, #primary-nav .sf-menu .sub-menu li.current-menu-item > a:hover {
+	color: #fff;	
 }
 
 #primary-nav .sf-menu li {
