@@ -609,7 +609,8 @@ body.page-template-template-full-width .form-title{
 
 .product-icon-title{
 	margin-top:0px;
-	font-weight:300;
+	font-weight:300 !important;
+	margin-bottom: 10px !Important;
 }
 
 .product-benefit-icon {
