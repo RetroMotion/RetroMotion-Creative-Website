@@ -612,6 +612,11 @@ body.page-template-template-full-width .form-title{
 	font-weight:300;
 }
 
+.product-benefit-icon {
+	max-width:125px;
+	margin-bottom:-25px;
+}
+
 .well-white {
 	padding: 7px 10px !important;
 	background-color:#fff;
