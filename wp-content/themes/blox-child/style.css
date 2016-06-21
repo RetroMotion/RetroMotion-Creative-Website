@@ -603,7 +603,13 @@ body.page-template-template-full-width .form-title{
     margin-bottom: 10px !important;
     font-weight: 300 !important;
     letter-spacing: normal !important;
+	font-size:35px !important;
 	color: #337ab7;
+}
+
+.product-icon-title{
+	margin-top:0px;
+	font-weight:300;
 }
 
 .well-white {
