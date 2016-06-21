@@ -596,6 +596,16 @@ body.page-template-template-full-width .form-title{
 	margin-bottom:0px !important;
 }
 /* Product Package Page */
+
+.product-big-subtitle{
+	padding-top: 0 !important;
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+    font-weight: 300 !important;
+    letter-spacing: normal !important;
+	color: #337ab7;
+}
+
 .well-white {
 	padding: 7px 10px !important;
 	background-color:#fff;
