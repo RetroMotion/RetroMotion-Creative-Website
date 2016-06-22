@@ -648,6 +648,13 @@ body.page-template-template-full-width .form-title{
 	min-height: 1500px !important;
 }
 
+.seasonal-col-package{
+	padding: 30px 40px !important; 
+	background:#eee; 
+	border: 10px solid white;
+	min-height: 1150px !important;
+}
+
 .seasonal-icons{
 	max-height:145px;
 }
@@ -804,7 +811,7 @@ body.page-template-template-full-width .form-title{
 }
 @media only screen and (max-width: 1139px){
 	.col-package{
-	min-height: 1780px !important;
+	min-height: 1150px !important;
 }
 }
 
