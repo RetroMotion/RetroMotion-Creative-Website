@@ -612,11 +612,22 @@ body.page-template-template-full-width .form-title{
 	font-weight:300 !important;
 	margin-bottom: 10px !Important;
 }
+.product-icon-copy{
+	font-size:14px;
+}
 
 .product-benefit-icon {
 	max-width:125px;
 	margin-bottom:-25px;
 }
+
+.seasonal-benefit-icon {
+	max-width:125px;
+	margin-bottom:-25px;
+	-webkit-filter: hue-rotate(122deg);
+    filter: hue-rotate(122deg);
+}
+
 
 .well-white {
 	padding: 7px 10px !important;
@@ -715,7 +726,7 @@ body.page-template-template-full-width .form-title{
 	margin-top: -5px !important;
 	margin-bottom: 10px !important;
 }
-.page-id-890 .full-width-title, .page-id-926 .full-width-title{
+.page-id-890 .full-width-title, .page-id-926 .full-width-title, .page-id-1037 .full-width-title{
 	margin-bottom:0px;
 }
 /* Entry Modal */
