@@ -253,6 +253,10 @@ p {
 
 /* Homepage Portfolio Sections */
 
+.home-vid {
+	max-width:440px;
+}
+
 .hentry-inner{
 	width:1140px !important;
 }
@@ -1034,7 +1038,7 @@ body.blog .post-thumb, body.single-post .post-thumb{
 .page-id-409 .header-outer {
 	background: transparent !important;	
 	padding-bottom:0;
-	min-height:300px;
+	min-height:250px;
 	height:80%;
 }
 .page-id-409 .home-header-bg{
@@ -1048,6 +1052,7 @@ body.blog .post-thumb, body.single-post .post-thumb{
 #post-457 {
 	background: transparent !important;
 	padding-bottom:120px;
+	padding-top:0px;
 }
 }
 
@@ -1056,7 +1061,7 @@ body.blog .post-thumb, body.single-post .post-thumb{
 .page-id-409 .header-outer {
 	background: transparent !important;	
 	padding-bottom:0;
-	min-height:300px;
+	min-height:250px;
 	height:80%;
 }
 .page-id-409 .home-header-bg{
@@ -1071,6 +1076,7 @@ body.blog .post-thumb, body.single-post .post-thumb{
 #post-457 {
 	background: transparent !important;
 	padding-bottom:120px;
+	padding-top:0px;
 }
 #header {	
 	width:940px;
@@ -1107,7 +1113,7 @@ body.blog .post-thumb, body.single-post .post-thumb{
 .page-id-409 .header-outer {
 	background: transparent !important;	
 	padding-bottom:0;
-	min-height:300px;
+	min-height:250px;
 	height:80%;
 }
 .page-id-409 .home-header-bg{
@@ -1184,7 +1190,7 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 .page-id-409 .header-outer {
 	background: transparent !important;	
 	padding-bottom:0;
-	min-height:300px;
+	min-height:250px;
 	height:80%;
 }
 .page-id-409 .home-header-bg{
