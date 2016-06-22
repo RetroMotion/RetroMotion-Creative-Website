@@ -652,7 +652,7 @@ body.page-template-template-full-width .form-title{
 	padding: 30px 40px !important; 
 	background:#eee; 
 	border: 0px;
-	min-height: 1030px !important;
+	min-height: 970px !important;
 }
 
 .seasonal-icons{
@@ -713,6 +713,14 @@ body.page-template-template-full-width .form-title{
 
 .product-price-mobile-show {
 	display:none;
+}
+
+.seasonal-cta-button-big {
+	width:100% !important;
+}
+
+.seasonal-cta-button-big .btn-red {
+	width:300px !important;
 }
 
 .product-price-bottom{
@@ -822,7 +830,7 @@ body.page-template-template-full-width .form-title{
 	min-height: 1780px !important;
 	}
 	.seasonal-col-package{
-	min-height: 1030px !important;
+	min-height: 970px !important;
 	}
 }
 
