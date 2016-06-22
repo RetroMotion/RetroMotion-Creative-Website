@@ -707,6 +707,14 @@ body.page-template-template-full-width .form-title{
     color: #777 !important;
 }
 
+.product-price-mobile-hide {
+	display:block;
+}
+
+.product-price-mobile-show {
+	display:none;
+}
+
 .product-price-bottom{
 	bottom: 0;
     margin: 0;
@@ -819,6 +827,14 @@ body.page-template-template-full-width .form-title{
 }
 
 @media only screen and (max-width: 992px){
+	.product-price-mobile-hide {
+	display:none;
+	}
+
+	.product-price-mobile-show {
+	display:block;
+	}
+	
 	.product-price-bottom{
 		bottom: inherit;
 		padding: 0px;
@@ -844,6 +860,14 @@ body.page-template-template-full-width .form-title{
 }
 
 @media only screen and (max-width: 640px){
+	.product-price-mobile-hide {
+	display:none;
+	}
+	
+	.product-price-mobile-show {
+	display:block;
+	}
+	
 	.product-price-bottom{
 		bottom: inherit;
 		padding: 0px;
@@ -1209,8 +1233,8 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 	text-align:center;
 }
 #content {	
-	width:340px !important;
-	max-width:340px !important;
+	width:290px !important;
+	max-width:290px !important;
 }
 .hentry-inner{
 	width:290px !important;
