@@ -196,7 +196,7 @@ p {
 .page-id-409 .header-outer {
 	background: transparent !important;	
 	padding-bottom:0;
-	min-height:400px;
+	min-height:240px;
 	height:80%;
 }
 .page-id-409 .home-header-bg{
@@ -214,6 +214,7 @@ p {
 #post-457 {
 	background: transparent !important;
 	padding-bottom:120px;
+	padding-top: 0px;
 }
 #logo {
 	max-width: 200px;
