@@ -857,6 +857,7 @@ body.page-template-template-full-width .form-title{
 	}
 	.seasonal-col-package{
 		min-height: inherit !important;
+		padding: 30px 40px !important; 
 	}
 	.btn-orange{
 		width:100%;
@@ -889,7 +890,8 @@ body.page-template-template-full-width .form-title{
 		min-height: inherit !important;
 	}
 	.seasonal-col-package{
-			min-height: inherit !important;
+		min-height: inherit !important;
+		padding: 30px 40px !important; 
 	}
 	.product-subheading{
 		font-size:18px !important;
