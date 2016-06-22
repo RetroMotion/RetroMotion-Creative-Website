@@ -868,7 +868,7 @@ body.page-template-template-full-width .form-title{
 		max-width:370px !important;
 	}
 	.full-width-title{
-		font-size:40px;
+		font-size:33px;
 	}
 	.product-nav-menu-block-active{
 		width:50%;
@@ -1209,8 +1209,8 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 	text-align:center;
 }
 #content {	
-	width:290px !important;
-	max-width:290px !important;
+	width:340px !important;
+	max-width:340px !important;
 }
 .hentry-inner{
 	width:290px !important;
