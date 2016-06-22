@@ -628,34 +628,43 @@ body.page-template-template-full-width .form-title{
     filter: hue-rotate(122deg);
 }
 
-
 .well-white {
 	padding: 7px 10px !important;
 	background-color:#fff;
 	background-image:none !important;
 }
+
 .product-list-well{
 	color:#999;
 	font-size:14px;
 	line-height: normal;
 	margin: 0px !important;
 }
+
 .col-package{
 	padding: 30px 40px !important; 
 	background:#eee; 
 	border: 10px solid white;
 	min-height: 1500px !important;
 }
+
+.seasonal-icons{
+	max-height:145px;
+}
+
 .col-package .product-icons{
 	max-width:50% !important;
 }
+
 .product-list-small-main{
 	font-size:18px;
 	margin:0px !important;
 }
- .product-list-container{
+
+.product-list-container{
 	padding-bottom:70px;
 } 
+
 .product-list-small-sub{
 	color:#999;
 	font-size:14px;
