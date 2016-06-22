@@ -171,8 +171,11 @@ p {
 }
 
 #primary-nav .sf-menu .sub-menu li {
-	padding: 5px 10px;
+	padding: 0px;
 	transition: all 0.5s ease;
+}
+#primary-nav .sf-menu .sub-menu a {
+	padding: 10px 20px;
 }
 
 #primary-nav .sf-menu .sub-menu li:hover {
