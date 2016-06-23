@@ -385,7 +385,7 @@ body .gform_wrapper ul li.gfield {
 /* Footer */
 
 #back-to-top{
-	display:none;
+	display:none !important;
 }
 
 #footer {
