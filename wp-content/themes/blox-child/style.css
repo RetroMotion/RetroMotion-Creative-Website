@@ -384,6 +384,10 @@ body .gform_wrapper ul li.gfield {
 
 /* Footer */
 
+#back-to-top{
+	display:none;
+}
+
 #footer {
 	width:1140px;
 }
