@@ -1346,11 +1346,11 @@ body.page-template-template-full-width input[type="tel"]{
 	font-weight:300 !important;
 }
 body.blog #content, body.single-post #content{
-	width: 340px !important;
-	max-width:340px !important;
+	width: 290px !important;
+	max-width:290px !important;
 }
 body.blog #primary, body.single-post #primary{
-	width:340px !important;
+	width:290px !important;
 }
 }
 
