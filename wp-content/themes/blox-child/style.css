@@ -384,6 +384,10 @@ body .gform_wrapper ul li.gfield {
 
 /* Footer */
 
+#habla_beta_container_do_not_rely_on_div_classes_or_names #habla_middle_wrapper_div p.habla_conversation_p_item {
+	text-indent:0px !important;
+}
+
 #back-to-top{
 	display:none !important;
 }
