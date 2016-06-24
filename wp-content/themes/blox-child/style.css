@@ -75,11 +75,11 @@ p {
 	font-size:16px;
 }
 
-text-sans-margin-top{
+.text-sans-margin-top{
 	margin-top:0px !Important;
 }
 
-text-sans-margin-bottom{
+.text-sans-margin-bottom{
 	margin-bottom:0px !Important;
 }
 
