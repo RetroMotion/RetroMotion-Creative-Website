@@ -10,9 +10,9 @@
 
 /* Default Body Styling */
 
-body {
-	font-family: Roboto, Arial;
-	font-size:16px;
+body, li {
+	font-family: Roboto, Helvetica, Arial, Sans-Serif !important;
+	font-size:16px !important;
 }
 
 p {
@@ -73,6 +73,14 @@ p {
 }
 .text-default{
 	font-size:16px;
+}
+
+text-sans-margin-top{
+	margin-top:0px !Important;
+}
+
+text-sans-margin-bottom{
+	margin-bottom:0px !Important;
 }
 
 /* Button Stuff */
