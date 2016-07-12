@@ -701,6 +701,13 @@ body.page-template-template-full-width .form-title{
     filter: hue-rotate(122deg);
 }
 
+.seasonal-benefit-icon-md {
+	max-width:85px;
+	margin-bottom:-25px;
+	-webkit-filter: hue-rotate(122deg);
+    filter: hue-rotate(122deg);
+}
+
 .well-white {
 	padding: 7px 10px !important;
 	background-color:#fff;
