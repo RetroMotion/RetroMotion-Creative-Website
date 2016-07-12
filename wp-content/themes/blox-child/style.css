@@ -718,14 +718,14 @@ body.page-template-template-full-width .form-title{
 	padding: 30px 40px !important; 
 	background:#eee; 
 	border: 10px solid white;
-	min-height: 870px !important;
+	min-height: 830px !important;
 }
 
 .seasonal-col-package{
 	padding: 30px 40px !important; 
 	background:#eee; 
 	border: 0px;
-	min-height: 970px !important;
+	min-height: 520px !important;
 }
 
 .seasonal-icons{
@@ -900,10 +900,10 @@ body.page-template-template-full-width .form-title{
 }
 @media only screen and (max-width: 1139px){
 	.col-package{
-	min-height: 895px !important;
+	min-height: 825px !important;
 	}
 	.seasonal-col-package{
-	min-height: 970px !important;
+	min-height: 520px !important;
 	}
 }
 
