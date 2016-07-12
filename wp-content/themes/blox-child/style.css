@@ -83,6 +83,10 @@ p {
 	margin-bottom:0px !Important;
 }
 
+text-plus{
+	font-size: 50px !important;
+}
+
 /* Button Stuff */
 .btn-orange{
 	color: #fff;
@@ -677,7 +681,7 @@ body.page-template-template-full-width .form-title{
 	padding: 30px 40px !important; 
 	background:#eee; 
 	border: 10px solid white;
-	min-height: 1500px !important;
+	min-height: 1130px !important;
 }
 
 .seasonal-col-package{
