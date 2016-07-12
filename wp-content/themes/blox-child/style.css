@@ -680,6 +680,16 @@ body.page-template-template-full-width .form-title{
 	margin-bottom:-25px;
 }
 
+.product-benefit-icon-md {
+	max-width:85px;
+	margin-bottom:-25px;
+}
+
+.product-benefit-icon-sm {
+	max-width:55px;
+	margin-bottom:-25px;
+}
+
 .seasonal-benefit-icon {
 	max-width:125px;
 	margin-bottom:-25px;
