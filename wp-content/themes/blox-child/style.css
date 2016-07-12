@@ -252,6 +252,10 @@ p {
 	padding-top: 0px;
 }
 #logo {
+	max-width: 100px;
+}
+
+.page-id-409 #logo{
 	max-width: 200px;
 }
 
