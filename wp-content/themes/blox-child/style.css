@@ -142,6 +142,28 @@ p {
 	text-shadow: none !important;
 }
 
+.btn-gray{
+	color: #232527;
+    background-color: #efefef;
+	transition: all 0.5s ease;
+	border: 1px solid #9A9A9A !important;
+	background-image:none !important;
+	-webkit-box-shadow: none !important;
+    box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+.btn-gray:hover{
+	color: #232527;
+    background-color: #ccc;
+	transition: all 0.5s ease;
+	border: 1px solid #9A9A9A;
+	background-image:none !important;
+	-webkit-box-shadow: none !important;
+    box-shadow: none !important;
+	text-shadow: none !important;
+}
+
 .btn-red{
 	color: #fff !important;
     background-color: #F26C4F !important;
