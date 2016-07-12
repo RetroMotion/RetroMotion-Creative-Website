@@ -85,6 +85,7 @@ p {
 
 .text-plus{
 	font-size: 50px !important;
+	margin:0px !important;
 }
 
 /* Button Stuff */
@@ -681,7 +682,7 @@ body.page-template-template-full-width .form-title{
 	padding: 30px 40px !important; 
 	background:#eee; 
 	border: 10px solid white;
-	min-height: 1130px !important;
+	min-height: 1050px !important;
 }
 
 .seasonal-col-package{
@@ -863,7 +864,7 @@ body.page-template-template-full-width .form-title{
 }
 @media only screen and (max-width: 1139px){
 	.col-package{
-	min-height: 1780px !important;
+	min-height: 1190px !important;
 	}
 	.seasonal-col-package{
 	min-height: 970px !important;
