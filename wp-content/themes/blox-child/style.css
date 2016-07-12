@@ -1199,6 +1199,10 @@ body.blog .post-thumb, body.single-post .post-thumb{
 .page-id-409 #logo{
 	width:170px;
 }
+
+#logo {
+	max-width: 200px;
+}
 .rocket-icon{
 	max-width:350px;
 	width: 80%;
