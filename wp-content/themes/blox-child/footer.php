@@ -9,6 +9,7 @@
 	  ga('create', 'UA-71641373-1', 'auto');
 	  ga('require', 'linkid');
 	  ga('send', 'pageview');
+	  ga('set', 'userId', {{USER_ID}}); // Set the user ID using signed-in user_id.
 
 	</script>
 	
