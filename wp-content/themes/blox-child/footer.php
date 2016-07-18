@@ -1,17 +1,5 @@
     <?php zilla_content_end(); ?>
-	
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	  ga('create', 'UA-71641373-1', 'auto');
-	  ga('require', 'linkid');
-	  ga('send', 'pageview');
-	  ga('set', 'userId', {{USER_ID}}); // Set the user ID using signed-in user_id.
-
-	</script>
 	
 	<!-- Facebook Pixel Code -->
 	<script>
@@ -59,9 +47,7 @@
 						Williston, VT 05495<br>
 						<a href="https://www.google.com/maps/place/RetroMotion+Creative/@44.4523491,-73.1046783,17z/data=!4m7!1m4!3m3!1s0x4cca7858fd7d0d41:0xce3b59cd7c915a84!2sRetroMotion+Creative!3b1!3m1!1s0x4cca7858fd7d0d41:0xce3b59cd7c915a84" target="_blank"><i class="fa fa-map-marker"></i> Directions</a><br></p>
 												
-						<p class="copyright"><strong>Washington DC (Satellite)</strong><br>
-						9841 Washingtonian Blvd<br>
-						Gaithersburg, MD 20878<br>
+						<p class="copyright"><strong>Washington DC (Satellite)</strong><br>						
 						<a href="https://www.google.com/maps/place/9841+Washingtonian+Blvd,+Gaithersburg,+MD+20878/data=!4m2!3m1!1s0x89b62d519e2d838b:0x17ad1c28b44b6647?sa=X&ved=0ahUKEwiD-IW5hYTLAhVD2yYKHfalCxMQ8gEIGzAA" target="_blank"><i class="fa fa-map-marker"></i> Directions</a><br></p>
 						
 						<p class="copyright">
