@@ -179,10 +179,8 @@ p {
 }
 
 .btn-huge{
-	padding: 14px 55px;
-    font-size: 25px;
-    line-height: 1.3333333;
-    border-radius: 6px;
+	padding: 14px 55px !important;
+    font-size: 25px !important;
 }
 
 /* Nav */
