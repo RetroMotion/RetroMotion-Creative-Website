@@ -62,8 +62,8 @@
 							<a href="/"><strong>Home</strong></a><br>
 							<a href="/blog"><strong>Blog</strong></a><br>
 							<a href="/team"><strong>Team</strong></a><br>
-							<a href="/join-us"><strong>Join Retro</strong></a><br>
-						
+							<a href="/join-us"><strong>Join Retro</strong></a><br><br>
+							<a href="/officespace"><strong>Rent a Private Office</strong></a><br>
 						</p>
 					</div>
 					<div class="col-md-6">
