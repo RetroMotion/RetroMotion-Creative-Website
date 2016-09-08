@@ -1242,7 +1242,7 @@ body.blog .post-thumb, body.single-post .post-thumb{
 	width:600px !important;
 }
 .post-415 .entry-content, .post-415 .zilla-caption{
-	color:#404040;
+	color:#fff;
 }
 #post-415{
 	background-position: -320px 0px !important;
@@ -1360,7 +1360,7 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
     padding-bottom: 10px;
 }
 .post-415 .entry-content, .post-415 .zilla-caption{
-	color:#404040;
+	color:#fff;
 }
 .post-415 .btn-primary, .post-457 .btn-primary, .post-874 .btn-primary, .post-874 .btn-default{
 	width: 100%;
