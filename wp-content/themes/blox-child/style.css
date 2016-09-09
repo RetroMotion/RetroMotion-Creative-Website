@@ -59,6 +59,9 @@ h1 {
 .text-blue{
 	color:#337ab7;
 }
+.text-green{
+	color:#8db238;
+}
 .text-white{
 	color:#fff;
 }
@@ -187,9 +190,13 @@ h1 {
     font-size: 25px !important;
 }
 
+/* RMC Icons */
+.rmc-12x{
+	font-size:12em;
+}
 
 /* Div section stuff */
-.section-blank{	
+.section-blank{
 	padding: 40px 20px;
 	line-height: 25px;
 }
