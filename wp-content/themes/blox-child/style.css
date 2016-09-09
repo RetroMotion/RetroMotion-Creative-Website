@@ -35,7 +35,7 @@ p {
 }
 
 #primary-nav .sf-menu a{
-	color:#fff;	
+	color:#fff;
 	font-size:16px;
 	padding: 10px;
 }
@@ -183,6 +183,12 @@ p {
     font-size: 25px !important;
 }
 
+
+/* Div stuff */
+.bg-ltgray{
+	background-color:#eee;
+}
+
 /* Nav */
 
 #primary-nav .sf-menu .sub-menu {
@@ -194,10 +200,10 @@ p {
 }
 
 #primary-nav .sf-menu .sub-menu li a, #primary-nav .sf-menu .sub-menu li.current-menu-item > a {
-	color: #333;	
+	color: #333;
 }
 #primary-nav .sf-menu .sub-menu li a:hover, #primary-nav .sf-menu .sub-menu li.current-menu-item > a:hover {
-	color: #fff;	
+	color: #fff;
 }
 
 #primary-nav .sf-menu li {
@@ -234,7 +240,7 @@ p {
     padding-bottom: 0px !important;
 }
 .page-id-409 .header-outer {
-	background: transparent !important;	
+	background: transparent !important;
 	padding-bottom:0;
 	min-height:240px;
 	height:80%;
@@ -348,7 +354,7 @@ p {
 	color: #fff !important;
     background-color: #F26C4F !important;
     border-color: #9C3F2B !important;
-	transition: all 0.5s ease;	
+	transition: all 0.5s ease;
 }
 .post-874 .btn-red:hover{
     background-color: #9C3F2B !important;
@@ -359,7 +365,7 @@ p {
 }
 #post-415{
 	margin-bottom: -1px;
-}	
+}
 #post-453{
 	background-position: bottom center !important;
 	margin-bottom: -1px;
@@ -391,7 +397,7 @@ p {
 	padding:0px !important;
 }
 
-.gform_wrapper .top_label li.gfield.gf_left_half { 
+.gform_wrapper .top_label li.gfield.gf_left_half {
     margin-right:0 !important;
 }
 
@@ -428,10 +434,10 @@ body .gform_wrapper ul li.gfield {
 
 /* Footer */
 
-iframe[name='google_conversion_frame'] { 
+iframe[name='google_conversion_frame'] {
     height: 0 !important;
-    width: 0 !important; 
-    line-height: 0 !important; 
+    width: 0 !important;
+    line-height: 0 !important;
     font-size: 0 !important;
     margin-top: -13px;
     float: left;
@@ -500,7 +506,7 @@ iframe[name='google_conversion_frame'] {
 /* Full Width Template */
 
 #content{
-	width:1140px !important;	
+	width:1140px !important;
 	max-width:1140px !important;
 }
 
@@ -519,6 +525,7 @@ body.page-template-template-full-width #content {
 .full-width-title {
 	color:#337ab7;
 	font-size:48px;
+	font-weight:300;
 	line-height: normal;
 }
 
@@ -736,15 +743,15 @@ body.page-template-template-full-width .form-title{
 }
 
 .col-package{
-	padding: 30px 40px !important; 
-	background:#eee; 
+	padding: 30px 40px !important;
+	background:#eee;
 	border: 10px solid white;
 	min-height: 830px !important;
 }
 
 .seasonal-col-package{
-	padding: 30px 40px !important; 
-	background:#eee; 
+	padding: 30px 40px !important;
+	background:#eee;
 	border: 0px;
 	min-height: 520px !important;
 }
@@ -764,7 +771,7 @@ body.page-template-template-full-width .form-title{
 
 .product-list-container{
 	padding-bottom:70px;
-} 
+}
 
 .product-list-small-sub{
 	color:#999;
@@ -891,7 +898,7 @@ body.page-template-template-full-width .form-title{
 	padding:0px !important;
 }
 
-.product-form_wrapper .top_label li.gfield.gf_left_half { 
+.product-form_wrapper .top_label li.gfield.gf_left_half {
     margin-right:1.6%;
 }
 .product-form_wrapper .gfield{
@@ -936,7 +943,7 @@ body.page-template-template-full-width .form-title{
 	.product-price-mobile-show {
 	display:block;
 	}
-	
+
 	.product-price-bottom{
 		bottom: inherit;
 		padding: 0px;
@@ -948,13 +955,13 @@ body.page-template-template-full-width .form-title{
 	}
 	.seasonal-col-package{
 		min-height: inherit !important;
-		padding: 30px 40px !important; 
+		padding: 30px 40px !important;
 	}
 	.btn-orange{
 		width:100%;
 		font-size:25px;
 	}
-	.product-form_wrapper .top_label li.gfield.gf_left_half { 
+	.product-form_wrapper .top_label li.gfield.gf_left_half {
 		margin-right:0;
 	}
 	.product-list-container{
@@ -966,11 +973,11 @@ body.page-template-template-full-width .form-title{
 	.product-price-mobile-hide {
 	display:none;
 	}
-	
+
 	.product-price-mobile-show {
 	display:block;
 	}
-	
+
 	.product-price-bottom{
 		bottom: inherit;
 		padding: 0px;
@@ -982,7 +989,7 @@ body.page-template-template-full-width .form-title{
 	}
 	.seasonal-col-package{
 		min-height: inherit !important;
-		padding: 30px 20px !important; 
+		padding: 30px 20px !important;
 	}
 	.product-subheading{
 		font-size:18px !important;
@@ -991,7 +998,7 @@ body.page-template-template-full-width .form-title{
 		width:100%;
 		font-size:25px;
 	}
-	.page-id-890 #content {	
+	.page-id-890 #content {
 		width:85% !important;
 		max-width:370px !important;
 	}
@@ -1018,17 +1025,17 @@ body.blog #primary, body.single-post #primary{
 body.blog .entry-title, body.single-post .entry-title{
 	margin-bottom:0px !important;
 	letter-spacing: -0.02em;
-	
+
 }
 body.blog .entry-title a, body.single-post .entry-title a{
 	margin-bottom:0px !important;
 	letter-spacing: -0.02em;
-	
+
 }
 
 body.blog .entry-header, body.single-post .entry-header{
 	margin:0px !important;
-	
+
 }
 
 body.blog input[type="text"], body.blog input[type="email"], body.blog textarea, body.single-post input[type="text"], body.single-post input[type="email"], body.single-post textarea {
@@ -1123,7 +1130,7 @@ body.blog .post-thumb, body.single-post .post-thumb{
 @media only screen and (max-width: 1440px){
 
 .page-id-409 .header-outer {
-	background: transparent !important;	
+	background: transparent !important;
 	padding-bottom:0;
 	min-height:250px;
 	height:80%;
@@ -1146,7 +1153,7 @@ body.blog .post-thumb, body.single-post .post-thumb{
 @media only screen and (max-width: 1139px){
 
 .page-id-409 .header-outer {
-	background: transparent !important;	
+	background: transparent !important;
 	padding-bottom:0;
 	min-height:250px;
 	height:80%;
@@ -1165,13 +1172,13 @@ body.blog .post-thumb, body.single-post .post-thumb{
 	padding-bottom:120px;
 	padding-top:0px;
 }
-#header {	
+#header {
 	width:940px;
 }
-#footer {	
+#footer {
 	width:940px;
 }
-#content {	
+#content {
 	width:940px !important;
 	max-width:940px !important;
 }
@@ -1192,13 +1199,13 @@ body.blog .post-thumb, body.single-post .post-thumb{
 	padding-bottom:0px;
 }
 #zilla-mobile-menu-wrap{
-	padding-top:10px;	
+	padding-top:10px;
 }
 #zilla-mobile-menu li a {
 	color: #fff !important;
 }
 .page-id-409 .header-outer {
-	background: transparent !important;	
+	background: transparent !important;
 	padding-bottom:0;
 	min-height:250px;
 	height:80%;
@@ -1228,13 +1235,13 @@ body.blog .post-thumb, body.single-post .post-thumb{
 	max-width:350px;
 	width: 80%;
 }
-#header {	
+#header {
 	width:600px;
 }
-#footer {	
+#footer {
 	width:600px;
 }
-#content {	
+#content {
 	width:600px !important;
 	max-width:600px !important;
 }
@@ -1276,10 +1283,10 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 
 @media only screen and (max-width: 640px){
 #zilla-mobile-menu-wrap{
-	padding-top:6px;	
+	padding-top:6px;
 }
 .page-id-409 .header-outer {
-	background: transparent !important;	
+	background: transparent !important;
 	padding-bottom:0;
 	min-height:250px;
 	height:80%;
@@ -1300,7 +1307,7 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 }
 .page-id-409 #logo{
 	width:200px;
-}	
+}
 .site-form_wrapper, .product-form_wrapper{
 	border: none !important;
 	padding:0px !important;
@@ -1312,14 +1319,14 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 .contact_inputfield input{
 	width:100% !important;
 }
-.gform_wrapper .gform_body .top_label li.gfield.gf_right_half { 
-    float: left; 
+.gform_wrapper .gform_body .top_label li.gfield.gf_right_half {
+    float: left;
     clear: left !important;
     width: 100%;
-} 
+}
 
-.gform_wrapper .gform_body .top_label li.gfield.gf_left_half { 
-    float: left; 
+.gform_wrapper .gform_body .top_label li.gfield.gf_left_half {
+    float: left;
     clear: left !important;
     width: 100%;
 }
@@ -1329,10 +1336,10 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 .contactsend, .site-form .gform_button, .product-form_wrapper .gform_button{
 	width:100% !important;
 }
-#header {	
+#header {
 	width:290px;
 }
-#footer {	
+#footer {
 	width:290px;
 	text-align:center;
 }
@@ -1342,7 +1349,7 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 .social-right{
 	text-align:center;
 }
-#content {	
+#content {
 	width:290px !important;
 	max-width:290px !important;
 }
@@ -1352,7 +1359,7 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 .post-415 .header-tagline{
     font-size: 21px !important;
     margin-top: -50px;
-    text-align: center;	
+    text-align: center;
 }
 #post-415{
 	background-position: -570px 0px !important;
@@ -1438,7 +1445,7 @@ body.blog #primary, body.single-post #primary{
 
 
 @media (min-width: 768px){
-	
+
 }
 
 @media (min-width: 992px){
