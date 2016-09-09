@@ -95,6 +95,10 @@ h1 {
 	margin:0px !important;
 }
 
+.thin-heading{
+	font-size:30px !important;
+}
+
 /* Button Stuff */
 .btn-orange{
 	color: #fff;
@@ -207,6 +211,21 @@ h1 {
 	line-height: 25px;
 }
 
+div.spacer-10 {
+    font-size: 0;
+    height: 10px;
+    line-height: 0;
+}
+div.spacer-15 {
+    font-size: 0;
+    height: 15px;
+    line-height: 0;
+}
+div.spacer-20 {
+    font-size: 0;
+    height: 20px;
+    line-height: 0;
+}
 /* Nav */
 
 #primary-nav .sf-menu .sub-menu {
