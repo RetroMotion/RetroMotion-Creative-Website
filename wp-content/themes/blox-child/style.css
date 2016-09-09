@@ -1464,9 +1464,14 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 body.page-template-template-full-width .page-header{
 	border:none !important;
 }
-body.page-template-template-full-width #header{
+body.page-template-template-full-width #header, body.blog #header{
 	width:200px;
 }
+body.page-template-template-full-width .col-md-8{
+	padding-left:0px;
+	padding-right:0px;
+}
+
 body.page-template-template-full-width .btn-red{
 	width:100% !important;
 	font-size:20px;
