@@ -1391,6 +1391,12 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 .social-right{
 	text-align:center;
 }
+
+.page-template-template-full-width #content{
+	width:320px !important;
+	max-width:320px !important;
+}
+
 #content {
 	width:290px !important;
 	max-width:290px !important;
