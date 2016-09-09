@@ -216,14 +216,19 @@ div.spacer-10 {
     height: 10px;
     line-height: 0;
 }
-div.spacer-15 {
-    font-size: 0;
-    height: 15px;
-    line-height: 0;
-}
 div.spacer-20 {
     font-size: 0;
     height: 20px;
+    line-height: 0;
+}
+div.spacer-30 {
+    font-size: 0;
+    height: 30px;
+    line-height: 0;
+}
+div.spacer-50 {
+    font-size: 0;
+    height: 50px;
     line-height: 0;
 }
 /* Nav */
