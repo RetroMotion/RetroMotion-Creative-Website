@@ -21,6 +21,10 @@ p {
 	font-size:16px;
 }
 
+h1 {
+	font-weight:300;
+}
+
 .btn-primary {
 	transition: all 0.5s ease;
 }
@@ -323,7 +327,7 @@ p {
     padding: 0;
     line-height: 1.15em;
     letter-spacing: -0.03em;
-	font-weight:400;
+	font-weight:300;
 }
 
 .frontpage-quote{
@@ -799,7 +803,7 @@ body.page-template-template-full-width .form-title{
 	color: #337ab7;
 }
 
-.product-subheading{
+.product-subheading, .thin-heading{
 	padding-top: 0 !important;
 	margin-top:0px !important;
 	margin-bottom: 10px !important;
