@@ -189,6 +189,11 @@ h1 {
 
 
 /* Div section stuff */
+.section-blank{	
+	padding: 40px 20px;
+	line-height: 25px;
+}
+
 .section-ltgray{
 	background-color:#eee;
 	padding: 40px 20px;
