@@ -224,6 +224,12 @@ h1 {
 	padding: 10px;
 }
 
+.col-vcenter{
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
+
 div.spacer-10 {
     font-size: 0;
     height: 10px;
