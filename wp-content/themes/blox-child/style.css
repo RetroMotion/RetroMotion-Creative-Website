@@ -104,6 +104,13 @@ h1 {
 	font-weight:300 !important;
 }
 
+.number-lg{
+	font-size:8em;
+	letter-spacing:-5px;
+	font-weight:100;
+	line-height:normal;
+}
+
 /* Button Stuff */
 .btn-orange{
 	color: #fff;
