@@ -1350,6 +1350,11 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 }
 
 @media only screen and (max-width: 640px){
+.col-vcenter{
+	display: block;
+	vertical-align: middle;
+	float: none !important;
+}
 .rmc-icon-res{
 	font-size:11em;
 }
