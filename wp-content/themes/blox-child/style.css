@@ -227,7 +227,7 @@ h1 {
 .col-vcenter{
 	display: inline-block;
 	vertical-align: middle;
-	float: none;
+	float: none !important;
 }
 
 div.spacer-10 {
