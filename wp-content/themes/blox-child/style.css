@@ -99,6 +99,11 @@ h1 {
 	font-size:30px !important;
 }
 
+.small-thin-heading{
+	font-size:22px;
+	font-weight:300;
+}
+
 /* Button Stuff */
 .btn-orange{
 	color: #fff;
@@ -212,6 +217,11 @@ h1 {
 	background-color:#eee;
 	padding: 40px 20px;
 	line-height: 25px;
+}
+
+.section-tip{
+	border: 1px solid #eee;
+	padding: 10px;
 }
 
 div.spacer-10 {
