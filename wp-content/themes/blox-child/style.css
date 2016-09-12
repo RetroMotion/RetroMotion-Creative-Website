@@ -1194,6 +1194,10 @@ body.blog .post-thumb, body.single-post .post-thumb{
 	color: #F26C4F !important;
 }
 
+.center-submit .gform_footer {
+	text-align:center !important;
+}
+
 /* Media Query */
 @media only screen and (max-width: 1440px){
 
