@@ -63,10 +63,11 @@
 					</div>
 					<div class="col-md-6">
 						<p class="social-right">
-						<a href="http://www.facebook.com/retromotioncreative" target="_blank"><i class="fa fa-facebook-square"></i></a>
-						<a href="http://twitter.com/retromotionco" target="_blank"><i class="fa fa-twitter-square"></i></a>
-						<a href="http://vimeo.com/retromotion" target="_blank"><i class="fa fa-vimeo-square"></i></a>
-						<a href="http://www.linkedin.com/company/retromotion-creative" target="_blank"><i class="fa fa-linkedin-square"></i></a><br>
+						<a href="https://www.facebook.com/retromotioncreative" target="_blank"><i class="fa fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/retromotioncreative" target="_blank"><i class="rmc rmc-instagram"></i></a>
+            <a href="https://twitter.com/retromotionco" target="_blank"><i class="fa fa-twitter-square"></i></a>
+						<a href="https://vimeo.com/retromotion" target="_blank"><i class="fa fa-vimeo-square"></i></a>
+						<a href="https://www.linkedin.com/company/retromotion-creative" target="_blank"><i class="fa fa-linkedin-square"></i></a><br>
 						</p>
 					</div>
 
