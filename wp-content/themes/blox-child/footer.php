@@ -1,6 +1,6 @@
     <?php zilla_content_end(); ?>
 
-	
+
 	<!-- Facebook Pixel Code -->
 	<script>
 	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -16,25 +16,25 @@
 	src="https://www.facebook.com/tr?id=957977350948639&ev=PageView&noscript=1"
 	/></noscript>
 	<!-- End Facebook Pixel Code -->
-	
+
     <?php if( !is_page_template('template-portfolio.php') && !is_singular('portfolio') && !is_post_type_archive( 'portfolio' ) ) { ?>
 		<!-- END #content -->
 		</div>
 	<?php } ?>
-	
+
 	<!--BEGIN .footer-outer -->
 	<div class="footer-outer">
 
 		<?php zilla_footer_before(); ?>
-			
+
 		<!-- BEGIN #footer -->
 		<div id="footer">
-		    
+
 		    <?php zilla_footer_start(); ?>
 
 		    <?php zilla_nav_before(); ?>
 		    <?php if( has_nav_menu( 'footer-menu' ) ) {
-		        wp_nav_menu( array( 'theme_location' => 'footer-menu', 'container' => 'div', 'container_id' => 'footer-nav', 'depth' => 1 ) ); 
+		        wp_nav_menu( array( 'theme_location' => 'footer-menu', 'container' => 'div', 'container_id' => 'footer-nav', 'depth' => 1 ) );
 		    } ?>
 			<?php zilla_nav_after(); ?>
 			<div class="container-fluid">
@@ -46,10 +46,7 @@
 						Suite 2<br>
 						Williston, VT 05495<br>
 						<a href="https://www.google.com/maps/place/RetroMotion+Creative/@44.4523491,-73.1046783,17z/data=!4m7!1m4!3m3!1s0x4cca7858fd7d0d41:0xce3b59cd7c915a84!2sRetroMotion+Creative!3b1!3m1!1s0x4cca7858fd7d0d41:0xce3b59cd7c915a84" target="_blank"><i class="fa fa-map-marker"></i> Directions</a><br></p>
-												
-						<p class="copyright"><strong>Washington DC (Satellite)</strong><br>						
-						<a href="https://www.google.com/maps/place/9841+Washingtonian+Blvd,+Gaithersburg,+MD+20878/data=!4m2!3m1!1s0x89b62d519e2d838b:0x17ad1c28b44b6647?sa=X&ved=0ahUKEwiD-IW5hYTLAhVD2yYKHfalCxMQ8gEIGzAA" target="_blank"><i class="fa fa-map-marker"></i> Directions</a><br></p>
-						
+
 						<p class="copyright">
 						<a href="tel:8028467532" target="_blank"><i class="fa fa-phone-square"></i> 802.846.7532</a><br>
 						<a href="mailto:hey@retromotion.co" target="_blank"><i class="fa fa-envelope-square"></i> hey@retromotion.co</a><br>
@@ -61,7 +58,6 @@
 						<p class="copyright-2">
 							<a href="/"><strong>Home</strong></a><br>
 							<a href="/blog"><strong>Blog</strong></a><br>
-							<a href="/team"><strong>Team</strong></a><br>
 							<a href="/join-us"><strong>Join Retro</strong></a><br>
 						</p>
 					</div>
@@ -73,32 +69,32 @@
 						<a href="http://www.linkedin.com/company/retromotion-creative" target="_blank"><i class="fa fa-linkedin-square"></i></a><br>
 						</p>
 					</div>
-					
+
 				</div>
 		    </div>
-			
-			
-		
+
+
+
 		    <?php zilla_footer_end(); ?>
-		    
+
 		<!-- END #footer -->
 		</div>
-		
+
 		<?php zilla_footer_after(); ?>
-	
-	<!--END .footer-outer -->	
+
+	<!--END .footer-outer -->
 	</div>
 	<script>
-	
-		$("[data-toggle=tooltip").tooltip();  
-	
+
+		$("[data-toggle=tooltip").tooltip();
+
 	</script>
 	<a href="#" id="back-to-top"></a>
 
 	<!-- Theme Hook -->
 	<?php wp_footer(); ?>
 	<?php zilla_body_end(); ?>
-			
+
 	<!-- <?php echo 'Ran '. $wpdb->num_queries .' queries '. timer_stop(0, 2) .' seconds'; ?> -->
 	<!-- begin olark code -->
 	<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
@@ -120,7 +116,7 @@
 	/* custom configuration goes here (www.olark.com/documentation) */
 	olark.identify('1601-577-10-8552');/*]]>*/</script><noscript><a href="https://www.olark.com/site/1601-577-10-8552/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
 	<!-- end olark code -->
-	
+
 	<!-- Google Code for Remarketing Tag -->
 	<!--------------------------------------------------
 	Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
@@ -139,7 +135,7 @@
 	<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/938905793/?value=0&amp;guid=ON&amp;script=0"/>
 	</div>
 	</noscript>
-	
+
 <!--END body-->
 </body>
 <!--END html-->
