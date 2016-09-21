@@ -456,6 +456,15 @@ div.spacer-50 {
 	max-width:350px;
 	width: 80%;
 }
+#post-1321 .entry-title{
+	margin:0px !important;
+	display:none;
+}
+#post-1321 .portfolio-title-quote {
+	margin-top:-30px !important;
+	font-size:30px;
+}
+
 
 /* Contact Form */
 
@@ -1484,6 +1493,9 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 }
 #post-450{
 	background-position: -180px 0px !important;
+}
+#post-1321{
+	display:none;
 }
 .post-874 .btn-red{
 	width:100% !important;
