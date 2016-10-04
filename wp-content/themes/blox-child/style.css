@@ -482,7 +482,7 @@ div.spacer-50 {
     margin-right:0 !important;
 }
 
-.zilla .gform_wrapper .top_label textarea.textarea {
+.zilla .gform_wrapper .top_label textarea.textarea, .zilla .gform_wrapper .top_label input.large {
     width: 100% !important;
 }
 
