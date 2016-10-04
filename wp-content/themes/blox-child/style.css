@@ -1,10 +1,10 @@
 /*
- Theme Name:   Blox RetroMotion Child
- Description:  Blox Theme for RetroMotion
+ Theme Name:   RetroMotion Theme
+ Description:  RetroMotion Child Theme
  Author:       Ti Kawamoto
  Author URI:   http://retromotion.co
  Template:     blox
- Version:      1.2.2
+ Version:      1.3.0
 */
 
 
@@ -87,29 +87,27 @@ h1 {
 .text-default{
 	font-size:16px;
 }
-
 .text-sans-margin-top{
 	margin-top:0px !Important;
 }
-
 .text-sans-margin-bottom{
 	margin-bottom:0px !Important;
 }
-
 .text-plus{
 	font-size: 50px !important;
 	margin:0px !important;
 }
-
 .thin-heading{
 	font-size:30px !important;
 }
-
 .small-thin-heading{
 	font-size:22px !important;
 	font-weight:300 !important;
 }
-
+.med-thin-heading{
+	font-size:30px;
+	font-weight:300;
+}
 .number-lg{
 	font-size:8em;
 	letter-spacing:-5px;
