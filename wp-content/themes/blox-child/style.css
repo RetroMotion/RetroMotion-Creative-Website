@@ -63,19 +63,22 @@ h1 {
 /* Text Stuff */
 
 .text-blue{
-	color:#337ab7;
+	color:#337ab7 !important;
 }
 .text-green{
-	color:#8db238;
+	color:#8db238 !important;
 }
 .text-white{
-	color:#fff;
+	color:#fff !important;
 }
 .text-orange{
-	color:#f57f25;
+	color:#f57f25 !important;
+}
+.text-gray{
+	color:#777 !important;
 }
 .text-default{
-	color:#232527;
+	color:#232527 !important;
 }
 .text-center{
 	text-align:center;
@@ -887,7 +890,7 @@ body.page-template-template-full-width .form-title{
 	margin-bottom: 10px !important;
     font-weight: 300 !important;
     letter-spacing: normal !important;
-    color: #777 !important;
+    color: #777;
 }
 
 .product-price-mobile-hide {
