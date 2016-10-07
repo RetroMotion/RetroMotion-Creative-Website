@@ -40,7 +40,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-3">
-						<a href="http://retromotion.co"><img class="footer-logo" src="../wp-content/uploads/2016/02/rm-creative-white-full-sm-300w.png" width="100"></a>
+						<a href="http://retromotion.co"><img class="footer-logo" src="/wp-content/uploads/2016/02/rm-creative-white-full-sm-300w.png" width="100"></a>
 						<p class="copyright"><strong>Vermont (Mothership)</strong><br>
 						188 Allen Brook Lane<br>
 						Suite 2<br>
