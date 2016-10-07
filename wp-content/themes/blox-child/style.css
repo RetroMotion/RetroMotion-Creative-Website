@@ -99,6 +99,7 @@ h1 {
 }
 .thin-heading{
 	font-size:30px !important;
+	font-weight:300 !important;
 }
 .small-thin-heading{
 	font-size:22px !important;
