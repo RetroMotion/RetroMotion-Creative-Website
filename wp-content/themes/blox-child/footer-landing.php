@@ -1,5 +1,5 @@
     <?php zilla_content_end(); ?>
-	
+
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -11,7 +11,7 @@
 	  ga('send', 'pageview');
 
 	</script>
-	
+
 	<!-- Facebook Pixel Code -->
 	<script>
 	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -27,40 +27,40 @@
 	src="https://www.facebook.com/tr?id=957977350948639&ev=PageView&noscript=1"
 	/></noscript>
 	<!-- End Facebook Pixel Code -->
-	
+
     <?php if( !is_page_template('template-portfolio.php') && !is_singular('portfolio') && !is_post_type_archive( 'portfolio' ) ) { ?>
 		<!-- END #content -->
 		</div>
 	<?php } ?>
-	
+
 	<!--BEGIN .footer-outer -->
 	<div class="footer-outer footer-landing">
 
 		<?php zilla_footer_before(); ?>
-			
+
 		<!-- BEGIN #footer -->
 		<div id="footer">
-		    
+
 		    <?php zilla_footer_start(); ?>
 
 		    <?php zilla_nav_before(); ?>
 		    <?php if( has_nav_menu( 'footer-menu' ) ) {
-		        wp_nav_menu( array( 'theme_location' => 'footer-menu', 'container' => 'div', 'container_id' => 'footer-nav', 'depth' => 1 ) ); 
+		        wp_nav_menu( array( 'theme_location' => 'footer-menu', 'container' => 'div', 'container_id' => 'footer-nav', 'depth' => 1 ) );
 		    } ?>
 			<?php zilla_nav_after(); ?>
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-3">
-						<img class="footer-logo" src="../wp-content/uploads/2016/02/rm-creative-white-full-sm-300w.png" width="100">
-				
+						<img class="footer-logo" src="/wp-content/uploads/2016/02/rm-creative-white-full-sm-300w.png" width="100">
+
 						<br>
 						<p class="copyright">© 2016 RetroMotion Creative, LLC</p>
 					</div>
 					<div class="col-md-3">
-					
+
 					</div>
 					<div class="col-md-3">
-						
+
 					</div>
 					<div class="col-md-3">
 						<p>Give us a ring</p>
@@ -68,29 +68,29 @@
 					</div>
 				</div>
 		    </div>
-			
-			
-		
+
+
+
 		    <?php zilla_footer_end(); ?>
-		    
+
 		<!-- END #footer -->
 		</div>
-		
+
 		<?php zilla_footer_after(); ?>
-	
-	<!--END .footer-outer -->	
+
+	<!--END .footer-outer -->
 	</div>
 	<script>
-	
-		$("[data-toggle=tooltip").tooltip();  
-	
+
+		$("[data-toggle=tooltip").tooltip();
+
 	</script>
 	<a href="#" id="back-to-top"></a>
 
 	<!-- Theme Hook -->
 	<?php wp_footer(); ?>
 	<?php zilla_body_end(); ?>
-			
+
 	<!-- <?php echo 'Ran '. $wpdb->num_queries .' queries '. timer_stop(0, 2) .' seconds'; ?> -->
 <!--END body-->
 </body>
