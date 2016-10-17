@@ -216,10 +216,10 @@ h1 {
 
 /* RMC Icons */
 .rmc-12x{
-	font-size:12em;
+	font-size:12em !important;
 }
 .rmc-icon-res{
-	font-size:7em;
+	font-size:7em !important;
 }
 
 /* Div section stuff */
