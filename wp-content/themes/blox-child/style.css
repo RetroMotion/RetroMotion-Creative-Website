@@ -1150,6 +1150,13 @@ body.blog .post-thumb, body.single-post .post-thumb{
 	margin-bottom:10px;
 }
 
+.navigation {
+	clear: both;
+	margin: 4em auto 0;
+	width: 100%;
+	display: inline-block;
+}
+
 /* Landing Page */
 
 .page-template-template-landing #content{
