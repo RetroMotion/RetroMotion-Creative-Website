@@ -37,6 +37,7 @@ h1 {
 }
 
 #zilla-menu-dropdown{
+		display:none;
     background-color:#f57f25;
 }
 
@@ -376,6 +377,12 @@ div.spacer-50 {
 .page-header{
 	margin:0px !important;
 	border: none !important;
+}
+
+/* Mega Menu */
+
+#mega-menu-wrap-primary-menu {
+	clear:none;
 }
 
 /* Homepage Portfolio Sections */
@@ -1374,6 +1381,17 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 	width:100% !important;
 	font-size:20px !important;
 	font-weight:300 !important;
+}
+body.blog #primary, body.single-post #primary{
+	width:550px;
+}
+#mega-menu-wrap-primary-menu {
+	clear: both;
+	position: fixed;
+	margin-top: -102px;
+	z-index: 100000;
+	width: 100%;
+	left: 0;
 }
 }
 
