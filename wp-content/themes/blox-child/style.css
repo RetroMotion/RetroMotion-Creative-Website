@@ -1390,6 +1390,9 @@ body.blog #primary, body.single-post #primary{
 }
 
 @media only screen and (max-width: 640px){
+	.btn-lg{
+		margin-bottom: 10px;
+	}
 	#logo {
 		max-width: 200px;
 	}
@@ -1567,7 +1570,7 @@ body.page-template-template-full-width .col-md-8{
 	padding-right:0px;
 }
 
-body.page-template-template-full-width .btn-red{
+body.page-template-template-full-width .btn-red, body.page-template-template-full-width .btn-gray{
 	width:100% !important;
 	font-size:20px;
 }
