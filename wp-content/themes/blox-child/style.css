@@ -1312,7 +1312,6 @@ body.blog .post-thumb, body.single-post .post-thumb{
 	padding-bottom:0;
 	min-height:250px;
 	height:80%;
-	margin-top: -40px;
 }
 .page-id-409 .home-header-bg{
 	background-position: 24% 40px;
@@ -1413,7 +1412,6 @@ body.blog #primary, body.single-post #primary{
 	min-height:250px;
 	height:80%;
 	padding: 42px 0 50px;
-	margin-top: 0px;
 }
 .page-id-409 .home-header-bg{
 	background-position: 57% 40px;
