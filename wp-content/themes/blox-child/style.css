@@ -1387,7 +1387,14 @@ body.blog #primary, body.single-post #primary{
 	width:550px;
 }
 #mega-menu-wrap-primary-menu{
-	z-index: -9;
+	clear: both;
+	position: fixed;
+	margin-top: 0;
+	top: 0;
+	z-index: 15555;
+	width: 100%;
+	height: 40px;
+	left: 0;
 }
 #mega-menu-wrap-primary-menu .mega-menu-toggle.mega-menu-open + #mega-menu-primary-menu {
 	display: block;
@@ -1608,9 +1615,11 @@ body.blog #primary, body.single-post #primary{
 #mega-menu-wrap-primary-menu {
 	clear: both;
 	position: fixed;
-	margin-top: -102px;
-	z-index: -9;
+	margin-top: 0;
+	top: 0;
+	z-index: 15555;
 	width: 100%;
+	height: 40px;
 	left: 0;
 }
 #mega-menu-wrap-primary-menu .mega-menu-toggle{
