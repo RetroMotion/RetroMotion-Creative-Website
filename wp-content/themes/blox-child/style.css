@@ -1385,14 +1385,7 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 body.blog #primary, body.single-post #primary{
 	width:550px;
 }
-#mega-menu-wrap-primary-menu {
-	clear: both;
-	position: fixed;
-	margin-top: -102px;
-	z-index: 100000;
-	width: 100%;
-	left: 0;
-}
+
 }
 
 @media only screen and (max-width: 640px){
@@ -1579,6 +1572,14 @@ body.blog #content, body.single-post #content{
 }
 body.blog #primary, body.single-post #primary{
 	width:290px !important;
+}
+#mega-menu-wrap-primary-menu {
+	clear: both;
+	position: fixed;
+	margin-top: -102px;
+	z-index: 100000;
+	width: 100%;
+	left: 0;
 }
 }
 
