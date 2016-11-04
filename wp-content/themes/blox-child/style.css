@@ -1609,7 +1609,7 @@ body.blog #primary, body.single-post #primary{
 	clear: both;
 	position: fixed;
 	margin-top: -102px;
-	z-index: 100000;
+	z-index: -9;
 	width: 100%;
 	left: 0;
 }
