@@ -1332,7 +1332,7 @@ body.blog .post-thumb, body.single-post .post-thumb{
 }
 
 #logo {
-	max-width: 200px;
+	max-width: 100px;
 }
 .rocket-icon{
 	max-width:350px;
@@ -1389,6 +1389,9 @@ body.blog #primary, body.single-post #primary{
 }
 
 @media only screen and (max-width: 640px){
+	#logo {
+		max-width: 200px;
+	}
 .col-vcenter{
 	display: block;
 	vertical-align: middle;
