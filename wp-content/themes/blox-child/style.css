@@ -1417,7 +1417,7 @@ body.blog #primary, body.single-post #primary{
 }
 
 .header-outer {
-	padding-top:42px;
+	padding-top:32px;
 }
 
 .page-id-409 .home-header-bg{
@@ -1559,7 +1559,8 @@ body.page-template-template-full-width .page-header{
 	border:none !important;
 }
 body.page-template-template-full-width #header, body.blog #header{
-	width:200px;
+	width:120px;
+	margin-top:0;
 }
 body.page-template-template-full-width .col-md-8{
 	padding-left:0px;
