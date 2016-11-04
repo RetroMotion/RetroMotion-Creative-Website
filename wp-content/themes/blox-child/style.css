@@ -1411,6 +1411,7 @@ body.blog #primary, body.single-post #primary{
 	padding-bottom:0;
 	min-height:250px;
 	height:80%;
+	padding: 42px 0 50px;
 }
 .page-id-409 .home-header-bg{
 	background-position: 57% 40px;
@@ -1487,6 +1488,10 @@ body.blog #primary, body.single-post #primary{
     font-size: 21px !important;
     margin-top: -50px;
     text-align: center;
+}
+
+.header-tagline {
+	font-size:25px !important;
 }
 #post-415{
 	background-position: -570px 0px !important;
