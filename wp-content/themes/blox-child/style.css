@@ -1452,7 +1452,7 @@ body.blog #primary, body.single-post #primary{
 	width:100% !important;
 }
 .gform_wrapper.gf_browser_chrome .gform_body {
-    width: 100%;
+    width: 100% !important;
 }
 .gform_wrapper .gform_body .top_label li.gfield.gf_right_half {
     float: left;
