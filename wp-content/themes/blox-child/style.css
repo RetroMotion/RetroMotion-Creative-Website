@@ -1605,16 +1605,16 @@ body.blog #primary, body.single-post #primary{
 #mega-menu-wrap-primary-menu .mega-menu-toggle.mega-menu-open + #mega-menu-primary-menu {
 	display: block;
 	top: 0;
-	z-index: 0;
+	z-index: -1;
 	opacity: 1;
 	transition: all .8s cubic-bezier(0.77, 0.01, 0.15, 1.01);
 }
 #mega-menu-wrap-primary-menu .mega-menu-toggle + #mega-menu-primary-menu {
 	display: block;
-	opacity: 0;
+	opacity: -2;
 	/* margin-top: 0; */
 	top: -220px;
-	z-index: 0;
+	z-index: -1;
 	transition: all .8s cubic-bezier(0.77, 0.01, 0.15, 1.01);
 }
 }
