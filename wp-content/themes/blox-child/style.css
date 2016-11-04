@@ -1386,15 +1386,23 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 body.blog #primary, body.single-post #primary{
 	width:550px;
 }
+#mega-menu-wrap-primary-menu{
+	z-index: -9;
+}
 #mega-menu-wrap-primary-menu .mega-menu-toggle.mega-menu-open + #mega-menu-primary-menu {
-    display: block;
-    opacity: 1;
-    transition: all 0.2s ease;
+	display: block;
+	top: 0;
+	z-index: -3;
+	opacity: 1;
+	transition: all .8s cubic-bezier(0.77, 0.01, 0.15, 1.01);
 }
 #mega-menu-wrap-primary-menu .mega-menu-toggle + #mega-menu-primary-menu {
-    display: block;
-    opacity: 0;
-    transition: all .2s ease;
+	display: block;
+	opacity: 0;
+	/* margin-top: 0; */
+	top: -220px;
+	z-index: -5;
+	transition: all .8s cubic-bezier(0.77, 0.01, 0.15, 1.01);
 }
 }
 
