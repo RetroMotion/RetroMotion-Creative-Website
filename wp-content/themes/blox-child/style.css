@@ -1386,7 +1386,16 @@ button:hover, #submit:hover, input[type="submit"], .gform_next_button:hover, .gf
 body.blog #primary, body.single-post #primary{
 	width:550px;
 }
-
+#mega-menu-wrap-primary-menu .mega-menu-toggle.mega-menu-open + #mega-menu-primary-menu {
+    display: block;
+    opacity: 1;
+    transition: all 0.2s ease;
+}
+#mega-menu-wrap-primary-menu .mega-menu-toggle + #mega-menu-primary-menu {
+    display: block;
+    opacity: 0;
+    transition: all .2s ease;
+}
 }
 
 @media only screen and (max-width: 640px){
@@ -1412,9 +1421,14 @@ body.blog #primary, body.single-post #primary{
 	padding-bottom:0;
 	min-height:250px;
 	height:80%;
-	padding: 40px 0 50px;
+	padding: 42px 0 50px;
 	margin-top: 0px;
 }
+
+.header-outer {
+	padding-top:42px;
+}
+
 .page-id-409 .home-header-bg{
 	background-position: 57% 40px;
 	background-size:auto 70%;
@@ -1430,7 +1444,7 @@ body.blog #primary, body.single-post #primary{
 	padding-top:0px;
 }
 .page-id-409 #logo{
-	width:150px;
+	width:200px;
 }
 .site-form_wrapper, .product-form_wrapper{
 	border: none !important;
