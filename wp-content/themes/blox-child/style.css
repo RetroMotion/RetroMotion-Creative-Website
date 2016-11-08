@@ -971,7 +971,7 @@ body.page-template-template-full-width .form-title{
 }
 /* Entry Modal */
 .modal-content{
-	border-radius:0px;
+	border-radius:0px !important;
 }
 .modal-header{
 	padding: 8px 10px;
