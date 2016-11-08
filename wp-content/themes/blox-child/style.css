@@ -158,6 +158,7 @@ h1 {
 	color: #232527;
     background-color: #fff;
 	transition: all 0.5s ease;
+	border-radius:0px !important;
 	border: 1px solid #9A9A9A;
 	background-image:none !important;
 	-webkit-box-shadow: none !important;
@@ -167,7 +168,8 @@ h1 {
 
 .btn-white:hover{
 	color: #232527;
-    background-color: #ccc;
+  background-color: #ccc;
+	border-radius:0px !important;
 	transition: all 0.5s ease;
 	border: 1px solid #9A9A9A;
 	background-image:none !important;
@@ -437,7 +439,7 @@ div.spacer-50 {
 .post-415 .btn-red{
 	color: #fff;
     background-color: #F26C4F;
-    border-color: #9C3F2B;
+    border-color: none;
 	padding: 10px 20px;
     font-size: 20px;
 	transition: all 0.5s ease;
@@ -449,7 +451,7 @@ div.spacer-50 {
 .post-874 .btn-red{
 	color: #fff !important;
     background-color: #F26C4F !important;
-    border-color: #9C3F2B !important;
+    border-color: none !important;
 	transition: all 0.5s ease;
 }
 .post-874 .btn-red:hover{
@@ -968,6 +970,9 @@ body.page-template-template-full-width .form-title{
 	margin-bottom:0px;
 }
 /* Entry Modal */
+.modal-content{
+	border-radius:0px;
+}
 .modal-header{
 	padding: 8px 10px;
     background-color: #ccc;
