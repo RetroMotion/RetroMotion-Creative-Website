@@ -9,6 +9,7 @@ function theme_enqueue_styles() {
         get_stylesheet_directory_uri() . '/style.css',
         array( $parent_style )
     );
+    wp_deregister_script( 'jquery' );
 }
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 
@@ -70,6 +71,4 @@ function zilla_theme_setup () {
 add_action("gform_enqueue_scripts", "deregister_scripts");
 function deregister_scripts(){
   wp_deregister_script("jquery");
-  wp_register_script('jquery', ("https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"), false);
-  wp_enqueue_script('jquery');
 }
