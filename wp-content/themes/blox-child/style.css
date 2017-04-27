@@ -1247,6 +1247,69 @@ body.blog .post-thumb, body.single-post .post-thumb{
 	text-align:center !important;
 }
 
+/* Website Configurator */
+
+#gform_wrapper_10 {
+	background-color:#efefef;
+}
+
+#gform_wrapper_10 li.gfield.gf_left_half {
+    max-width: 200px;
+    width: 10%;
+    text-align: right;
+		padding-right:40px;
+}
+
+#gform_wrapper_10 .gf_right_half {
+    /* max-width: 600px; */
+    width: 85%;
+}
+#input_10_40 {
+    width: 100%;
+}
+
+#gform_wrapper_10 .gf_left_half input.small {
+    width: 65%;
+}
+
+input[type=checkbox].css-checkbox {
+	position:absolute;
+	z-index:-1000;
+	left:-1000px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height:1px;
+	width:1px;
+	margin:-1px;
+	padding:0;
+	border:0;
+}
+
+input[type=checkbox].css-checkbox + label.css-label {
+	padding-left:30px;
+	height:12px;
+	display:inline-block;
+	line-height:12px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:12px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+	background-position: 0 -12px;
+}
+label.css-label {
+	background-image:url(/wp-content/uploads/2017/04/checkbox-switch.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
 /* Media Query */
 @media only screen and (max-width: 1440px){
 
@@ -1642,6 +1705,26 @@ body.blog #primary, body.single-post #primary{
 	z-index: -1;
 	transition: all .8s cubic-bezier(0.77, 0.01, 0.15, 1.01);
 }
+
+
+
+#gform_wrapper_10 gf_left_half {
+    width: 20%;
+    clear: none !important;
+    padding-right: 15px;
+		text-align:left;
+}
+
+#gform_wrapper_10 .gf_right_half {
+    clear: none !important;
+    width: 80%;
+    display: inline-block;
+}
+
+#label_10_40_1, #label_10_45_1 {
+    display: none;
+}
+
 }
 
 
