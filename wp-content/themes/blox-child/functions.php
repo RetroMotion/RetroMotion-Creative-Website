@@ -25,15 +25,15 @@ add_filter("gform_confirmation_anchor", create_function("","return true;"));
 
 
 function zilla_theme_setup () {
-	
+
 	/* Load translation domain --------------------------------------------------*/
 	load_theme_textdomain( 'zilla', get_template_directory() . '/languages' );
-	
+
 	$locale = get_locale();
 	$locale_file = get_template_directory() . "/languages/$locale.php";
 	if ( is_readable( $locale_file ) )
 		require_once( $locale_file );
-		
+
 	/* Register WP 3.0+ Menus ---------------------------------------------------*/
 	register_nav_menu( 'primary-menu', __('Primary Menu', 'zilla') );
 	register_nav_menu( 'footer-menu', __('Footer Menu', 'zilla') );
@@ -46,10 +46,10 @@ function zilla_theme_setup () {
 	add_image_size( 'portfolio-index', 600, '', true); // portfolio index/single pages
 	add_image_size( 'portfolio-thumb', 188, 144, true); // portfolio thumbnails
 	add_image_size( 'portfolio-admin-thumb', 35, 35, true ); // Used in the portfolio edit page
-	
+
 	/* Add support for post formats ---------------------------------------------*/
-	add_theme_support( 
-		'post-formats', 
+	add_theme_support(
+		'post-formats',
 		array(
 			'aside',
 			'gallery',
@@ -58,9 +58,11 @@ function zilla_theme_setup () {
 			'quote',
 			'video',
 			'audio'
-		) 
+		)
 	);
 
-	add_theme_support( 'automatic-feed-links' );       
-	
+	add_theme_support( 'automatic-feed-links' );
+
 }
+
+add_filter('gform_init_scripts_footer', '__return_true');
