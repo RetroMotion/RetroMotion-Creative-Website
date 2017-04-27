@@ -1272,7 +1272,11 @@ body.blog .post-thumb, body.single-post .post-thumb{
     width: 65%;
 }
 
-input[type=checkbox].css-checkbox {
+#label_10_40_1, #label_10_45_1{
+	display:none;
+}
+
+input[type=checkbox].css-checkbox, #gform_wrapper_10 input[type=checkbox] {
 	position:absolute;
 	z-index:-1000;
 	left:-1000px;
@@ -1285,7 +1289,7 @@ input[type=checkbox].css-checkbox {
 	border:0;
 }
 
-input[type=checkbox].css-checkbox + label.css-label {
+input[type=checkbox].css-checkbox + label.css-label, #gform_wrapper_10 input[type=checkbox] + label.css-label {
 	padding-left:30px;
 	height:12px;
 	display:inline-block;
@@ -1297,7 +1301,7 @@ input[type=checkbox].css-checkbox + label.css-label {
 	cursor:pointer;
 }
 
-input[type=checkbox].css-checkbox:checked + label.css-label {
+input[type=checkbox].css-checkbox:checked + label.css-label, #gform_wrapper_10 input[type=checkbox]:checked + label.css-label {
 	background-position: 0 -12px;
 }
 label.css-label {
@@ -1707,12 +1711,12 @@ body.blog #primary, body.single-post #primary{
 }
 
 
-
-#gform_wrapper_10 gf_left_half {
-    width: 20%;
-    clear: none !important;
-    padding-right: 15px;
-		text-align:left;
+#gform_wrapper_10 li.gfield.gf_left_half {
+    max-width: 240px;
+    width: 15%;
+    text-align: left;
+    padding-right: 0px;
+		margin-left:-5px !important;
 }
 
 #gform_wrapper_10 .gf_right_half {
@@ -1725,6 +1729,9 @@ body.blog #primary, body.single-post #primary{
     display: none;
 }
 
+#gform_wrapper_10 .gf_left_half input.small {
+    width: 70%;
+}
 }
 
 
