@@ -67,10 +67,3 @@ function zilla_theme_setup () {
 }
 
 /* jQuery ------*/
-
-add_action("gform_enqueue_scripts", "deregister_scripts");
-function deregister_scripts(){
-  wp_deregister_script("jquery");
-  wp_register_script('jquery', ("https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"), true);
-  wp_enqueue_script('jquery');
-}
