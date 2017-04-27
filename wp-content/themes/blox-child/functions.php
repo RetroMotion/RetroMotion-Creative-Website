@@ -65,4 +65,7 @@ function zilla_theme_setup () {
 
 }
 
-add_filter('gform_init_scripts_footer', '__return_true');
+add_action("gform_enqueue_scripts", "deregister_scripts");
+function deregister_scripts(){
+  wp_deregister_script("jquery");
+}
