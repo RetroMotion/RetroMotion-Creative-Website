@@ -1292,6 +1292,15 @@ body.blog .post-thumb, body.single-post .post-thumb{
     margin-top: 0px;
 }
 
+#field_10_56, #field_10_57, #field_10_58 {
+	margin-bottom: -20px;
+}
+
+#field_10_46 .gfield_label {
+	display:none;
+}
+
+
 /* Media Query */
 @media only screen and (max-width: 1440px){
 
@@ -1747,6 +1756,9 @@ body.blog #primary, body.single-post #primary{
     margin-top: 6px;
 }
 
+.web-config-icon{
+	display:none;
+}
 }
 
 
