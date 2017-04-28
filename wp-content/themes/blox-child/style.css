@@ -1282,6 +1282,16 @@ body.blog .post-thumb, body.single-post .post-thumb{
 	color: #337ab7;
 }
 
+.web-config-icon{
+	max-height: 230px;
+	margin-bottom: 20px;
+	margin-top: -15px;
+}
+
+.gform_wrapper_10 .gfield_radio li input[type=radio] {
+    margin-top: 0px;
+}
+
 /* Media Query */
 @media only screen and (max-width: 1440px){
 
@@ -1732,6 +1742,11 @@ body.blog #primary, body.single-post #primary{
     vertical-align: top;
     text-align: left;
 }
+
+.gform_wrapper_10 .gfield_radio li input[type=radio] {
+    margin-top: 6px;
+}
+
 }
 
 
