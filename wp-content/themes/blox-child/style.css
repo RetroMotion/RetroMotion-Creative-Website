@@ -1265,7 +1265,7 @@ body.blog .post-thumb, body.single-post .post-thumb{
     width: 85%;
 		margin-bottom:0px;
 }
-#input_10_40, #input_10_45, #input_10_59, #input_10_62,  {
+#input_10_40, #input_10_45, #input_10_59, #input_10_62, #gform_page_10_2 .gfield_checkbox  {
     width: 100%;
 }
 
@@ -1282,6 +1282,10 @@ body.blog .post-thumb, body.single-post .post-thumb{
 	font-weight: 500;
 	color: #337ab7;
 }
+#gform_wrapper_10 .gsection_title {
+  font-weight: 500;
+  font-size: 25px;
+}
 
 #gform_fields_10_2 h3 {
 	font-size: 18px;
@@ -1297,6 +1301,11 @@ body.blog .post-thumb, body.single-post .post-thumb{
 
 #choice_10_46_0, #choice_10_46_1, #choice_10_46_2 {
     margin: 0px 5px 0px 0px;
+}
+
+.gform_wrapper li.gsection{
+		margin-top:0px;
+		padding-top:0px;
 }
 
 #field_10_56, #field_10_57, #field_10_58 {
@@ -1325,7 +1334,9 @@ body.blog .post-thumb, body.single-post .post-thumb{
 
 .gform_page_footer {
 	text-align: center;
+	margin-bottom: 30px !important;
 }
+
 #gform_wrapper_10 .gform_next_button {
     width: 170px;
 }
