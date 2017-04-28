@@ -1251,9 +1251,10 @@ body.blog .post-thumb, body.single-post .post-thumb{
 
 #gform_wrapper_10 {
 	background-color:#efefef;
+	padding:20px
 }
 
-#gform_wrapper_10 li.gfield.gf_left_half {
+#gform_wrapper_10 #gform_page_10_2 li.gfield.gf_left_half {
     max-width: 200px;
     width: 10%;
     text-align: right;
@@ -1261,8 +1262,8 @@ body.blog .post-thumb, body.single-post .post-thumb{
 }
 
 #gform_wrapper_10 .gf_right_half {
-    /* max-width: 600px; */
     width: 85%;
+		margin-bottom:0px;
 }
 #input_10_40, #input_10_45, #input_10_59, #input_10_62,  {
     width: 100%;
@@ -1305,6 +1306,31 @@ body.blog .post-thumb, body.single-post .post-thumb{
 #field_10_46 .gfield_label {
 	display:none;
 }
+
+#gform_wrapper_10 .button{
+		border-radius: 0px;
+		font-size:18px;
+		font-size: 16px;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+#gform_wrapper_10  .gform_next_button{
+		background-color: #f26c4f;
+}
+
+#gform_wrapper_10  .gform_next_button:hover, #gform_wrapper_10 .gform_previous_button:hover{
+    background-color: #9C3F2B;
+}
+
+.gform_page_footer {
+	text-align: center;
+}
+#gform_wrapper_10 .gform_next_button {
+    width: 170px;
+}
+
+
 
 
 /* Media Query */
@@ -1704,7 +1730,7 @@ body.blog #primary, body.single-post #primary{
 }
 
 
-#gform_wrapper_10 li.gfield.gf_left_half {
+#gform_wrapper_10 #gform_page_10_2 li.gfield.gf_left_half {
     max-width: 240px;
     width: 15%;
     text-align: left;
@@ -1746,13 +1772,16 @@ body.blog #primary, body.single-post #primary{
 #field_10_51, #field_10_6, #field_10_7  {
 	display:none;
 }
-#label_10_46_0, #label_10_46_1, #label_10_46_2, #gform_fields_10_2 h3  {
+#label_10_46_0, #label_10_46_1, #label_10_46_2  {
     margin-left: 10px;
-		font-size: 14px;
+		font-size: 16px;
     text-align: justify;
     color: #333;
 }
-
+#gform_fields_10_2 h3  {
+		font-size: 16px;
+    color: #333;
+}
 
 #choice_10_46_0, #choice_10_46_1, #choice_10_46_2 {
   	margin: 0px 5px 0px 0px;
@@ -1766,6 +1795,10 @@ body.blog #primary, body.single-post #primary{
 
 .web-config-icon{
 	display:none;
+}
+
+#gform_wrapper_10 .gform_next_button, #gform_wrapper_10 .gform_previous_button {
+    width: 100%;
 }
 }
 
