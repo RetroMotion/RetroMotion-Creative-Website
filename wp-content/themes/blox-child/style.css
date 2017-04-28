@@ -1282,6 +1282,12 @@ body.blog .post-thumb, body.single-post .post-thumb{
 	color: #337ab7;
 }
 
+#gform_fields_10_2 h3 {
+	font-size: 18px;
+	font-weight: 500;
+	color: #337ab7;
+}
+
 .web-config-icon{
 	max-height: 230px;
 	margin-bottom: 20px;
@@ -1740,12 +1746,13 @@ body.blog #primary, body.single-post #primary{
 #field_10_51, #field_10_6, #field_10_7  {
 	display:none;
 }
-#label_10_46_0, #label_10_46_1, #label_10_46_2 {
+#label_10_46_0, #label_10_46_1, #label_10_46_2, #gform_fields_10_2 h3  {
     margin-left: 10px;
 		font-size: 14px;
     text-align: justify;
     color: #333;
 }
+
 
 #choice_10_46_0, #choice_10_46_1, #choice_10_46_2 {
   	margin: 0px 5px 0px 0px;
