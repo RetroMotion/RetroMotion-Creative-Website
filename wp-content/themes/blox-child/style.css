@@ -1694,6 +1694,35 @@ body.blog #primary, body.single-post #primary{
 #gform_wrapper_10 .gf_left_half input.small {
     width: 70%;
 }
+#label_10_46_0::after {
+    content: "The perfect starting point for an effective online presence. Get a single page website that will serve as your business or organization's digital marketing foundation.";
+    display: block;
+    font-weight: normal;
+		margin-bottom: 10px;
+}
+#label_10_46_1::after {
+    content: "Our Standard package is perfect for small businesses seeking a more comprehensive online presence but still looking to keep costs down.";
+    display: block;
+    font-weight: normal;
+		margin-bottom: 10px;
+}
+#label_10_46_2::after {
+    content: "For businesses or organizations looking for a website that is custom built with unique design and functionality requirements in mind. We'll begin with a blank slate and work from the ground up to generate a custom proposal based on a free consultation.";
+    display: block;
+    font-weight: normal;
+		margin-bottom: 10px;
+}
+#field_10_51, #field_10_6, #field_10_7  {
+	display:none;
+}
+#label_10_46_0, #label_10_46_1, #label_10_46_2 {
+    margin-left: 10px;
+}
+#choice_10_46_0, #label_10_46_1, #label_10_46_2 {
+    margin-left: 0px;
+    vertical-align: top;
+    text-align: left;
+}
 }
 
 
