@@ -1276,6 +1276,12 @@ body.blog .post-thumb, body.single-post .post-thumb{
 	display:none;
 }
 
+#label_10_46_0, #label_10_46_1, #label_10_46_2 {
+	font-size: 18px;
+	font-weight: 500;
+	color: #337ab7;
+}
+
 /* Media Query */
 @media only screen and (max-width: 1440px){
 
@@ -1717,8 +1723,11 @@ body.blog #primary, body.single-post #primary{
 }
 #label_10_46_0, #label_10_46_1, #label_10_46_2 {
     margin-left: 10px;
+		font-size: 14px;
+    text-align: justify;
+    color: #333;
 }
-#choice_10_46_0, #label_10_46_1, #label_10_46_2 {
+#choice_10_46_0, #choice_10_46_1, #choice_10_46_2 {
     margin-left: 0px;
     vertical-align: top;
     text-align: left;
