@@ -1341,7 +1341,12 @@ body.blog .post-thumb, body.single-post .post-thumb{
     width: 170px;
 }
 
-
+/* hr */
+#gform_fields_10_2 hr{
+	margin-top: 20px;
+	margin-bottom: -10px;
+	border-top: 1px solid #ddd;
+}
 
 
 /* Media Query */
