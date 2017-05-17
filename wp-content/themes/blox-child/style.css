@@ -1342,12 +1342,106 @@ body.blog .post-thumb, body.single-post .post-thumb{
 }
 
 /* hr */
-#gform_fields_10_2 hr{
+#gform_fields_10_2 hr
+{
 	margin-top: 20px;
 	margin-bottom: -10px;
 	border-top: 1px solid #ddd;
 }
 
+#gform_fields_10_2 label
+{
+    display: inline-block; // to make it easier to click
+    color: #000;
+    cursor: pointer;
+    position: relative; // important
+}
+
+
+#gform_fields_10_2 label span
+{
+      display: inline-block;
+      position: relative;
+      background-color: transparent;
+      width: 25px;
+      height: 25px;
+      transform-origin: center;
+      border: 2px solid #000;
+      border-radius: 50%;
+      vertical-align: -6px;
+      margin-right: 10px;
+      transition: background-color 150ms 200ms, transform 350ms cubic-bezier(.78,-1.22,.17,1.89); // custom ease effect for bouncy animation
+}
+
+#gform_fields_10_2 label span:before
+{
+      content: "";
+      width: 0px;
+      height: 2px;
+      border-radius: 0px; // so that the tick has nice rounded look
+      background: #000;
+      position: absolute;
+      transform: rotate(45deg);
+      top: 13px; // you'll need to experiment with placement depending on the dimensions you've chosen
+      left: 9px; // you'll need to experiment with placement depending on the dimensions you've chosen
+      transition: width 50ms ease 50ms;
+      transform-origin: 0% 0%;
+}
+
+#gform_fields_10_2 label span:after
+{
+      content: "";
+      width: 0;
+      height: 2px;
+      border-radius: 2px; // so that the tick has nice rounded look
+      background: #000;
+      position: absolute;
+      transform: rotate(305deg);
+      top: 16px; // you'll need to experiment with placement depending on the dimensions you've chosen
+      left: 10px; // you'll need to experiment with placement depending on the dimensions you've chosen
+      transition: width 50ms ease;
+      transform-origin: 0% 0%;
+}
+
+
+
+#gform_fields_10_2 label span:hover {
+    span {
+      &:before {
+        width: 5px;
+        transition: width 100ms ease;
+      }
+
+      &:after {
+        width: 10px;
+        transition: width 150ms ease 100ms;
+      }
+    }
+  }
+}
+
+#gform_fields_10_2 input[type="checkbox"] {
+    display: none; // hide the system checkbox
+}
+
+#gform_fields_10_2 input[type="checkbox"]:checked {
+    + label {
+      span {
+        background-color: #fff;
+        transform: scale(1.25); // enlarge the box
+}
+
+#gform_fields_10_2 input[type="checkbox"]:after {
+          width: 10px;
+          background: #1790b5;
+          transition: width 150ms ease 100ms; // enlarge the tick
+}
+
+#gform_fields_10_2 input[type="checkbox"]:before {
+          width: 5px;
+          background: #1790b5;
+          transition: width 150ms ease 100ms; // enlarge the tick
+}
 
 /* Media Query */
 @media only screen and (max-width: 1440px){
