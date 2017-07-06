@@ -460,6 +460,9 @@ div.spacer-50 {
 }
 .post-415 .entry-content{
 	width: 310px;
+	padding: 0px;
+	background-color: rgba(0,0,0,0);
+	}
 }
 #post-415{
 	margin-bottom: -1px;
@@ -1634,6 +1637,10 @@ body.blog #primary, body.single-post #primary{
 }
 .post-415 .entry-content, .post-415 .zilla-caption{
 	color:#fff;
+}
+.post-415 .entry-content{
+	background-color: rgba(0,0,0,0.5);
+	padding:10px;
 }
 .post-415 .btn-primary, .post-457 .btn-primary, .post-874 .btn-primary, .post-874 .btn-default{
 	width: 100%;
