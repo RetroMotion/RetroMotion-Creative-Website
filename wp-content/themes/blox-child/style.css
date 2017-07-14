@@ -326,6 +326,7 @@ div.spacer-50 {
 
 #header {
 	width:1140px;
+	    margin: 0 auto 0px;
 }
 .header-outer{
     background: #f57f25;
@@ -1126,6 +1127,10 @@ body.page-template-template-full-width .form-title{
 	}
 	.product-list-container{
 		padding-bottom:0px;
+	}
+	.product-main-img {
+		max-width:500px;
+		width: 100%;
 	}
 
 }

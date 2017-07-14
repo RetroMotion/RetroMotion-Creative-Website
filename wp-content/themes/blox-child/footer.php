@@ -40,8 +40,10 @@
 					<div class="col-md-3">
 						<p class="copyright-2">
 							<a href="/"><strong>Home</strong></a><br>
+              <a href="/digital-marketing/"><strong>Marketing Services</strong></a><br>
+              <a href="/video-production"><strong>Video Production</strong></a><br>
 							<a href="/blog"><strong>Blog</strong></a><br>
-							<a href="/join-us"><strong>Join Retro</strong></a><br>
+							<a href="/officespace"><strong>Rent Office Space</strong></a><br>
 						</p>
 					</div>
 					<div class="col-md-6">
@@ -80,7 +82,7 @@
 	<?php zilla_body_end(); ?>
 
 	<!-- <?php echo 'Ran '. $wpdb->num_queries .' queries '. timer_stop(0, 2) .' seconds'; ?> -->
-	
+
 
 	<!-- Google Code for Remarketing Tag -->
 	<!--------------------------------------------------
