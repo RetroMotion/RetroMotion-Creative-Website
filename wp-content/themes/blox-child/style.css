@@ -67,6 +67,34 @@ h1 {
 	display:none;
 }
 
+.full-width-section {
+	margin: 0 -9999rem;
+	padding: .25rem 9999rem;
+}
+
+.background-white {
+	background-color: #fff;
+}
+
+.background-green {
+	background-color: #8db238;
+}
+
+.background-orange {
+	background-color: #f57f25;
+}
+
+.background-gray {
+	background-color: #eee;
+}
+
+.background-blue-img {
+	background-image:url('/wp-content/uploads/2015/12/contact_bg.jpg');
+}
+
+.background-rocket {
+	background-image:url('/wp-content/uploads/2015/12/site-rocket_bg_real.jpg');
+}
 /* Text Stuff */
 
 .text-blue{
