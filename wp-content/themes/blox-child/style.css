@@ -94,6 +94,11 @@ h1 {
 
 .background-rocket {
 	background-image:url('/wp-content/uploads/2015/12/site-rocket_bg_real.jpg');
+	background-size: 1.1%;
+  background-position-x: center;
+  background-color: #052743;
+  background-repeat: no-repeat;
+	background-blend-mode: normal;
 }
 /* Text Stuff */
 
@@ -1451,6 +1456,12 @@ body.blog #primary, body.single-post #primary{
 }
 
 @media only screen and (max-width: 640px){
+
+	.background-rocket {
+		background-blend-mode: soft-light;
+		background-repeat: no-repeat;
+	}
+
 	body.page-template-template-full-width .btn-lg{
 		margin-bottom: 10px;
 	}
