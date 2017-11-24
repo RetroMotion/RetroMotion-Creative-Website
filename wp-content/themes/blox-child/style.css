@@ -393,7 +393,8 @@ div.spacer-50 {
 	padding-top: 0px;
 }
 #logo {
-	max-width: 100px;
+	max-width: 80px;
+  margin-bottom:0px;
 }
 
 .page-id-409 #logo{
@@ -1302,6 +1303,7 @@ body.blog .post-thumb, body.single-post .post-thumb{
       padding-top:10px;
   }
 
+
   .background-rocket {
     background-size: 1.5%;
   }
@@ -1411,9 +1413,7 @@ body.blog .post-thumb, body.single-post .post-thumb{
 	width:100px;
 }
 
-#logo {
-	max-width: 100px;
-}
+
 .rocket-icon{
 	max-width:350px;
 	width: 80%;
@@ -1479,7 +1479,7 @@ body.blog #primary, body.single-post #primary{
 		margin-bottom: 10px;
 	}
 	#logo {
-		max-width: 200px;
+		max-width: 100px;
 	}
 .col-vcenter{
 	display: block;
