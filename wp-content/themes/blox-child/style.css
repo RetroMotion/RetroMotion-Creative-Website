@@ -367,6 +367,7 @@ div.spacer-50 {
 .header-outer{
     background: #f57f25;
     padding-bottom: 0px !important;
+
 }
 .page-id-409 .header-outer {
 	background: transparent !important;
@@ -1296,6 +1297,16 @@ body.blog .post-thumb, body.single-post .post-thumb{
 }
 
 /* Media Query */
+@media only screen and (max-width: 2560px){
+  .header-outer{
+      padding-top:10px;
+  }
+
+  .background-rocket {
+    background-size: 1.5%;
+  }
+}
+
 @media only screen and (max-width: 1440px){
 
 .page-id-409 .header-outer {
@@ -1364,6 +1375,8 @@ body.blog .post-thumb, body.single-post .post-thumb{
 
 
 @media only screen and (max-width: 992px){
+
+
 #zilla-mobile-menu{
 	padding-bottom:0px;
 }
