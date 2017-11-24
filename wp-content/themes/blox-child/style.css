@@ -363,11 +363,13 @@ div.spacer-50 {
 
 #header {
 	width:1140px;
+  margin-bottom:0px;
 }
 .header-outer{
     background: #f57f25;
     padding-bottom: 0px !important;
-
+    padding-top: 20px;
+    height: 105px;
 }
 .page-id-409 .header-outer {
 	background: transparent !important;
@@ -395,6 +397,8 @@ div.spacer-50 {
 #logo {
 	max-width: 80px;
   margin-bottom:0px;
+  z-index: 8888;
+  position: absolute;
 }
 
 .page-id-409 #logo{
@@ -437,6 +441,10 @@ div.spacer-50 {
 
 #mega-menu-wrap-primary-menu {
 	clear:none;
+}
+
+#mega-menu-wrap-primary-menu #mega-menu-primary-menu {
+    padding: 10px 0px 0px 5px;
 }
 
 /* Homepage Portfolio Sections */
@@ -1299,11 +1307,6 @@ body.blog .post-thumb, body.single-post .post-thumb{
 
 /* Media Query */
 @media only screen and (max-width: 2560px){
-  .header-outer{
-      padding-top:10px;
-  }
-
-
   .background-rocket {
     background-size: 1.5%;
   }
@@ -1420,6 +1423,7 @@ body.blog .post-thumb, body.single-post .post-thumb{
 }
 #header {
 	width:90%;
+  margin-top: 0px;
 }
 #footer {
 	width:600px;
@@ -1468,7 +1472,7 @@ body.blog #primary, body.single-post #primary{
 
 }
 
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 740px){
 
 	.background-rocket {
 		background-blend-mode: soft-light;
@@ -1506,6 +1510,7 @@ body.blog #primary, body.single-post #primary{
 
 .header-outer {
 	padding-top:42px;
+  height: 150px;
 }
 
 .page-id-409 .home-header-bg{
@@ -1690,6 +1695,7 @@ body.blog #primary, body.single-post #primary{
 	height: 40px;
 	left: 0;
 }
+
 #mega-menu-wrap-primary-menu .mega-menu-toggle{
 	border-radius:0px;
 }
