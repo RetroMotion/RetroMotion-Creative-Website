@@ -1488,6 +1488,10 @@ body.blog #primary, body.single-post #primary{
 }
 
 @media only screen and (max-width: 740px){
+
+  .home .entry-content{
+    margin-top:0px;
+  }
   .home #rev_slider_46_1_forcefullwidth {
     z-index:0;
   }
@@ -1525,7 +1529,7 @@ body.blog #primary, body.single-post #primary{
 	margin-top: 0px;
 }
 
-.header-outer {
+.header-outer, .home .header-outer{
   background: #f57f25;
 	padding-top:42px;
   height: 150px;
