@@ -378,6 +378,7 @@ div.spacer-50 {
   padding-bottom: 0px !important;
   padding-top: 20px;
   height: 105px;
+  z-index:10;
 }
 .page-id-409 .header-outer {
 	background: transparent !important;
@@ -528,7 +529,7 @@ div.spacer-50 {
   margin-top:-105px;
 }
 .home #rev_slider_46_1_forcefullwidth {
-  z-index:-666;
+  z-index:0;
 }
 
 .post-415 .entry-content{
