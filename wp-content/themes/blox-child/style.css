@@ -403,11 +403,11 @@ div.spacer-50 {
 
 /* Marketing Page */
 
-.col-right-split {
+.page-template-template-full-width .col-right-split {
 	padding: 0 0 0 30px;
 }
 
-.col-left-split {
+.page-template-template-full-width .col-left-split {
 	padding: 0 30px 0 0;
 	border-right:1px solid #eee;
 }
