@@ -456,6 +456,17 @@ div.spacer-50 {
     padding: 10px 0px 0px 5px;
 }
 
+/* Marketing Page */
+
+.page-template-template-full-width .col-right-split {
+	padding: 0 0 0 30px;
+}
+
+.page-template-template-full-width .col-left-split {
+	padding: 0 30px 0 0;
+	border-right:1px solid #eee;
+}
+
 /* Homepage Portfolio Sections */
 .home .navigation-links,.home .hfeed,.home .pinglist {
     margin-bottom: 0px;
@@ -1489,7 +1500,14 @@ body.blog #primary, body.single-post #primary{
 }
 
 @media only screen and (max-width: 740px){
+  .col-right-split {
+		padding: 0 10px;
+	}
 
+	.col-left-split {
+		padding: 0 10px;
+		border-right:0px;
+	}
   .home .entry-content{
     margin-top:0px;
   }
