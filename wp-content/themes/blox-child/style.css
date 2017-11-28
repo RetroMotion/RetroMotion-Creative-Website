@@ -329,23 +329,8 @@ div.spacer-50 {
 	    margin: 0 auto 0px;
 }
 .header-outer{
-<<<<<<< HEAD
     background: #f57f25;
     padding-bottom: 0px !important;
-=======
-  background: #f57f25;
-  padding-bottom: 0px !important;
-  padding-top: 20px;
-  height: 105px;
-}
-.home .header-outer{
-  background: -moz-linear-gradient(top, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0) 100%);
-  background: -webkit-linear-gradient(top, rgba(0,0,0,0.45) 0%,rgba(0,0,0,0) 100%);
-  background: linear-gradient(to bottom, rgba(0,0,0,0.45) 0%,rgba(0,0,0,0) 100%);
-  padding-bottom: 0px !important;
-  padding-top: 20px;
-  height: 105px;
->>>>>>> parent of 4027d81... Fix z-index of video bg
 }
 .page-id-409 .header-outer {
 	background: transparent !important;
@@ -485,16 +470,6 @@ div.spacer-50 {
     background-color: #9C3F2B !important;
 	transition: all 0.5s ease;
 }
-<<<<<<< HEAD
-=======
-.home .entry-content{
-  margin-top:-105px;
-}
-.home #rev_slider_46_1_forcefullwidth {
-  z-index:-666;
-}
-
->>>>>>> parent of 4027d81... Fix z-index of video bg
 .post-415 .entry-content{
 	width: 310px;
 	padding: 0px;
