@@ -37,13 +37,14 @@
 						<p><?php _e("Sorry, but you are looking for something that isn't here.", "zilla") ?></p>
 					<!--END .entry-content-->
 					</div>
-				
+
 				<!--END #post-0-->
 				</div>
 			<?php endif; ?>
 
 			<p><a style="display:block; position:relative; top:-50px;" id="contactblog"></a></p>
-			<h2 class="form-title">Drop Us a Note</h2>
+			<h2 class="form-title">Subscribe to the podcast</h2>
+			<p>Get notified of the latest episodes!</p>
 			<?php echo do_shortcode('[gravityform id="11" title="false" description="false" ajax="true"]'); ?>
 			<!--END #primary .hfeed-->
 			</div>

@@ -1275,7 +1275,9 @@ body.blog .post-thumb, body.single-post .post-thumb{
 .page-id-2296 .gform_wrapper form{
   text-align:center;
 }
-
+.page-id-2296 .gform_wrapper{
+  margin:auto;
+}
 .podcast-template-default .entry-title{
   font-size: 35px;
 }
