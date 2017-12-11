@@ -1272,6 +1272,10 @@ body.blog .post-thumb, body.single-post .post-thumb{
   overflow: visible;
 }
 
+.page-id-2296 .gform_wrapper form{
+  text-align:center;
+}
+
 .podcast-template-default .entry-title{
   font-size: 35px;
 }
