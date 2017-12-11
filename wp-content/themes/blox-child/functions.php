@@ -72,8 +72,3 @@ add_filter( 'ssp_episode_download_link', 'ssp_use_raw_audio_file_url', 10, 3 );
 function ssp_use_raw_audio_file_url ( $url, $episode_id, $file ) {
   return $file;
 }
-
-add_filter( 'ssp_archive_slug', 'ssp_modify_podcast_archive_slug' );
-function ssp_modify_podcast_archive_slug ( $slug ) {
-  return 'podcasts';
-}
