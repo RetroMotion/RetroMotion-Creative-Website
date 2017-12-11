@@ -1268,19 +1268,28 @@ body.blog .post-thumb, body.single-post .post-thumb{
 }
 
 /* SSP */
+.archive #primary, .single-podcast #primary{
+	width:800px;
+}
+
+
 .podcast{
   overflow: visible;
 }
 
-.page-id-2296 .gform_wrapper form{
+.podcast-type .gform_wrapper form{
   text-align:center;
 }
-.page-id-2296 .gform_wrapper{
+.podcast-type .gform_wrapper{
   margin:auto;
 }
-.podcast-template-default .entry-title{
+.podcast-type .entry-title, .podcast-template-default .entry-title{
   font-size: 35px;
 }
+.podcast-type input[type="text"], .podcast-type input[type="email"], .podcast-type textarea,.podcast-type input[type="text"],.podcast-type input[type="email"], .podcast-type textarea {
+	border: 1px solid #BBBBBB !important;
+}
+
 .podcast-template-default input[type="text"], .podcast-template-default input[type="email"], .podcast-template-default textarea, .podcast-template-default input[type="text"], .podcast-template-default input[type="email"], .podcast-template-default textarea {
 	border: 1px solid #BBBBBB !important;
 }
@@ -1288,7 +1297,7 @@ body.blog .post-thumb, body.single-post .post-thumb{
 	margin-bottom:10px !important;
 }
 
-.podcast-template-default .form-title {
+.podcast-type .form-title, .podcast-template-default .form-title {
 	color:#337ab7;
 	margin-bottom: 0.5em;
     font-size: 48px;
@@ -1758,6 +1767,9 @@ body.blog #content, body.single-post #content{
 	max-width:290px !important;
 }
 body.blog #primary, body.single-post #primary{
+	width:290px !important;
+}
+.archive #primary, .single-podcast #primary{
 	width:290px !important;
 }
 #mega-menu-wrap-primary-menu {

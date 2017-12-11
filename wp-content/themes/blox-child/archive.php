@@ -2,9 +2,12 @@
 
 			<!--BEGIN #primary .hfeed-->
 			<div id="primary" class="hfeed">
-				<div>
-					<h2 class="form-title">Listen to casual conversations with interesting Vermonters representing a wide range of fields and industries. We talk about everything from marketing and business, to incredible personal stories. You won't want to miss a single episode!</h2>
-					<?php echo do_shortcode('[gravityform id="11" title="false" description="false" ajax="true"]'); ?>
+				<div class="podcast-type">
+					<h1 class="entry-title text-center text-green">The RetroMotion Podcast</h1>
+					<p>Listen to casual conversations with interesting Vermonters representing a wide range of fields and industries. We talk about everything from marketing and business, to incredible personal stories. You won't want to miss a single episode!</p>
+					<div class="section-ltgray">
+						<?php echo do_shortcode('[gravityform id="11" title="false" description="false" ajax="true"]'); ?>
+					</div>
 				</div>
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
