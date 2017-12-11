@@ -13,6 +13,7 @@
 					</p>
 					<div>
 						<h2 class="form-title">Listen to casual conversations with interesting Vermonters representing a wide range of fields and industries. We talk about everything from marketing and business, to incredible personal stories. You won't want to miss a single episode!</h2>
+						&nbsp;
 						<?php echo do_shortcode('[gravityform id="11" title="false" description="false" ajax="true"]'); ?>
 					</div>
 				<?php zilla_post_start(); ?>
