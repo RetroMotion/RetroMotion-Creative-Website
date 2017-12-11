@@ -1267,6 +1267,15 @@ body.blog .post-thumb, body.single-post .post-thumb{
 	display: inline-block;
 }
 
+/* SSP */
+.podcast-template-default .hentry{
+  overflow: visible;
+}
+
+.podcast-template-default .entry-title{
+  font-size: 35px;
+}
+
 /* Landing Page */
 
 .page-template-template-landing #content{
@@ -1500,6 +1509,10 @@ body.blog #primary, body.single-post #primary{
 }
 
 @media only screen and (max-width: 740px){
+
+  .podcast-template-default .entry-title{
+    font-size: 27px;
+  }
   .col-right-split {
 		padding: 0 10px;
 	}
