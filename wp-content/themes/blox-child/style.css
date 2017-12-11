@@ -1275,7 +1275,22 @@ body.blog .post-thumb, body.single-post .post-thumb{
 .podcast-template-default .entry-title{
   font-size: 35px;
 }
+.podcast-template-default input[type="text"], .podcast-template-default input[type="email"], .podcast-template-default textarea, .podcast-template-default input[type="text"], .podcast-template-default input[type="email"], .podcast-template-default textarea {
+	border: 1px solid #BBBBBB !important;
+}
+.more-link{
+	margin-bottom:10px !important;
+}
 
+.podcast-template-default .form-title {
+	color:#337ab7;
+	margin-bottom: 0.5em;
+    font-size: 48px;
+    padding: 0;
+    line-height: 1.15em;
+    letter-spacing: -0.03em;
+    font-weight: 400;
+}
 /* Landing Page */
 
 .page-template-template-landing #content{
