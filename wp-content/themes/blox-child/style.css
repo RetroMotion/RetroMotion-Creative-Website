@@ -1268,7 +1268,7 @@ body.blog .post-thumb, body.single-post .post-thumb{
 }
 
 /* SSP */
-.podcast-template-default .hentry{
+.podcast{
   overflow: visible;
 }
 
