@@ -3,9 +3,10 @@
 			<!--BEGIN #primary .hfeed-->
 			<div id="primary" class="hfeed">
 				<div class="podcast-type">
-					<img src="/wp-content/uploads/2018/02/retro-podcast-world.png" class="text-center">
+					<div class="text-center"><img src="/wp-content/uploads/2018/02/retro-podcast-world.png"></div>
 					<h1 class="entry-title text-center text-green">The RetroMotion Podcast</h1>
 					<p>Listen to casual conversations with interesting Vermonters representing a wide range of fields and industries. We talk about everything from marketing and business, to incredible personal stories. You won't want to miss a single episode!</p>
+					&nbsp;
 
 					<div class="row">
 						<div class="col-md-4">
@@ -19,7 +20,9 @@
 						</div>
 					</div>
 					&nbsp;
+					<div class="spacer-20"></div>
 					<div class="section-ltgray">
+						<h3 class="text-center">Get notified about new episodes</h3>
 						<?php echo do_shortcode('[gravityform id="11" title="false" description="false" ajax="true"]'); ?>
 					</div>
 				</div>
