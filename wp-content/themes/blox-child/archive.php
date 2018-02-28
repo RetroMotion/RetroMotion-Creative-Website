@@ -3,8 +3,22 @@
 			<!--BEGIN #primary .hfeed-->
 			<div id="primary" class="hfeed">
 				<div class="podcast-type">
+					<img src="/wp-content/uploads/2018/02/retro-podcast-world.png" class="text-center">
 					<h1 class="entry-title text-center text-green">The RetroMotion Podcast</h1>
 					<p>Listen to casual conversations with interesting Vermonters representing a wide range of fields and industries. We talk about everything from marketing and business, to incredible personal stories. You won't want to miss a single episode!</p>
+
+					<div class="row">
+						<div class="col-md-4">
+							<a href="https://itunes.apple.com/us/podcast/retromotion-creative/id1331688436?mt=2" target="_blank"><img src="/wp-content/uploads/2018/02/itunes.png"></a>
+						</div>
+						<div class="col-md-4">
+							<a href="https://play.google.com/music/m/Izcfjn4qp47qnhzseke36zrnirm?t=RetroMotion_Podcast" target="_blank"><img src="/wp-content/uploads/2018/02/googleplay.png"></a>
+						</div>
+						<div class="col-md-4">
+							<a href="https://www.stitcher.com/podcast/retromotion-creative/retromotion-podcast" target="_blank"><img src="/wp-content/uploads/2018/02/stitcher.png"></a>
+						</div>
+					</div>
+					&nbsp;
 					<div class="section-ltgray">
 						<?php echo do_shortcode('[gravityform id="11" title="false" description="false" ajax="true"]'); ?>
 					</div>
