@@ -42,6 +42,20 @@
 				</div>
 			<?php endif; ?>
 
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<a href="https://itunes.apple.com/us/podcast/retromotion-creative/id1331688436?mt=2" target="_blank"><img src="/wp-content/uploads/2018/02/itunes.png"></a>
+				</div>
+				<div class="col-md-4 text-center">
+					<a href="https://play.google.com/music/m/Izcfjn4qp47qnhzseke36zrnirm?t=RetroMotion_Podcast" target="_blank"><img src="/wp-content/uploads/2018/02/googleplay.png"></a>
+				</div>
+				<div class="col-md-4 text-center">
+					<a href="https://www.stitcher.com/podcast/retromotion-creative/retromotion-podcast" target="_blank"><img src="/wp-content/uploads/2018/02/stitcher.png"></a>
+				</div>
+			</div>
+			&nbsp;
+			<div class="spacer-20"></div>
+
 			<p><a style="display:block; position:relative; top:-50px;" id="contactblog"></a></p>
 			<h2 class="form-title">Subscribe to the podcast</h2>
 			<p>Get notified of the latest episodes!</p>
