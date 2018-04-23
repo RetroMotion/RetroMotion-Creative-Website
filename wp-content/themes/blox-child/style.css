@@ -88,6 +88,10 @@ h1 {
 	background-color: #eee;
 }
 
+.background-dark {
+	background-color: #0c0613;
+}
+
 .background-blue-img {
 	background-image:url('/wp-content/uploads/2015/12/contact_bg.jpg');
 }
@@ -681,7 +685,7 @@ iframe[name='google_conversion_frame'] {
 }
 
 .footer-outer {
-    background: #38586F;
+    background: #0a0a0a;
     clear: both;
 }
 
@@ -696,10 +700,10 @@ iframe[name='google_conversion_frame'] {
 }
 
 #footer a{
-	color:#f57f25;
+	color:#d83969;
 }
 #footer a:hover{
-	color:#fff;
+	color:#a5234a;
 }
 
 #footer-nav li.current-menu-item a, #footer-nav li.current_page_item a {
