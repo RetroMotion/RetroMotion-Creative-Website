@@ -88,6 +88,10 @@ h1 {
 	background-color: #eee;
 }
 
+.background-darkgray {
+  background-color: #1d1d1d;
+}
+
 .background-dark {
 	background-color: #0c0613;
 }
@@ -259,11 +263,11 @@ h1 {
 	transition: all 0.5s ease;
 }
 .btn-orange:hover, input[type="submit"]:hover{
-    background-color: #9C3F2B !important;
+    background-color: #a5244b !important;
 	transition: all 0.5s ease;
 }
  input[type="submit"] {
-	border-color: 0px solid #9C3F2B !important;
+	border-color: 0px solid #d83969 !important;
 }
 
 .btn-huge{
@@ -594,6 +598,10 @@ div.spacer-50 {
 
 /* Contact Form */
 
+#gform_wrapper_1166947629 {
+    color: #fff;
+}
+
 .site-form_wrapper{
 	border: none !important;
 	padding:0px !important;
@@ -612,10 +620,14 @@ div.spacer-50 {
     width: 100% !important;
 }
 
+input#gform_submit_button_999485385 {
+    border-radius: 0px;
+}
 .contactsend, .site-form .gform_button{
 	width:200px !important;
 	font-size:20px !important;
 	font-weight:300 !important;
+  border-radius: 0px !important;
 }
 
 .site-form .gfield_label{
