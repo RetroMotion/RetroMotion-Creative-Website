@@ -239,11 +239,22 @@ h1 {
 
 .btn-red{
 	color: #fff !important;
-    background-color: #F26C4F !important;
+    background-color: #d83969 !important;
     border-color: none !important;
 	transition: all 0.5s ease;
 }
 .btn-red:hover, input[type="submit"]:hover{
+    background-color: #a5244b !important;
+	transition: all 0.5s ease;
+}
+
+.btn-orange{
+	color: #fff !important;
+    background-color: #F26C4F !important;
+    border-color: none !important;
+	transition: all 0.5s ease;
+}
+.btn-orange:hover, input[type="submit"]:hover{
     background-color: #9C3F2B !important;
 	transition: all 0.5s ease;
 }
@@ -366,7 +377,7 @@ div.spacer-50 {
   margin-bottom:0px;
 }
 .header-outer{
-  background: #f57f25;
+  background: #2e0d4e;
   padding-bottom: 0px !important;
   padding-top: 20px;
   height: 105px;
@@ -703,7 +714,7 @@ iframe[name='google_conversion_frame'] {
 }
 
 body.page-template-template-full-width {
-	background: url('/retroimg/fullpattern.jpg');
+	background: #fff;
 }
 
 body.page-template-template-full-width #content {
@@ -997,7 +1008,7 @@ body.page-template-template-full-width .form-title{
 	margin-bottom: 10px !important;
     font-weight: 300 !important;
     letter-spacing: normal !important;
-    color: #777;
+    color: #d83969;
 }
 
 .product-price-mobile-hide {
