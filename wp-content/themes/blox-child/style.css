@@ -116,6 +116,9 @@ h1 {
 .text-green{
 	color:#8db238 !important;
 }
+.text-pink{
+  color:#d83969 !important;
+}
 .text-white{
 	color:#fff !important;
 }
@@ -598,8 +601,8 @@ div.spacer-50 {
 
 /* Contact Form */
 
-#gform_wrapper_1166947629 {
-    color: #fff;
+#gform_2091771294 label.gfield_label {
+    color: #fff !important;
 }
 
 .site-form_wrapper{
