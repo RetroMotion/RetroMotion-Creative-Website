@@ -35,15 +35,13 @@
 						<a href="mailto:hey@retromotion.co" target="_blank"><i class="fa fa-envelope-square"></i> hey@retromotion.co</a><br>
 						</p>
 						<br>
-						<p class="copyright">© 2016 RetroMotion Creative, LLC</p>
+						<p class="copyright">© 2018 RetroMotion Creative, LLC</p>
 					</div>
 					<div class="col-md-3">
 						<p class="copyright-2">
 							<a href="/"><strong>Home</strong></a><br>
-              <a href="/digital-marketing/"><strong>Marketing Services</strong></a><br>
-              <a href="/video-production"><strong>Video Production</strong></a><br>
 							<a href="/blog"><strong>Blog</strong></a><br>
-							<a href="/officespace"><strong>Rent Office Space</strong></a><br>
+							<a href="/join-us"><strong>Join Retro</strong></a><br>
 						</p>
 					</div>
 					<div class="col-md-6">

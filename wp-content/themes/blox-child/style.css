@@ -80,6 +80,10 @@ h1 {
 	background-color: #8db238;
 }
 
+.background-purple {
+  background-color: #1e102f;
+}
+
 .background-orange {
 	background-color: #f57f25;
 }
@@ -109,6 +113,10 @@ h1 {
 	background-blend-mode: normal;
 }
 /* Text Stuff */
+
+.page-template-template-full-width{
+  color:#fff;
+}
 
 .text-blue{
 	color:#337ab7 !important;
@@ -645,6 +653,7 @@ input#gform_submit_button_999485385 {
 	font-size:20px !important;
 	font-weight:300 !important;
   border-radius: 0px !important;
+  background-color: #d83969 !important;
 }
 
 .site-form .gfield_label{
@@ -747,7 +756,7 @@ iframe[name='google_conversion_frame'] {
 }
 
 body.page-template-template-full-width {
-	background: #fff;
+	background: #292929;
 }
 
 body.page-template-template-full-width #content {
@@ -1041,7 +1050,7 @@ body.page-template-template-full-width .form-title{
 	margin-bottom: 10px !important;
     font-weight: 300 !important;
     letter-spacing: normal !important;
-    color: #d83969;
+    color: #ffffff;
 }
 
 .product-price-mobile-hide {
