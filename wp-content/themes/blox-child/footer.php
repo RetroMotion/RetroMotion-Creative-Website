@@ -41,7 +41,7 @@
 						<p class="copyright-2">
 							<a href="/"><strong>Home</strong></a><br>
 							<a href="/blog"><strong>Blog</strong></a><br>
-							<a href="/join-us"><strong>Join Retro</strong></a><br>
+							<a href="/officespace"><strong>Office Space for Rent</strong></a><br>
 						</p>
 					</div>
 					<div class="col-md-6">

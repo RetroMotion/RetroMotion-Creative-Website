@@ -623,7 +623,7 @@ div.spacer-50 {
   color: #fff !important;
 }
 
-#gform_2091771294 label.gfield_label {
+#gform_2091771294 label.gfield_label, #gform_973072102 label.gfield_label {
     color: #fff !important;
 }
 
@@ -645,7 +645,8 @@ div.spacer-50 {
     width: 100% !important;
 }
 
-input#gform_submit_button_999485385 {
+.gform_button.button {
+    background:#d83969;
     border-radius: 0px;
 }
 .contactsend, .site-form .gform_button{
