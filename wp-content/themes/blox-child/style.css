@@ -274,7 +274,7 @@ h1 {
 
 .btn-orange{
 	color: #fff !important;
-    background-color: #F26C4F !important;
+    background-color: #d83969 !important;
     border-color: none !important;
 	transition: all 0.5s ease;
 }
@@ -557,7 +557,7 @@ div.spacer-50 {
 
 .post-415 .btn-red{
 	color: #fff;
-    background-color: #F26C4F;
+    background-color: #d83969;
     border-color: none;
 	padding: 10px 20px;
     font-size: 20px;
@@ -569,7 +569,7 @@ div.spacer-50 {
 }
 .post-874 .btn-red{
 	color: #fff !important;
-    background-color: #F26C4F !important;
+    background-color: #d83969 !important;
     border-color: none !important;
 	transition: all 0.5s ease;
 }
@@ -663,7 +663,7 @@ input#gform_submit_button_999485385 {
     margin-bottom: 0px !important;
 }
 .site-form .gfield_required{
-	color: #F26C4F !important;
+	color: #d83969 !important;
 }
 body.page-template-template-full-width input[type="tel"]{
 	max-width:55% !important;
@@ -755,6 +755,22 @@ iframe[name='google_conversion_frame'] {
 	max-width:1140px !important;
 }
 
+body.page-template.page-template-template-full-width.page-id-1992,
+body.page-template.page-template-template-full-width.page-id-2046,
+body.page-template.page-template-template-full-width.page-id-2063
+body.page-template.page-template-template-full-width.page-id-2025
+body.page-template.page-template-template-full-width.page-id-2103 {
+    background: #fff;
+    color: #000;
+}
+
+.page-id-1992 h2.thin-heading.text-center,
+.page-id-2046 h2.thin-heading.text-center,
+.page-id-2063 h2.thin-heading.text-center,
+.page-id-2025 h2.thin-heading.text-center,
+.page-id-2103 h2.thin-heading.text-center, {
+    color: #000;
+}
 body.page-template-template-full-width {
 	background: #292929;
 }
@@ -894,7 +910,7 @@ body.page-template-template-full-width .form-title{
 }
 .feature-container-red{
 	width:100%;
-	background-color:#F26C4F;
+	background-color:#d83969;
 	position:absolute;
 	left:0;
 }
@@ -1113,7 +1129,7 @@ body.page-template-template-full-width .form-title{
 }
 .modal-header{
 	padding: 8px 10px;
-    background-color: #ccc;
+    background-color: #7d7d7d;
     border-radius: 0px !important;
 }
 .modal-icon{
@@ -1134,7 +1150,7 @@ body.page-template-template-full-width .form-title{
 	margin:auto !important;
 }
 .contact-modal .modal-content{
-	background-color:#eee !important;
+	background-color:#292929 !important;
 }
 .product-form_wrapper{
 	border: none !important;
@@ -1172,7 +1188,7 @@ body.page-template-template-full-width .form-title{
     margin-bottom: 0px !important;
 }
 .product-form .gfield_required{
-	color: #F26C4F !important;
+	color: #d83969 !important;
 }
 @media only screen and (max-width: 1139px){
 	.col-package{
@@ -1431,7 +1447,7 @@ body.blog .post-thumb, body.single-post .post-thumb{
     margin-bottom: 0px !important;
 }
 .landing-form .gfield_required{
-	color: #F26C4F !important;
+	color: #d83969 !important;
 }
 
 .center-submit .gform_footer {
