@@ -843,14 +843,26 @@ body.page-template-template-full-width .form-title{
 }
 /* Video Gallery */
 
+.vimeography-theme-squares .vimeography-thumbnail figcaption {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+.vimeography-theme-squares .vimeography-thumbnail figcaption:after {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+.vimeography-link {
+    padding: 30px !important;
+}
+
 .vimeography-title {
-    font-size: 18px !important;
+    font-size: 25px !important;
     font-weight: normal !important;
     line-height: normal !important;
+    text-align:center;
 }
 
 .vimeography-description {
-    font-size: 14px !important;
+    color:#fff !important;
+    font-size: 16px !important;
     font-weight: normal !important;
     line-height: normal !important;
 }
