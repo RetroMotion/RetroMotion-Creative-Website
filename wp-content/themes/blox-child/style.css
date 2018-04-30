@@ -841,6 +841,23 @@ body.page-template-template-full-width .form-title{
 @media (min-width: 1200px){
 
 }
+/* Video Gallery */
+
+.vimeography-title {
+    font-size: 18px !important;
+    font-weight: normal !important;
+    line-height: normal !important;
+}
+
+.vimeography-description {
+    font-size: 14px !important;
+    font-weight: normal !important;
+    line-height: normal !important;
+}
+
+.vimeography-theme-squares .vimeography-thumbnail-container {
+    grid-template-columns: repeat(auto-fit,480px) !important;
+}
 
 /* Product Nav */
 
