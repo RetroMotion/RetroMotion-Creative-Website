@@ -3,12 +3,16 @@
 			<!--BEGIN #primary .hfeed-->
 			<div id="primary" class="hfeed">
 				<div class="podcast-type">
-					<div class="text-center"><img src="/wp-content/uploads/2018/02/retro-podcast-world.png"></div>
-					<h1 class="entry-title text-center text-green">The RetroMotion Podcast</h1>
+					<div class="text-center"><img src="/wp-content/uploads/2018/05/retro-podcast-logo-pink-200h.png"></div>
 					<p>Listen to casual conversations with interesting Vermonters representing a wide range of fields and industries. We talk about everything from marketing and business, to incredible personal stories. You won't want to miss a single episode!</p>
 					<p>Listen using your favorite podcast app and don't forget to leave us a review!</p>
 					&nbsp;
-
+					<div class="section-ltgray">
+						<h3 class="text-center">Get notified about new episodes</h3>
+						<?php echo do_shortcode('[gravityform id="11" title="false" description="false" ajax="true"]'); ?>
+					</div>
+					&nbsp;
+					<div class="spacer-20"></div>
 					<div class="row">
 						<div class="col-md-4 text-center">
 							<a href="https://itunes.apple.com/us/podcast/retromotion-creative/id1331688436?mt=2" target="_blank"><img src="/wp-content/uploads/2018/02/itunes.png"></a>
@@ -19,12 +23,6 @@
 						<div class="col-md-4 text-center">
 							<a href="https://www.stitcher.com/podcast/retromotion-creative/retromotion-podcast" target="_blank"><img src="/wp-content/uploads/2018/02/stitcher.png"></a>
 						</div>
-					</div>
-					&nbsp;
-					<div class="spacer-20"></div>
-					<div class="section-ltgray">
-						<h3 class="text-center">Get notified about new episodes</h3>
-						<?php echo do_shortcode('[gravityform id="11" title="false" description="false" ajax="true"]'); ?>
 					</div>
 				</div>
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
